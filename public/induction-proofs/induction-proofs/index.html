@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>I think I understand why Induction proofs work | Kumaravel Rajan</title>
+<meta name="keywords" content="">
+<meta name="description" content="I&rsquo;ve been dealing with proofs by induction in my coursework. I know how it works. But I never really understood why it worked. I searched a bit online and I think I understand why it works. So here goes -
+
+
+What it means to prove a logical implication:
+Logical implication looks like §§P \implies Q§§.
+Here, the antecedent is P and consequent is Q.
+The following truth table for implication might seem familiar -">
+<meta name="author" content="">
+<link rel="canonical" href="https://example.org/induction-proofs/induction-proofs/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.d72444526d7ecbdb0015438a7fa89054a658bf759d0542e2e5df81ce94b493ee.css" integrity="sha256-1yREUm1&#43;y9sAFUOKf6iQVKZYv3WdBULi5d&#43;BzpS0k&#43;4=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://example.org/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://example.org/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://example.org/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://example.org/apple-touch-icon.png">
+<link rel="mask-icon" href="https://example.org/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://example.org/induction-proofs/induction-proofs/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://example.org/induction-proofs/induction-proofs/">
+  <meta property="og:site_name" content="Kumaravel Rajan">
+  <meta property="og:title" content="I think I understand why Induction proofs work">
+  <meta property="og:description" content="I’ve been dealing with proofs by induction in my coursework. I know how it works. But I never really understood why it worked. I searched a bit online and I think I understand why it works. So here goes -
+What it means to prove a logical implication:
+Logical implication looks like §§P \implies Q§§.
+Here, the antecedent is P and consequent is Q.
+The following truth table for implication might seem familiar -">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="induction-proofs">
+    <meta property="article:published_time" content="2025-01-01T12:17:44+01:00">
+    <meta property="article:modified_time" content="2025-01-01T12:17:44+01:00">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="I think I understand why Induction proofs work">
+<meta name="twitter:description" content="I&rsquo;ve been dealing with proofs by induction in my coursework. I know how it works. But I never really understood why it worked. I searched a bit online and I think I understand why it works. So here goes -
+
+
+What it means to prove a logical implication:
+Logical implication looks like §§P \implies Q§§.
+Here, the antecedent is P and consequent is Q.
+The following truth table for implication might seem familiar -">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Induction-Proofs",
+      "item": "https://example.org/induction-proofs/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "I think I understand why Induction proofs work",
+      "item": "https://example.org/induction-proofs/induction-proofs/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "I think I understand why Induction proofs work",
+  "name": "I think I understand why Induction proofs work",
+  "description": "I\u0026rsquo;ve been dealing with proofs by induction in my coursework. I know how it works. But I never really understood why it worked. I searched a bit online and I think I understand why it works. So here goes -\nWhat it means to prove a logical implication:\nLogical implication looks like §§P \\implies Q§§.\nHere, the antecedent is P and consequent is Q.\nThe following truth table for implication might seem familiar -\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "I’ve been dealing with proofs by induction in my coursework. I know how it works. But I never really understood why it worked. I searched a bit online and I think I understand why it works. So here goes -\nWhat it means to prove a logical implication:\nLogical implication looks like §§P \\implies Q§§.\nHere, the antecedent is P and consequent is Q.\nThe following truth table for implication might seem familiar -\nAs can be seen from the table, an implication only makes claims for the case when the antecedent (P) is true.\nWhen P is true, Q has to be true for the implication §§P \\implies Q§§ to be true.\nWhen P is true and Q is false, the implication is false.\nWhen P is false however, the implication becomes true vacuously but makes no claims whatsoever about the truth value of Q. Hence, an implication becomes “active” only when the antecedent is true.\nIf P is true and the implication §§P \\implies Q§§ is true we can conclude that Q has to be true.\nUsing implication to understand why Induction proofs work:\nIn induction proofs we usually wish to prove a certain property say (X) for an infinite number of values. Consider an induction proof where we use induction to prove that X is satisfied by all natural numbers 0, 1, 2…\nBase case:\nThe base case would involve proving that X(0) is true. This is usually trivial.\nInductive step:\nThis is where implication plays a crucial role. The versions of induction proofs I have seen state that we need to assume X(k) is true for some k and using this we need to prove that X(k+1) is also true.\nThis in fact is simply asking us to provide the direct proof for the implication §§ X(k) \\implies X(k+1) §§ where we need to assume X(k) is true and prove X(k+1) is true.\nThis however, doesn’t change the fact that the inductive step simply needs us to prove the implication §§ X(k) \\implies X(k+1) §§. We can choose to prove this implication in whichever way we may want (Proof by contradiction, Direct proof, proof by contraposition and so on.)\nNow, assume that we manage to prove the implication §§ X(k) \\implies X(k+1) §§. This has the following consequences -\nX(0) is true (base case) and X(0) =\u003e X(1) is true. Thus, X(1) has to be true.\nX(1) is true and X(1) =\u003e X(2) is true. Thus, X(2) has to be true.\nAnd so on…\nWe can thus see how logical implication plays a crucial in establishing the correctness of a proof by induction.\n",
+  "wordCount" : "437",
+  "inLanguage": "en",
+  "datePublished": "2025-01-01T12:17:44+01:00",
+  "dateModified": "2025-01-01T12:17:44+01:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://example.org/induction-proofs/induction-proofs/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kumaravel Rajan",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://example.org/favicon.ico"
+    }
+  }
+}
+</script>
+
+    
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)'], ['§§', '§§']]                  
+    }
+  };
+</script>
+    
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://example.org/" accesskey="h" title="Kumaravel Rajan (Alt + H)">Kumaravel Rajan</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      I think I understand why Induction proofs work
+    </h1>
+    <div class="post-meta"><span title='2025-01-01 12:17:44 +0100 CET'>January 1, 2025</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>I&rsquo;ve been dealing with proofs by induction in my coursework. I know how it works. But I never really understood <em>why</em> it worked. I searched a bit online and I think I understand why it works. So here goes -</p>
+<ol>
+<li>
+<p><strong>What it means to prove a logical implication:</strong></p>
+<p>Logical implication looks like §§P \implies Q§§.</p>
+<p>Here, the antecedent is P and consequent is Q.</p>
+<p>The following truth table for implication might seem familiar -</p>
+<p><img alt="Truth table for logical implication" loading="lazy" src="/induction-proofs/implication-truth-table.png" title="Truth table for logical implication"></p>
+<p>As can be seen from the table, an implication only makes claims for the case when the antecedent (P) is true.</p>
+<ul>
+<li>
+<p>When P is true, Q <em>has</em> to be true for the implication §§P \implies Q§§ to be true.</p>
+</li>
+<li>
+<p>When P is true and Q is false, the implication is false.</p>
+</li>
+</ul>
+<p>When P is false however, the implication becomes true vacuously but makes no <em>claims whatsoever about the truth value of Q</em>. Hence, an implication becomes &ldquo;active&rdquo; only when the antecedent is true.</p>
+<p>If P is true and the implication §§P \implies Q§§ is true we can conclude that Q <em>has</em> to be true.</p>
+</li>
+<li>
+<p><strong>Using implication to understand why Induction proofs work:</strong></p>
+<p>In induction proofs we usually wish to prove a certain property say (X) for an infinite number of values. Consider an induction proof where we use induction to prove that X is satisfied by all natural numbers 0, 1, 2&hellip;</p>
+<ul>
+<li>
+<p>Base case:</p>
+<p>The base case would involve proving that X(0) is true. This is usually trivial.</p>
+</li>
+<li>
+<p>Inductive step:</p>
+<p>This is where implication plays a crucial role. The versions of induction proofs I have seen state that we need to assume X(k) is true for some k and using this we need to prove that X(k+1) is also true.</p>
+<p>This in fact is simply asking us to provide the direct proof for the implication §§ X(k) \implies X(k+1) §§ where we need to assume X(k) is true and prove X(k+1) is true.</p>
+<p>This however, doesn&rsquo;t change the fact that the inductive step simply needs us to prove the implication §§ X(k) \implies X(k+1) §§. We can choose to prove this implication in whichever way we may want (Proof by contradiction, Direct proof, proof by contraposition and so on.)</p>
+</li>
+</ul>
+<p>Now, assume that we manage to prove the implication §§ X(k) \implies X(k+1) §§. This has the following consequences -</p>
+<ul>
+<li>
+<p>X(0) is true (base case) and X(0) =&gt; X(1) is true. Thus, X(1) <em>has</em> to be true.</p>
+</li>
+<li>
+<p>X(1) is true and X(1) =&gt; X(2) is true. Thus, X(2) <em>has</em> to be true.</p>
+</li>
+</ul>
+<p>And so on&hellip;</p>
+</li>
+</ol>
+<p>We can thus see how logical implication plays a crucial in establishing the correctness of a proof by induction.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://example.org/">Kumaravel Rajan</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
