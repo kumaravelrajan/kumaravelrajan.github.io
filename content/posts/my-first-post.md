@@ -1,7 +1,7 @@
 +++
 date = '2025-01-01T12:17:44+01:00'
 draft = false
-title = 'My First Post'
+title = 'Understanding why proof by induction works'
 +++
 ## Introduction
 

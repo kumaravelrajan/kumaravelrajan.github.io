@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Kumaravel Rajan</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Kumaravel Rajan</description>
     <generator>Hugo -- 0.140.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Jan 2025 12:17:44 +0100</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
+      <title>Understanding why proof by induction works</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Wed, 01 Jan 2025 12:17:44 +0100</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
