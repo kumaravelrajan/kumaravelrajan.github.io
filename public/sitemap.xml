@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/induction-proofs/induction-proofs/</loc>
-    <lastmod>2025-01-01T12:17:44+01:00</lastmod>
-  </url><url>
-    <loc>https://example.org/induction-proofs/</loc>
+    <loc>https://example.org/posts/induction-proofs/induction-proofs/</loc>
     <lastmod>2025-01-01T12:17:44+01:00</lastmod>
   </url><url>
     <loc>https://example.org/</loc>
+    <lastmod>2025-01-01T12:17:44+01:00</lastmod>
+  </url><url>
+    <loc>https://example.org/posts/</loc>
     <lastmod>2025-01-01T12:17:44+01:00</lastmod>
   </url><url>
     <loc>https://example.org/categories/</loc>

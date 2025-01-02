@@ -10,9 +10,9 @@
     <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I think I understand why Induction proofs work</title>
-      <link>https://example.org/induction-proofs/induction-proofs/</link>
+      <link>https://example.org/posts/induction-proofs/induction-proofs/</link>
       <pubDate>Wed, 01 Jan 2025 12:17:44 +0100</pubDate>
-      <guid>https://example.org/induction-proofs/induction-proofs/</guid>
+      <guid>https://example.org/posts/induction-proofs/induction-proofs/</guid>
       <description>&lt;p&gt;I&amp;rsquo;ve been dealing with proofs by induction in my coursework. I know how it works. But I never really understood &lt;em&gt;why&lt;/em&gt; it worked. I searched a bit online and I think I understand why it works. So here goes -&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
