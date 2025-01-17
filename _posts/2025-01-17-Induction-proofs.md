@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "I think I understand why Proof by induction works!"
+title:  "I think I understand why Proof by induction works."
 date:   2025-01-17 09:54:58 +0100
 categories: jekyll update
 ---

@@ -32,6 +32,9 @@ github_username:  jekyll
 # Enabling LaTeX support
 markdown: kramdown
 
+# Setting URL for posts
+permalink: :title/
+
 # Build settings
 theme: minima
 plugins:
