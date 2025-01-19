@@ -37,7 +37,8 @@ markdown: kramdown
 permalink: :title/
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default" # You can replace "default" with other options like "dark", "aqua", etc.
 plugins:
   - jekyll-feed
 
