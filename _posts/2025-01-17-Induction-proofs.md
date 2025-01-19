@@ -13,12 +13,14 @@ Logical implication looks like $P \implies Q$. Here, the antecedent is P and con
 
 The following truth table for implication might seem familiar -
 
-| p | q | $p \implies q$ |
+<!-- | p | q | $p \implies q$ |
 | -------- | -------- | -------- |
 | True | True | True |
 | **True** | **False** | **False** |
 | False| True| True |
-| False | False | True|
+| False | False | True| -->
+
+![Truth table of logical implication](/assets/images/posts/2025-01-17-Induction-proofs/implication-truth-table.png)
 
 As can be seen from the table, an implication only makes claims for the case when the antecedent P is true.
 
