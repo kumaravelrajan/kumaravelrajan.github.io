@@ -37,10 +37,13 @@ markdown: kramdown
 permalink: :title/
 
 # Build settings
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default" # You can replace "default" with other options like "dark", "aqua", etc.
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
