@@ -1,14 +1,7 @@
 ---
-layout: single
 title:  "I think I understand why Proof by induction works."
 date:   2025-01-17 09:54:58 +0100
 categories: jekyll update
-
-# TOC
-toc: true
-toc_label: "On this page" # Custom title
-toc_icon: "file-alt"  # Font Awesome icon
-toc_sticky: true # Makes TOC sticky while scrolling
 ---
 
 I’ve been dealing with proofs by induction in my coursework. I know how it works. But I never really understood why it worked. I searched a bit online and I think I understand why it works. So here goes -
