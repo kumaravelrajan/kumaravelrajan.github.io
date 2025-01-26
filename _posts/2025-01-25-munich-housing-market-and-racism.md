@@ -1,7 +1,7 @@
 ---
 title:  "The Munich housing market, Hoheneckstr. 53 and racism"
 date:   2025-01-25 09:54:58 +0100
-categories: jekyll update
+categories: personal
 published: true
 ---
 
