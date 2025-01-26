@@ -19,7 +19,7 @@ He also said he expected me to not be at home on weekdays. I wasn't sure how he 
 
 Despite these misgivings, the fear of being homeless however pushed me to okay the room. 
 
-It was a Familienhaus (bungalow) that his father had built and was passed on to him. He was renting three rooms to outsiders. Apart from the renters, his wife, daughter and daughter's son stayed there along with him. 
+It was a Familienhaus (bungalow). He was renting three rooms to outsiders. Apart from the renters, his wife, daughter and daughter's son stayed there along with him. 
 
 ## Moving in and the start of troubles
 The moment I officially moved in with my stuff I knew I had made a giant mistake. He sat me down and started writing rules. He acted like a hunter who had successfully trapped his prey. I had a pit in my stomach.
