@@ -50,7 +50,7 @@ The tipping point came when I was having a family emergency one evening and I wa
 
 This incident occurred the same month my exams got over. I shifted out at the end of the month. Yet, the dread and the mental health hit I've experienced as a result of staying there cannot be easily undone or forgotten. I've written this piece in an effort to dissuade someone else who might be looking to shift in there. On a more selfish front, writing this piece helped me in a small way to get the incident out of my system. 
 
-What still seems inexplicable to me is how his wife and daughter let this attitude of his pass. They even acted as if his behavior towards tenants was justified. I can only come to the conclusion that their family as a whole was racist. 
+What still seems inexplicable to me is how his wife and daughter let this attitude of his pass. They even acted as if his behavior towards tenants was justified. 
 
 Hope this helps someone make an informed decision. 
 
