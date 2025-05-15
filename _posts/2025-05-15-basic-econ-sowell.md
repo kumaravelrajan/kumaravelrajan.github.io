@@ -5,6 +5,8 @@ categories: personal
 published: true
 ---
 
+This page contains my answers to the questions at the end of the book Basic Economics by Thomas Sowell. 
+
 ### Special mention - Scarcity and competition
 
 Quoting directly from the book - 
