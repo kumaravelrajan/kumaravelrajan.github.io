@@ -1,7 +1,6 @@
 ---
 title:  "Basic Economics : Sowell"
 date:   2025-05-15
-categories: personal
 published: true
 ---
 
