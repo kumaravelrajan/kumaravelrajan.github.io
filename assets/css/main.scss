@@ -1,9 +1,0 @@
----
----
-
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
-@import "minimal-mistakes";
-
-.page__content {
-    font-size: 0.875em; // Adjust this value as needed
-}
