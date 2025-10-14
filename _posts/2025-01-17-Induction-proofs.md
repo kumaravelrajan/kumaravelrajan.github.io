@@ -6,6 +6,8 @@ categories:
 tags:
   - Jekyll
   - update
+toc: true
+toc_sticky: true
 ---
 
 I’ve been dealing with proofs by induction in my coursework. I know how it works. But I never really understood why it worked. I searched a bit online and I think I understand why it works. So here goes -
