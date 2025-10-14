@@ -13,15 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: Perspectives
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Kumaravel Rajan's blog on his interests in computer science and other interests as well. I'm a computer science Master's graduate from TU Munich. Here, expect blog posts on whatever interests me at a particular point of time - Computer Science, music, movies and sometimes philosophy as well. 
 twitter_username: username
 github_username: username
-minimal_mistakes_skin: default
+minimal_mistakes_skin: "default"
 search: true
 
 # Build settings
@@ -60,20 +58,23 @@ plugins:
 author:
   name   : "Kumaravel Rajan"
   avatar : "/assets/images/KR-white-square.PNG"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Interested in Computer Science and many other things."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://kumaravelrajan.github.io/"
+
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-square-linkedin"
+      url: "https://www.linkedin.com/in/kumaravel-rajan/"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/kumaravelrajan"
+
+    - label: "Twitter"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://x.com/kumaravelrajan"
 
 footer:
   links:
@@ -113,3 +114,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+head_scripts: 
+  - https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js
