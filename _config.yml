@@ -100,6 +100,8 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
+
   # _pages
   - scope:
       path: "_pages"
@@ -117,3 +119,6 @@ tag_archive:
 
 head_scripts: 
   - https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js
+
+date_format: "%d %B, %Y"
+enable_copy_code_button: true
