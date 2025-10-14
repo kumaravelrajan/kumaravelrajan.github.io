@@ -103,6 +103,7 @@ defaults:
       share: true
       related: true
       show_date: true
+      show_in_home: true
 
   # _pages
   - scope:
