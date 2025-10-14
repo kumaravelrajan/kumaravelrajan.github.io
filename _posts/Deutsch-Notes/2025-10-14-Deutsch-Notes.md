@@ -1,4 +1,6 @@
 ---
+categories:
+  - german
 ---
 
 My Deutsch B1 exam is on 3 Nov. 2025. I have been preparing for the exam on my own using Telc DaF Kompakt A1-B1 textbook. Here, are the notes on German Grammar I took for A1, A2 and B1 levels. 
