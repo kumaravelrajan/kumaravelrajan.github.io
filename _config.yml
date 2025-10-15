@@ -61,7 +61,7 @@ plugins:
 author:
   name   : "Kumaravel Rajan"
   avatar : "/assets/images/KR-white-square.PNG"
-  bio    : "Interested in Computer Science and many other things."
+  bio    : "Interested in Computer Science among other things."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
