@@ -53,8 +53,9 @@ hidden: true
 ||dass|
 ||wenn|
 ||Relativsätzen|
-|||
-|||
+||ob|
+||seit|
+||dem|
 
 # Relativsätzen
 
@@ -84,4 +85,130 @@ hidden: true
 1. Passiv Präsens and Passiv Präteritum is differentiated by using present (werden) and präteritum (wurden) forms of werden respectively. Note that throughout however the partizip II stays the same. 
 
 # Indirekte frage
+
+1. ob -> Nebensatz
+1. If the direkte Frage starts with a Fragewort, the indirekte frage also starts with the same fragewort. 
+
+    eg: Wo ist der Treffpunkt? -> Ich möchte wissen, **wo** der Treffpunkt **ist**?
+
+# Vergleich
+
+1. For vergleich with Komparativ - use **als**.
+
+    eg: In der Hauptsaison ist es teurer als sonst. 
+
+1. als also used for a zeitpunkt in the past for an event that occured once. (mentioned later).
+
+1. For vergleich with "genauso"/"so"/"nicht so" use **wie**.
+
+    zB: In der Hauptsaison ist es so teuer wie sonst. 
+
+# Orts und Zeitangaben
+
+1. Mostly, time information comes first, then comes place info. 
+
+    z.B. Jörg ist *diese Woche* schon fünfmal **im Kino** gewesen.
+
+1. Ortsangaben
+
+    |Kasus|Ortsangaben|
+    |-|-|
+    |**Dativ**|bei/zu/von|
+    ||links/rechts/gegenüber|
+    ||raus/hinaus/heraus -> used with "aus" + dativ|
+    |||
+    |**Akkusativ**|entlang (used after the noun)|
+    ||rein/hinein/herein -> used with "in" + Akk.|
+
+    1. hin and her
+
+        1. hin: away from speaker
+        1. her: towards speaker
+
+1. Zeitangaben: 
+
+    1. Temporale Nebensätze mit "seit (dem)" and "bis"
+
+        1. seit(dem) (&bull;&rarr;)
+        1. bis (&bull;&rarr;&bull;)
+
+    1. **als** and **wenn** to indicate past events
+
+        1. als -> Event that happened once in the past.
+
+        1. wenn 
+        
+            1.  Event that happened multiple times in the past. 
+
+            1.  Event that is happening once / multiple times in the present/future.
+
+# Verbs taking only dativ object
+
+- antworten (to answer)
+
+- gefallen (to like, to be pleasing to)
+
+- fehlen (to be missing, to miss someone)
+
+- folgen (to follow)
+
+- gehören (to belong to)
+
+- begegnen (to meet)
+
+- befehlen (to order)
+
+- Leid tun (to be sorry)
+
+- passieren (to happen to)
+
+- wehtun (to hurt)
+
+- danken (to thank)
+
+- ähneln (to resemble)
+
+- gehorchen (to obey)
+
+- drohen (to threaten)
+
+- glauben (to believe)
+
+# Verbs taking reflexiv
+
+Some verbs are always used with reflexive pronouns (true reflexive verbs). Here are several frequently used examples:​
+
+- sich freuen - to be pleased
+- sich interessieren - to be interested in
+- sich amüsieren – to amuse oneself
+- sich ausruhen – to rest
+- sich beeilen – to hurry
+- sich benehmen – to behave oneself
+- sich entschuldigen – to apologize
+- sich erholen – to recover
+- sich erkälten – to catch a cold
+- sich (wohl / schlecht) fühlen – to feel (well/ill)
+- sich langweilen – to be bored
+- sich umsehen – to look around
+- sich verspäten – to be late;
+
+# Placement of akk. and dat. parts in sentence - 
+
+1. Noun + Noun -> Dativ, Akk
+1. Personalpronomen + Personalpronomen -> Akk., Dat.
+1. Personalpronomen + Nomen -> Personalpronomen, Nomen
+
+# kein vs nicht
+
+1. kein - Noun / Noun + Adj.
+1. Nicht - verb/adverb/adjektiv
+
+# "werden" + Nominativergänzung/Adjektiv -> something changes/develops
+
+z.B. Du **wirst** noch **eine Supersportlerin**.
+
+# Frage nach etw. unbestimmten/unbekanntem u. Antworten
+
+Check [here]({%post_url _posts/Deutsch-Notes/2025-10-14-Deutsch-A2.md %}#frage-nach-etwas-unbestimmten-oder-unbekanntem---antworten)
+
 
