@@ -207,8 +207,8 @@ Some verbs are always used with reflexive pronouns (true reflexive verbs). Here 
 
 z.B. Du **wirst** noch **eine Supersportlerin**.
 
-# Frage nach etw. unbestimmten/unbekanntem u. Antworten
+# Frage nach etw. unbestimmten/unbekanntem u. Antworten (was für)
 
-Check [here]({%post_url _posts/Deutsch-Notes/2025-10-14-Deutsch-A2.md %}#frage-nach-etwas-unbestimmten-oder-unbekanntem---antworten)
+Check [here]({%post_url Deutsch-Notes/2025-10-14-Deutsch-A2 %}#frage-nach-etwas-unbestimmten-oder-unbekanntem---antworten)
 
 
