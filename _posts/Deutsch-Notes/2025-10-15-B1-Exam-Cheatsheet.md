@@ -3,6 +3,7 @@ categories:
     - german
 
 hidden: true
+description: Comprehensive German B1 exam cheatsheet including articles, pronouns, prepositions, sentence structure, verb usage, and reflexive verbs with examples.
 ---
 
 # Tables that follow der/das/die pattern

@@ -8,6 +8,7 @@ tags:
   - update
 toc: true
 toc_sticky: true
+description: Personal story of facing Munich's housing crisis and racism in Hoheneckstr. 53 Munich while renting, revealing challenges, landlord abuse.
 ---
 
 München, like any other major city in the world has a housing market crisis. Demand is too much and the supply is perennially low. Add to that being an Indian who cannot speak fluent German, the options one has for housing really narrow down very quickly leading to desperation. 

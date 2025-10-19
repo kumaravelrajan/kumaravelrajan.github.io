@@ -3,6 +3,7 @@ title: The versatility of the const keyword in C++ and the ensuing confusion
 categories:
     - programming
     - cpp
+description: Dive into the many contexts of the const keyword in C++, explaining const references, pointers, objects, and methods with examples and best practices.
 ---
 
 I dove deep into the usages of the const keyword. As you might be aware, the const keyword is extremely context dependent in C++ (CPP). This article is a summary of the various ways in which const can be used and what each of them means. 
