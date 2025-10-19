@@ -47,9 +47,9 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 |||
 |Hauptsatz|denn|
 ||Darum/deshalb/deswegen/daher|
-|||
-|||
-|||
+||zwar...aber|
+||Trotzdem|
+||Dennoch|
 |||
 |Nebensatz|weil|
 ||dass|
@@ -58,6 +58,7 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 ||ob|
 ||seit|
 ||dem|
+||Obwohl|
 
 # Relativsätzen
 
@@ -72,7 +73,67 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 
 # Konjunktiv II
 
-1. Höfliche fragen / bitten
+1. Höfliche fragen / bitten / Irreale Situationen (hypothetical situations)
+
+1. Konjunktiv II forms of verbs used only for below listed verbs and certain additional ones. Else, mostly "würde" + Infinitv.
+
+    |Verb|Konjunktiv II form|
+    |-|-|
+    | haben  | hätte |
+    | sein  | wäre |
+    |||
+    |  (*Modalverben*)<br>müssen<br>dürfen<br>sollen<br> wollen<br>mögen<br>können | <br>müsste<br>dürfte<br>sollte<br>wollte<br>möchte<br>könnte |
+    |||
+    |*REST OF THE VERBS*|"würde" + Infinitv|
+
+1. Vorschläge and Ratschläge given with forms of wären.
+
+    z.B. Zwei Jahre Trainee-Programm wären besser.
+
+1. Irreale Konditionalsätze (= Irreale Bedingungssätze)
+
+    The condition in the nebensatz is not fulfilled. 
+
+    z.B. **Wenn** ich nicht so unordentlich **wäre**, **könnte** ich jetzt nachforschen.
+
+1. Irreale Wunschsätze 
+
+    Wishes that cannot be fulfilled at the moment. 
+    
+    1. Forms: 
+
+        1. Wenn....Konjunktiv II !
+
+            z.B. **Wenn** ich **nur** Filme drehen **könnte**!
+
+        1. Konjunktiv II..... !
+
+            z.B. **Könnte** ich **nur** Filme drehen!
+
+    1. Aussagesätzen <-> Irreale Wunschsätze
+
+        z.B. Aussage: “Er ist noch nicht da.” <-> Irreale Wunsch: “Wenn er doch schon da wäre!” 
+
+
+# Futur I : Intentions/predictions for future
+
+1. Building: Präsens form of "werden" + Infinitv
+
+    z.B. Wir **werden**	ab August zusammen in Berlin **wohnen**.
+
+1. Vermutung ("vermutlich"/"wahrscheinlich"):
+
+    z.B. Ich *werde* **vermutlich** Portugal *vermissen*. (I will probably miss Portugal.)
+
+1. Zuversicht (“schon”)
+
+    z.B. Es *wird* **schon** *klappen*. (It will work out.)
+
+1. Sichereit (“bestimmt”, “sicher”)
+
+    z.B. Ich *werde* als Dolmetscher **bestimmt** gute Chancen *haben*. (I will definitely have good chances as an interpreter.)
+
+
 
 # Genitiv
 
@@ -92,6 +153,48 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 1. If the direkte Frage starts with a Fragewort, the indirekte frage also starts with the same fragewort. 
 
     eg: Wo ist der Treffpunkt? -> Ich möchte wissen, **wo** der Treffpunkt **ist**?
+
+# Gründ und gegendgrund
+
+1. Gründe nennen: wegen, mämlich
+
+    1. Präposition "wegen" + Dativ
+
+        z.B. **Wegen seines Interesses** für Wirtschaft möchte Franco Betribswirtschaft studieren. (Because of his interest in economics, Franco wants to study business administration.)
+
+    1. Adverb "nämlich"
+
+        z.B. Franco möchte Betriebswirtschaft studieren, er interessiert sich **nämlich** für Wirtschaft. (Franco wants to study business administration because he is interested in economics.)
+
+1. Gegendgrund nennen: “obwohl”, “zwar…aber”, “trotzdem”/”dennoch”, “trotz”
+
+    |Words|Function|
+    |-|-|
+    |Obwohl/zwar...aber| Express ineffective Gegengrund. |
+    | Trotzdem / dennoch | Express effective Gegengrund to the ineffective Gründ expressed in the preceding Hauptsatz. |
+    |Präposition Trotz|Expresses ineffective Gegengrund.|
+
+    1. Obwohl (although) AND zwar…aber (although…but)
+
+        Nebensatz with Obwohl and Hauptsatz with zwar...aber list ineffective gegengrund. 
+
+        1. z.B. **Obwohl** ich nicht gut in Mathe bin, möchte ich gern Betriebswirtschaft studieren.
+
+        1. Ich habe mich **zwar** schon informiert, **aber** ich hätte gern noch ein paar Tipps von dir.
+
+    1. trotzdem / dennoch (despite it)
+
+        Trotzdem AND dennoch both are part of Hauptsatz that refer to a <ins> previous Hauptsatz </ins> . This previous hauptsatz lists an ineffective Gründ. Hence, trotzdem/dennoch express effective Gegengrund.
+
+        1. z.B. <ins> Es wäre sehr anstrengend </ins>, **trotzdem** würde ich gern in Deutschland studieren. 
+
+    1. Präposition Trotz (despite / in spite of) + Genitiv
+
+        Trotz expresses an ineffective Gegengrund.
+
+        z.B. **Trotz seiner schlechten** in Mathe will Franco Betriebswirtschaft studieren.
+
+
 
 # Vergleich
 
