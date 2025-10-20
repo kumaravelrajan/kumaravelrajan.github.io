@@ -41,9 +41,16 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 ||zwischen|
 ||während|
 ||statt|
+||wegen|
+||Trotz|
 |||
 |Genitiv|während|
 ||statt|
+||wegen|
+||Trotz|
+||innerhalb|
+||außerhalb|
+||aufgrund|
 
 # Hauptsatz u. Nebensatz
 
