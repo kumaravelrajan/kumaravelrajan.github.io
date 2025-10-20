@@ -10,7 +10,7 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 
 |Category||Follows the der/das/die pattern?|
 |-|-|-|
-|Artikel (Unbestimmten Artikel, Negativartikel and possessivartikel)| |**YES** |
+|Artikel (Unbestimmten Artikel, Negativartikel and possessivartikel)| |**NO** |
 |Pronomen (Unbestimmten Pronomen, Negativpronomen and Possessivpronomen) | |**YES** |
 | Adjketive | Nullartikel | **YES** |
 |  | Unbestimmten Artikel, Negativartikel and possessivartikel | **YES** |
@@ -54,17 +54,41 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 |Nebensatz|weil|
 ||dass|
 ||wenn|
-||Relativsätzen|
 ||ob|
 ||seit|
 ||dem|
 ||Obwohl|
+||Nachdem|
+|||
+||Relativsätze|
 
 # Relativsätzen
 
 1. Die sind Nebensätzen.
-1. Gender (der/das/die) and numerus (Sg./Plural) - acc. to word in main clause which the relativpronomen refers to. 
+1. Gender (der/das/die) and numerus (Sg./Plural) - acc. to noun in main clause which the relativpronomen refers to. 
 1. Kasus (Nom., Akk., Dat.) - Acc. to function of relativ pronomen in relativsatz.
+1. Relativsätze can be formed using  "in + Dativ" or "wo".
+
+    - z.B. Ich möchte das Museum besuchen, **in dem** man moderne Kunst zeigt.
+
+    - z.B. Ich möchte das Museum besuchen, **wo** man moderne Kunst zeigt.
+
+1. Relativpronomen “was”/”wo(r)-“
+
+    "was" and "wo(r)-" can be used in relativsätze and can be used to refer to the entire preceding hauptsatz or can refer to pronomen such as das, nichts, alles etc.
+
+    1. z.B. **Der Befragte ist Stammwähler, was** er gut findet.
+
+    In the relativsatz, together with a preposition, "was" is not used. Rather only "wo(r)-" is used.
+
+    1. z.B. **Der Befragte ist Stammwähler, worauf** er stolz ist. (= stolz sein auf)
+
+1. Relativpronomen in Genitiv: 
+
+    - **dessen** (M,N)
+    - **deren** (F, Plural normally)
+    - **derer** (F, Plural when Genitiv verb in Relativsatz.)
+
 
 # Präteritum
 
@@ -138,7 +162,14 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 # Genitiv
 
 1. The man's car -> des Mannes Auto
-1. Adjektiv im Genitiv - mostly has -en ending except for unbestimmten artikel plural. 
+1. Adjektiv im Genitiv - 
+
+    ||M|N|F|Plural|
+    |-|-|-|-|-|
+    |Bestimmten Artikel|-en|-en|-en|-en|
+    |Unbestimmten Artikel|-en|-en|-en|-er|
+    |vor Nomen ohne Artikel|-en|-en|-er|-er|
+
 1. Mask. nouns usually have -(e)s ending in genitiv except for when n-Deklination applies. Then, the ending becomes -(e)n.
 
 # Aktiv u. Passiv
@@ -146,6 +177,20 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 1. Building Passiv - werden (pos 2) + Partizip II (satzende)
 1. Agens in Passiv takes the form von + Dativ when this is important 
 1. Passiv Präsens and Passiv Präteritum is differentiated by using present (werden) and präteritum (wurden) forms of werden respectively. Note that throughout however the partizip II stays the same. 
+1. Forms of Aktiv u. Passiv
+
+    |Name|Structure| Example |
+    |-|-| - |
+    | Passiv Präsens | **werden** (forms) + Partizip II | In den 60er- und 70er- Jahren **werden** viele neue Sorten **produziert**  |
+    | Passiv Präteritum | **wurden** (forms) + Partizip II |Die Fabrik **wurde** 1912 von den Eheleuten **gegründet**.|
+    | Passiv Perfekt | sein (forms) + Partizip II + "worden" |Die anderen Beteiligten **sind** nocht nicht (von der Polizei) **vernommen** **worden**.|
+    | Passiv Modalverbs Präsens/Präteritum | (Modalverb Präsens/Präteritum) + (Partizip II of Inhalt Verb) + ("werden") | Der Nachbar **muss** noch weiter **behandelt** **werden**.<br><br>Die Wunde am Bein **konnte** leicht **genäht** **werden**. |
+    | Plusquamperfekt Aktiv | **Nebensatz**{Nachdem...(Partizip II + hatte/war (forms))},**Hauptsatz**{Präteritum/Perfekt} |**Nachdem** wir es bis zum Bahnhof Zoo **geschafft** **hatten**, <ins>**fing**</ins> es an zu regnen.|
+    | Plusquamperfekt Passiv | **Nebensatz**{Nachdem...Partizip II + "worden" + war(forms)} |**Nachdem** 1871 der erste deutsch Nationalstaat **gegründet worden war**, wurde Berlin auch zum geistigen und kulturellen Zentrum Deutschlands.|
+
+1. Plusquamperfekt
+
+    Used to denote that an incident took place **prior** to another incident. 
 
 # Indirekte frage
 
@@ -207,6 +252,15 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 1. For vergleich with "genauso"/"so"/"nicht so" use **wie**.
 
     zB: In der Hauptsaison ist es so teuer wie sonst. 
+
+1. Prädikativ v/s attributiv
+
+    | Type | Position | Example | Adjective ending? |
+    | - | - | - | - |
+    | **Prädikativ** | After verb (*sein, werden, bleiben*) | *Die CPU ist schneller als meine.* | ❌ No |
+    | **Attributiv** | Before noun | *eine schnellere CPU*  | ✅ Yes |
+
+
 
 # Orts und Zeitangaben
 
