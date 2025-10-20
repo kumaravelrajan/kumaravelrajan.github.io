@@ -39,19 +39,27 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 ||vor|
 ||neben|
 ||zwischen|
+||während|
+||statt|
+|||
+|Genitiv|während|
+||statt|
 
 # Hauptsatz u. Nebensatz
 
 |Hauptsatz/Nebensatz|Topic|
 |-|-|
 |||
-|Hauptsatz|denn|
+|**Hauptsatz**|denn|
 ||Darum/deshalb/deswegen/daher|
 ||zwar...aber|
 ||Trotzdem|
 ||Dennoch|
 |||
-|Nebensatz|weil|
+||also|
+||folglich|
+|################################|################################|
+|**Nebensatz**|weil|
 ||dass|
 ||wenn|
 ||ob|
@@ -59,8 +67,13 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 ||dem|
 ||Obwohl|
 ||Nachdem|
+||während|
+||bevor|
 |||
 ||Relativsätze|
+||damit|
+||um...zu|
+||sodass|
 
 # Relativsätzen
 
@@ -201,7 +214,7 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 
 # Gründ und gegendgrund
 
-1. Gründe nennen: wegen, mämlich
+1. Gründe nennen: wegen, nämlich
 
     1. Präposition "wegen" + Dativ
 
@@ -370,4 +383,81 @@ z.B. Du **wirst** noch **eine Supersportlerin**.
 
 Check [here]({%post_url Deutsch-Notes/2025-10-14-Deutsch-A2 %}#frage-nach-etwas-unbestimmten-oder-unbekanntem---antworten)
 
+# Ziel nennen: damit, um...zu
 
+|When to use|Phrase|
+|-|-|
+|When subject of Haupt- and Nebensatz same.|damit / **um...zu (preferred)**|
+|When subject of Haupt- and Nebensatz different. | damit.|
+
+1. "um...zu" + Infinitiv (Nebensatz)
+
+    z.B. Du musst vorhere Mitglied werden, **um** die Liste der Höfe **zu** erhalten.
+
+1. damit (Nebensatz)
+
+    z.B. Die Fachleute betreuen die Freiwilligen, **damit** die Freiwilligen das Ökosystem “Bergwahl” verstehen.
+
+# Folge nennen: “sodass”, “also”
+
+1. sodass (Nebensatz)
+
+    z.B. Es ist anstrengend eine Fremdsprache mehrere Stunden am Tag zu lernen, **sodass** man manchmal einfach nur müde <ins> ist </ins> und dann leichter Fehler <ins> macht </ins>.
+
+1. also (Hauptsatz)
+
+    Ich kenne das Wort “Gerät” nicht, **also** muss ich im Wörterbuch nachschlagen.
+
+# Fragewort “wo(r)” ?
+
+1. Fragen mit “was” + Präposition -> “**wo(r)-**“?
+
+    z.B. Für was = Wofür dankt Frau Egger Bernd?
+
+1. Fragen nach Personen: **“wer”, “wen”, “wem” + Präposition**,
+
+    z.B. **Auf wen** freut sich Bernd? -> Bernd freut sich **auf seine Freunde** aus Chur.
+
+# Temporale Nebensätze mit “während”, “nachdem”, “bevor”
+
+1. während
+
+    z.B. **Während** wir dort Kaffee getrunken haben, habe ich beobachtet, wie…
+
+    1. während (as präposition) + Genitiv
+
+        z.B. **Während seines Besuchs** sieht Karl viel von Berlin.
+
+1. bevor
+
+    z.B. **Bevor** ich endlich die Füße hochlegen konnte, musste ich noch mit Marlene zum türkischen Markt.
+
+1. nachdem
+
+    z.B. **Nachdem** wir es bis zum Bahnhof Zoo geschafft hatten, find es an zu regnen.
+
+# Zweiteilige Konnektoren - “nicht nur…,sondern auch” , “sowohl…als auch” , “weder…noch” 
+
+1. “nicht nur…, sondern auch” (not only, but also) 
+
+    Second element is emphasized more here. 
+
+    z.B. Besucher können dort **nicht nur** die Architektur, **sondern auch** die Aussicht bewundern.
+
+1. “sowohl…als auch” (as well as) 
+
+    Both elements are equally important
+
+    z.B. Innsbruch bietet **sowohl** Kultur **als auch** Natur.
+
+1. “weder…noch” (neither, nor)
+
+    Neither element applies.
+
+# je…desto/usmo: Expressing relationships
+
+1. je (Nebensatz)...desto/umso (Hauptsatz)
+
+1. z.B.
+
+    1. **Je** weiter oben eine Person **steht**, **desto** besser **sind** ihre Chancen,…
