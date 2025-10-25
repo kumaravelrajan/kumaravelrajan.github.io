@@ -5,16 +5,28 @@ categories:
 hidden: true
 description: Comprehensive German B1 exam cheatsheet including articles, pronouns, prepositions, sentence structure, verb usage, and reflexive verbs with examples.
 ---
+# Links to acutal notes
+1. [A1]({%post_url Deutsch-Notes/2025-10-14-Deutsch-A1%})
+1. [A2]({%post_url Deutsch-Notes/2025-10-14-Deutsch-A2%})
+1. [B1]({%post_url Deutsch-Notes/2025-10-14-Deutsch-B1%})
 
 # Tables that follow der/das/die pattern
 
 |Category||Follows the der/das/die pattern?|
 |-|-|-|
-|Artikel (Unbestimmten Artikel, Negativartikel and possessivartikel)| |**NO** |
-|Pronomen (Unbestimmten Pronomen, Negativpronomen and Possessivpronomen) | |**YES** |
-| Adjketive | Nullartikel | **YES** |
+|Artikel ([Unbestimmten Artikel]({% post_url Deutsch-Notes/2025-10-14-Deutsch-A2 %}#nominativ-akkusativ-und-dativ-mit-unbestimmten-artikel-negativartikel-und-possessivartikel), Negativartikel and [possessivartikel]({%post_url Deutsch-Notes/2025-10-14-Deutsch-A1%}#possessivartikel-im-nominativ))| |**NO** |
+|[Pronomen (Unbestimmten Pronomen, Negativpronomen and Possessivpronomen)]({%post_url Deutsch-Notes/2025-10-14-Deutsch-A2%}#possessivpronomen) | |**YES** |
+| [Adjketive]({%post_url Deutsch-Notes/2025-10-14-Deutsch-A2%}#adjektive) | Nullartikel | **YES** |
 |  | Unbestimmten Artikel, Negativartikel and possessivartikel | **YES** |
 |  | Bestimmten Artikel | **NO** |
+
+# Pronomen
+
+1. [Personalpronomen]({%post_url Deutsch-Notes/2025-10-14-Deutsch-A2%}#personalpronomen-im-nominativ-akkusativ-und-dativ)
+
+1. [Reflexivpronomen]({%post_url Deutsch-Notes/2025-10-14-Deutsch-A2%}#reflexivpronomen-und-reflexive-verben)
+
+1. [Relativpronomen]({%post_url Deutsch-Notes/2025-10-14-Deutsch-A2%}#relativsätze-und-relativpronomen)
 
 # Präposition
 
@@ -97,17 +109,13 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 
     "was" and "wo(r)-" can be used in relativsätze and can be used to refer to the entire preceding hauptsatz or can refer to pronomen such as das, nichts, alles etc.
 
-    1. z.B. **Der Befragte ist Stammwähler, was** er gut findet.
+    - z.B. **Der Befragte ist Stammwähler, was** er gut findet.
 
     In the relativsatz, together with a preposition, "was" is not used. Rather only "wo(r)-" is used.
 
-    1. z.B. **Der Befragte ist Stammwähler, worauf** er stolz ist. (= stolz sein auf)
+    - z.B. **Der Befragte ist Stammwähler, worauf** er stolz ist. (= stolz sein auf)
 
-1. Relativpronomen in Genitiv: 
-
-    - **dessen** (M,N)
-    - **deren** (F, Plural normally)
-    - **derer** (F, Plural when Genitiv verb in Relativsatz.)
+1. [Relativpronomen in Genitiv]({%post_url Deutsch-Notes/2025-10-14-Deutsch-B1%}#relativpronomen-im-genitiv)
 
 
 # Präteritum
@@ -117,7 +125,7 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 
 # Konjunktiv II
 
-1. Höfliche fragen / bitten / Irreale Situationen (hypothetical situations)
+1. Höfliche fragen / bitten / Irreale Konditionalsätze / Irreale Wunschsätze
 
 1. Konjunktiv II forms of verbs used only for below listed verbs and certain additional ones. Else, mostly "würde" + Infinitv.
 
@@ -161,7 +169,7 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 
 # Futur I : Intentions/predictions for future
 
-1. Building: Präsens form of "werden" + Infinitv
+1. Building: Präsens form of **"werden" + Infinitiv**
 
     z.B. Wir **werden**	ab August zusammen in Berlin **wohnen**.
 
@@ -215,6 +223,8 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 # Indirekte frage
 
 1. ob -> Nebensatz
+
+    z.B. Gibt es auch Führungen zum Thema “Film”? -> Ich möchte wissen, ob es auch Führungen zum Thema “Film” gibt.
 1. If the direkte Frage starts with a Fragewort, the indirekte frage also starts with the same fragewort. 
 
     eg: Wo ist der Treffpunkt? -> Ich möchte wissen, **wo** der Treffpunkt **ist**?
@@ -380,6 +390,9 @@ Some verbs are always used with reflexive pronouns (true reflexive verbs). Here 
 # kein vs nicht
 
 1. kein - Noun / Noun + Adj.
+
+    z.B. Ich habe keine gute Arbeit.
+
 1. Nicht - verb/adverb/adjektiv
 
 # "werden" + Nominativergänzung/Adjektiv -> something changes/develops
@@ -468,3 +481,25 @@ Check [here]({%post_url Deutsch-Notes/2025-10-14-Deutsch-A2 %}#frage-nach-etwas-
 1. z.B.
 
     1. **Je** weiter oben eine Person **steht**, **desto** besser **sind** ihre Chancen,…
+
+------
+
+# Tips from exam prep book
+
+## Schreiben
+
+### Common phrases while rejecting an invitation
+
+1. den vorschlagenen Termin kann ich nicht wahrnehmen, weil ich am Mittwoch auf Reisen sein werde. (I cannot make the suggested appointment because I will be traveling on Wednesday.)
+
+1. ich würde sehr gern zum Weihnachtsmarkt kommen. Aber... (I would love to come to the Christmas market. But unfortunately,)
+
+1. Danke, dass du an mich gedacht hast.
+
+1. ich danke Ihnen für die freundliche Einladung.
+
+## Sprechen
+
+### Common phrases while agreeing/disagreeing
+
+1. 
