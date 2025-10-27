@@ -460,13 +460,15 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 
     Neither element applies.
 
+    z.B. Das Restaurant ist **weder** besonders schick **noch** ist die Speisekarte aufregend.
+
 # je…desto/usmo: Expressing relationships
 
 1. je (Nebensatz)...desto/umso (Hauptsatz)
 
-1. z.B.
+    z.B. **Je** weiter oben eine Person **steht**, **desto** besser **sind** ihre Chancen,…
 
-    1. **Je** weiter oben eine Person **steht**, **desto** besser **sind** ihre Chancen,…
+----
 
 # "werden" + Nominativergänzung/Adjektiv -> something changes/develops
 
