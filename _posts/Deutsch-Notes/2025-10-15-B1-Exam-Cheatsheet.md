@@ -229,7 +229,7 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 
 # Gründ und gegendgrund
 
-1. Gründe nennen: wegen, nämlich
+1. Gründe nennen: wegen
 
     1. Präposition "wegen" + Genitiv / "wegen" + Dativ
 
@@ -296,7 +296,7 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 
 1. also (Hauptsatz)
 
-    Ich kenne das Wort “Gerät” nicht, **also** muss ich im Wörterbuch nachschlagen.
+    Ich kenne das Wort “Gerät” nicht, **also** <ins> muss </ins> ich im Wörterbuch nachschlagen.
 
 
 # Vergleich
