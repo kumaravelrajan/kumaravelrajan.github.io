@@ -54,12 +54,10 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 ||während|
 ||statt|
 ||wegen|
-||Trotz|
 |||
 |Genitiv|während|
 ||statt|
 ||wegen|
-||Trotz|
 ||innerhalb|
 ||außerhalb|
 ||aufgrund|
@@ -99,6 +97,12 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 1. Die sind Nebensätzen.
 1. Gender (der/das/die) and numerus (Sg./Plural) - acc. to noun in main clause which the relativpronomen refers to. 
 1. Kasus (Nom., Akk., Dat.) - Acc. to function of relativ pronomen in relativsatz.
+1. Relativpronomen
+
+    - [Relativpronomen]({%post_url Deutsch-Notes/2025-10-14-Deutsch-A2%}#relativsätze-und-relativpronomen)
+
+    - [Relativpronomen in Genitiv]({%post_url Deutsch-Notes/2025-10-14-Deutsch-B1%}#relativpronomen-im-genitiv)
+
 1. Relativsätze can be formed using  "in + Dativ" or "wo".
 
     - z.B. Ich möchte das Museum besuchen, **in dem** man moderne Kunst zeigt.
@@ -114,8 +118,6 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
     In the relativsatz, together with a preposition, "was" is not used. Rather only "wo(r)-" is used.
 
     - z.B. **Der Befragte ist Stammwähler, worauf** er stolz ist. (= stolz sein auf)
-
-1. [Relativpronomen in Genitiv]({%post_url Deutsch-Notes/2025-10-14-Deutsch-B1%}#relativpronomen-im-genitiv)
 
 
 # Präteritum
@@ -140,7 +142,7 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 
 1. Vorschläge and Ratschläge given with forms of wären.
 
-    z.B. Zwei Jahre Trainee-Programm wären besser.
+    z.B. Zwei Jahre Trainee-Programm **wären** besser.
 
 1. Irreale Konditionalsätze (= Irreale Bedingungssätze)
 
@@ -161,10 +163,6 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
         1. Konjunktiv II..... !
 
             z.B. **Könnte** ich **nur** Filme drehen!
-
-    1. Aussagesätzen <-> Irreale Wunschsätze
-
-        z.B. Aussage: “Er ist noch nicht da.” <-> Irreale Wunsch: “Wenn er doch schon da wäre!” 
 
 
 # Futur I : Intentions/predictions for future
@@ -194,9 +192,9 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 
     ||M|N|F|Plural|
     |-|-|-|-|-|
-    |Bestimmten Artikel|-en|-en|-en|-en|
-    |Unbestimmten Artikel|-en|-en|-en|-er|
     |vor Nomen ohne Artikel|-en|-en|-er|-er|
+    |Unbestimmten Artikel|-en|-en|-en|-er|
+    |Bestimmten Artikel|-en|-en|-en|-en|
 
 1. Mask. nouns usually have -(e)s ending in genitiv except for when n-Deklination applies. Then, the ending becomes -(e)n.
 
@@ -233,42 +231,72 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 
 1. Gründe nennen: wegen, nämlich
 
-    1. Präposition "wegen" + Dativ
+    1. Präposition "wegen" + Genitiv / "wegen" + Dativ
 
         z.B. **Wegen seines Interesses** für Wirtschaft möchte Franco Betribswirtschaft studieren. (Because of his interest in economics, Franco wants to study business administration.)
 
-    1. Adverb "nämlich"
-
-        z.B. Franco möchte Betriebswirtschaft studieren, er interessiert sich **nämlich** für Wirtschaft. (Franco wants to study business administration because he is interested in economics.)
-
-1. Gegendgrund nennen: “obwohl”, “zwar…aber”, “trotzdem”/”dennoch”, “trotz”
+1. Gegendgrund nennen: “obwohl”/“zwar…aber”, “trotzdem”/”dennoch”, “trotz”
 
     |Words|Function|
     |-|-|
     |Obwohl/zwar...aber| Express ineffective Gegengrund. |
     | Trotzdem / dennoch | Express effective Gegengrund to the ineffective Gründ expressed in the preceding Hauptsatz. |
-    |Präposition Trotz|Expresses ineffective Gegengrund.|
+
+    1. Nebensatz/Hauptsatz
+
+        - Obwohl (Nebensatz)
+        - zwar...aber (Hauptsatz)
+        - Trotzdem (Hauptsatz)
+        - Dennoch (Hauptsatz)
 
     1. Obwohl (although) AND zwar…aber (although…but)
 
         Nebensatz with Obwohl and Hauptsatz with zwar...aber list ineffective gegengrund. 
 
-        1. z.B. **Obwohl** ich nicht gut in Mathe bin, möchte ich gern Betriebswirtschaft studieren.
+        - z.B. **Obwohl** ich nicht gut in Mathe *bin*, möchte ich gern Betriebswirtschaft studieren.
 
-        1. Ich habe mich **zwar** schon informiert, **aber** ich hätte gern noch ein paar Tipps von dir.
+        - Ich habe mich **zwar** schon informiert, **aber** ich hätte gern noch ein paar Tipps von dir.
 
     1. trotzdem / dennoch (despite it)
 
         Trotzdem AND dennoch both are part of Hauptsatz that refer to a <ins> previous Hauptsatz </ins> . This previous hauptsatz lists an ineffective Gründ. Hence, trotzdem/dennoch express effective Gegengrund.
 
-        1. z.B. <ins> Es wäre sehr anstrengend </ins>, **trotzdem** würde ich gern in Deutschland studieren. 
+        - z.B. <ins> Es wäre sehr anstrengend </ins>, **trotzdem** *würde* ich gern in Deutschland studieren. 
 
-    1. Präposition Trotz (despite / in spite of) + Genitiv
+# Ziel nennen: damit, um...zu
 
-        Trotz expresses an ineffective Gegengrund.
+|When to use|Phrase|
+|-|-|
+|When subject of Haupt- and Nebensatz same.|damit / **um...zu (preferred)**|
+|When subject of Haupt- and Nebensatz different. | damit.|
 
-        z.B. **Trotz seiner schlechten** in Mathe will Franco Betriebswirtschaft studieren.
+1. Hauptsatz / Nebensatz
 
+    - um...zu (Nebensatz)
+    - damit (Nebensatz)
+
+1. "um...zu" + Infinitiv (Nebensatz)
+
+    z.B. Du musst vorher Mitglied werden, **um** die Liste der Höfe **zu** erhalten.
+
+1. damit (Nebensatz)
+
+    z.B. Die Fachleute betreuen die Freiwilligen, **damit** die Freiwilligen das Ökosystem “Bergwald” verstehen.
+
+# Folge nennen: “sodass”, “also”
+
+1. Hauptsatz/Nebensatz
+
+    - sodass (Nebensatz)
+    - also (Hauptsatz)
+
+1. sodass (Nebensatz)
+
+    z.B. Es ist anstrengend eine Fremdsprache mehrere Stunden am Tag zu lernen, **sodass** man manchmal einfach nur müde <ins> ist </ins> und dann leichter Fehler <ins> macht </ins>.
+
+1. also (Hauptsatz)
+
+    Ich kenne das Wort “Gerät” nicht, **also** muss ich im Wörterbuch nachschlagen.
 
 
 # Vergleich
@@ -277,7 +305,7 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 
     eg: In der Hauptsaison ist es teurer als sonst. 
 
-1. als also used for a zeitpunkt in the past for an event that occured once. (mentioned later).
+1. "als" also used for a zeitpunkt in the past for an event that occured once. (mentioned later).
 
 1. For vergleich with "genauso"/"so"/"nicht so" use **wie**.
 
@@ -316,20 +344,149 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 
 1. Zeitangaben: 
 
-    1. Temporale Nebensätze mit "seit (dem)" and "bis"
+    1. Temporale **Nebensätze** mit "seit (dem)" and "bis"
 
         1. seit(dem) (&bull;&rarr;)
+
+            z.B. Beate hat dauernd Schmerzen, **seit(dem)** sie so viel **arbeitet**.
+
         1. bis (&bull;&rarr;&bull;)
+
+            z.B. Es dauert noch zwei Wochen, **bis** Beate zu Dr. Rossman **gehen kann**.
+
+            z.B. Es dauerte zwei Wochen, **bis** Beate einen Arzttermin **bekam**.
 
     1. **als** and **wenn** to indicate past events
 
+        1. Hauptsatz / Nebensatz
+
+            - als - Nebensatz (only when used to describe a single event in the past)
+            
+            - wenn - Nebensatz 
+
         1. als -> Event that happened once in the past.
+
+            z.B. Eine Musikgruppe hat gespielt, **als** wir das steinzeitliche Dorf besichtigt haben.
 
         1. wenn 
         
             1.  Event that happened multiple times in the past. 
 
+                z.B. **(Immer) Wenn** Jan aus dem Wasser kam, musste er sich in der Sonne aufwärmen.
+
             1.  Event that is happening once / multiple times in the present/future.
+
+                z.B. Ich erhole mich einfach am besten, **wenn** ich faulenze.
+
+# Placement of akk. and dat. parts in sentence - 
+
+1. Noun + Noun -> *Dativ*, **Akk**
+
+    z.B. Anita und Markus schenken *ihrem Sohn* **ein Buch**.
+
+1. Personalpronomen + Personalpronomen -> **Akk.**, *Dat.*
+
+    z.B. Anita und Markus schenken **es** *ihm*.
+
+1. Personalpronomen + Nomen -> Personalpronomen, Nomen
+
+    z.B. Anita und Markus schenken *ihm* **das Buch**.
+
+# kein vs nicht
+
+1. kein - Noun / Noun + Adj.
+
+    - Noun
+        
+        z.B. Ich habe **keine Arbeit**.
+
+    - Noun + Adj
+    
+        z.B. Ich habe **keine gute Arbeit**.
+
+1. Nicht - verb/adverb/adjektiv
+
+    - Verb
+    
+        z.B. Ich **arbeite nicht**.
+
+    - Adverb
+
+        z.B. Ich arbeite **nicht viel**.
+
+    - Adjektiv
+
+        z.B. Das Haus ist **nicht schön**.
+
+# Temporale Nebensätze mit “während”, “nachdem”, “bevor”
+
+1. Hauptsatz / Nebensatz
+
+    - während - Nebensatz
+    - bevor - Nebensatz
+    - nachdem - Nebensatz
+
+1. während
+
+    z.B. **Während** wir dort Kaffee getrunken haben, habe ich beobachtet, wie…
+
+    1. während (as präposition) + Genitiv / während (as präposition) + Dativ
+
+        z.B. **Während seines Besuchs** sieht Karl viel von Berlin.
+
+1. bevor
+
+    z.B. **Bevor** ich endlich die Füße hochlegen konnte, musste ich noch mit Marlene zum türkischen Markt.
+
+1. nachdem
+
+    z.B. **Nachdem** wir es bis zum Bahnhof Zoo geschafft hatten, fing es an zu regnen.
+
+# Zweiteilige Konnektoren - “nicht nur…,sondern auch” , “sowohl…als auch” , “weder…noch” 
+
+1. “nicht nur…, sondern auch” (not only, but also) 
+
+    Second element is emphasized more here. 
+
+    z.B. Besucher können dort **nicht nur** die Architektur, **sondern auch** die Aussicht bewundern.
+
+1. “sowohl…als auch” (as well as) 
+
+    Both elements are equally important
+
+    z.B. Innsbruch bietet **sowohl** Kultur **als auch** Natur.
+
+1. “weder…noch” (neither, nor)
+
+    Neither element applies.
+
+# je…desto/usmo: Expressing relationships
+
+1. je (Nebensatz)...desto/umso (Hauptsatz)
+
+1. z.B.
+
+    1. **Je** weiter oben eine Person **steht**, **desto** besser **sind** ihre Chancen,…
+
+# "werden" + Nominativergänzung/Adjektiv -> something changes/develops
+
+z.B. Du **wirst** noch **eine Supersportlerin**.
+
+# Frage nach etw. unbestimmten/unbekanntem u. Antworten (was für)
+
+Check [here]({%post_url Deutsch-Notes/2025-10-14-Deutsch-A2 %}#frage-nach-etwas-unbestimmten-oder-unbekanntem---antworten)
+
+
+# Fragewort “wo(r)” ?
+
+1. Fragen mit “was” + Präposition -> “**wo(r)-**“?
+
+    z.B. Für was = Wofür dankt Frau Egger Bernd?
+
+1. Fragen nach Personen: **“wer”, “wen”, “wem” + Präposition**,
+
+    z.B. **Auf wen** freut sich Bernd? -> Bernd freut sich **auf seine Freunde** aus Chur.
+
 
 # Verbs taking only dativ object
 
@@ -380,107 +537,6 @@ Some verbs are always used with reflexive pronouns (true reflexive verbs). Here 
 - sich langweilen – to be bored
 - sich umsehen – to look around
 - sich verspäten – to be late;
-
-# Placement of akk. and dat. parts in sentence - 
-
-1. Noun + Noun -> Dativ, Akk
-1. Personalpronomen + Personalpronomen -> Akk., Dat.
-1. Personalpronomen + Nomen -> Personalpronomen, Nomen
-
-# kein vs nicht
-
-1. kein - Noun / Noun + Adj.
-
-    z.B. Ich habe keine gute Arbeit.
-
-1. Nicht - verb/adverb/adjektiv
-
-# "werden" + Nominativergänzung/Adjektiv -> something changes/develops
-
-z.B. Du **wirst** noch **eine Supersportlerin**.
-
-# Frage nach etw. unbestimmten/unbekanntem u. Antworten (was für)
-
-Check [here]({%post_url Deutsch-Notes/2025-10-14-Deutsch-A2 %}#frage-nach-etwas-unbestimmten-oder-unbekanntem---antworten)
-
-# Ziel nennen: damit, um...zu
-
-|When to use|Phrase|
-|-|-|
-|When subject of Haupt- and Nebensatz same.|damit / **um...zu (preferred)**|
-|When subject of Haupt- and Nebensatz different. | damit.|
-
-1. "um...zu" + Infinitiv (Nebensatz)
-
-    z.B. Du musst vorhere Mitglied werden, **um** die Liste der Höfe **zu** erhalten.
-
-1. damit (Nebensatz)
-
-    z.B. Die Fachleute betreuen die Freiwilligen, **damit** die Freiwilligen das Ökosystem “Bergwahl” verstehen.
-
-# Folge nennen: “sodass”, “also”
-
-1. sodass (Nebensatz)
-
-    z.B. Es ist anstrengend eine Fremdsprache mehrere Stunden am Tag zu lernen, **sodass** man manchmal einfach nur müde <ins> ist </ins> und dann leichter Fehler <ins> macht </ins>.
-
-1. also (Hauptsatz)
-
-    Ich kenne das Wort “Gerät” nicht, **also** muss ich im Wörterbuch nachschlagen.
-
-# Fragewort “wo(r)” ?
-
-1. Fragen mit “was” + Präposition -> “**wo(r)-**“?
-
-    z.B. Für was = Wofür dankt Frau Egger Bernd?
-
-1. Fragen nach Personen: **“wer”, “wen”, “wem” + Präposition**,
-
-    z.B. **Auf wen** freut sich Bernd? -> Bernd freut sich **auf seine Freunde** aus Chur.
-
-# Temporale Nebensätze mit “während”, “nachdem”, “bevor”
-
-1. während
-
-    z.B. **Während** wir dort Kaffee getrunken haben, habe ich beobachtet, wie…
-
-    1. während (as präposition) + Genitiv
-
-        z.B. **Während seines Besuchs** sieht Karl viel von Berlin.
-
-1. bevor
-
-    z.B. **Bevor** ich endlich die Füße hochlegen konnte, musste ich noch mit Marlene zum türkischen Markt.
-
-1. nachdem
-
-    z.B. **Nachdem** wir es bis zum Bahnhof Zoo geschafft hatten, find es an zu regnen.
-
-# Zweiteilige Konnektoren - “nicht nur…,sondern auch” , “sowohl…als auch” , “weder…noch” 
-
-1. “nicht nur…, sondern auch” (not only, but also) 
-
-    Second element is emphasized more here. 
-
-    z.B. Besucher können dort **nicht nur** die Architektur, **sondern auch** die Aussicht bewundern.
-
-1. “sowohl…als auch” (as well as) 
-
-    Both elements are equally important
-
-    z.B. Innsbruch bietet **sowohl** Kultur **als auch** Natur.
-
-1. “weder…noch” (neither, nor)
-
-    Neither element applies.
-
-# je…desto/usmo: Expressing relationships
-
-1. je (Nebensatz)...desto/umso (Hauptsatz)
-
-1. z.B.
-
-    1. **Je** weiter oben eine Person **steht**, **desto** besser **sind** ihre Chancen,…
 
 ------
 
