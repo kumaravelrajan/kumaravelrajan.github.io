@@ -540,18 +540,42 @@ Some verbs are always used with reflexive pronouns (true reflexive verbs). Here 
 
 ## Schreiben
 
-### Common phrases while rejecting an invitation
+1. Common phrases while rejecting an invitation
 
-1. den vorschlagenen Termin kann ich nicht wahrnehmen, weil ich am Mittwoch auf Reisen sein werde. (I cannot make the suggested appointment because I will be traveling on Wednesday.)
+    1. den vorschlagenen Termin kann ich nicht wahrnehmen, weil ich am Mittwoch auf Reisen sein werde. (I cannot make the suggested appointment because I will be traveling on Wednesday.)
 
-1. ich würde sehr gern zum Weihnachtsmarkt kommen. Aber... (I would love to come to the Christmas market. But unfortunately,)
+    1. ich würde sehr gern zum Weihnachtsmarkt kommen. Aber... (I would love to come to the Christmas market. But unfortunately,)
 
-1. Danke, dass du an mich gedacht hast.
+    1. Danke, dass du an mich gedacht hast.
 
-1. ich danke Ihnen für die freundliche Einladung.
+    1. ich danke Ihnen für die freundliche Einladung.
 
 ## Sprechen
 
-### Common phrases while agreeing/disagreeing
+1. Meinung sagen (Vorschläge machen)
 
-1. 
+    1. Was halten Sie davon?
+
+    1. Ich schlage vor...
+
+    1. Ich habe schon etwas vor...
+
+    1. das ist sinnvoll / sinnlos...
+
+1. Ending a conversation
+
+    1. Damit bin ich am Ende meines Vortrags angekommen. Ich danke Ihnen für Ihre Aufmerksamkeit.
+
+1. Agreeing
+
+    1. Damit bin ich einverstanden. 
+
+    1. Das gefällt mir gut. 
+
+    1. Gut, das machen wir. 
+
+1. Disagreeing
+
+    1. Nein, das geht leider nicht. 
+
+    1. Das finde ich nicht so gut. 
