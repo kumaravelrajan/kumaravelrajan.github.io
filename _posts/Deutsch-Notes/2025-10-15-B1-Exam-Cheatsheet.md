@@ -209,14 +209,8 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
     |-|-| - |
     | Passiv Präsens | **werden** (forms) + Partizip II | In den 60er- und 70er- Jahren **werden** viele neue Sorten **produziert**  |
     | Passiv Präteritum | **wurden** (forms) + Partizip II |Die Fabrik **wurde** 1912 von den Eheleuten **gegründet**.|
-    | Passiv Perfekt | sein (forms) + Partizip II + "worden" |Die anderen Beteiligten **sind** nocht nicht (von der Polizei) **vernommen** **worden**.|
-    | Passiv Modalverbs Präsens/Präteritum | (Modalverb Präsens/Präteritum) + (Partizip II of Inhalt Verb) + ("werden") | Der Nachbar **muss** noch weiter **behandelt** **werden**.<br><br>Die Wunde am Bein **konnte** leicht **genäht** **werden**. |
-    | Plusquamperfekt Aktiv | **Nebensatz**{Nachdem...(Partizip II + hatte/war (forms))},**Hauptsatz**{Präteritum/Perfekt} |**Nachdem** wir es bis zum Bahnhof Zoo **geschafft** **hatten**, <ins>**fing**</ins> es an zu regnen.|
-    | Plusquamperfekt Passiv | **Nebensatz**{Nachdem...Partizip II + "worden" + war(forms)} |**Nachdem** 1871 der erste deutsch Nationalstaat **gegründet worden war**, wurde Berlin auch zum geistigen und kulturellen Zentrum Deutschlands.|
-
-1. Plusquamperfekt
-
-    Used to denote that an incident took place **prior** to another incident. 
+    | Passiv Perfekt | sein (forms) + Partizip II + "worden" |Die anderen Beteiligten **sind** noch nicht (von der Polizei) **vernommen** **worden**.|
+    | Passiv Modalverbs Präsens/Präteritum | (Modalverb Präsens/Präteritum) + (Partizip II of Inhalt Verb) + ("werden" (Infinitiv)) | 1. Der Nachbar **muss** noch weiter **behandelt** **werden**.<br><br>2. Die Wunde am Bein **konnte** leicht **genäht** **werden**. |
 
 # Indirekte frage
 
