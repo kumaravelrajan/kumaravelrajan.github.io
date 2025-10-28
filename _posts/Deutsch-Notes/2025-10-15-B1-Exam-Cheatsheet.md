@@ -208,7 +208,7 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
     |Name|Structure| Example |
     |-|-| - |
     | Passiv Präsens | **werden** (forms) + Partizip II | In den 60er- und 70er- Jahren **werden** viele neue Sorten **produziert**  |
-    | Passiv Präteritum | **wurden** (forms) + Partizip II |Die Fabrik **wurde** 1912 von den Eheleuten **gegründet**.|
+    | Passiv Präteritum | **wurden** (forms) + Partizip II |Die Fabrik **wurde** 1912 (von den Eheleuten) **gegründet**.|
     | Passiv Perfekt | sein (forms) + Partizip II + "worden" |Die anderen Beteiligten **sind** noch nicht (von der Polizei) **vernommen** **worden**.|
     | Passiv Modalverbs Präsens/Präteritum | (Modalverb Präsens/Präteritum) + (Partizip II of Inhalt Verb) + ("werden" (Infinitiv)) | 1. Der Nachbar **muss** noch weiter **behandelt** **werden**.<br><br>2. Die Wunde am Bein **konnte** leicht **genäht** **werden**. |
 
