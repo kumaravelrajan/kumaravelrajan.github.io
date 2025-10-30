@@ -464,26 +464,6 @@ description: Comprehensive German B1 exam cheatsheet including articles, pronoun
 
 ----
 
-# "werden" + Nominativergänzung/Adjektiv -> something changes/develops
-
-z.B. Du **wirst** noch **eine Supersportlerin**.
-
-# Frage nach etw. unbestimmten/unbekanntem u. Antworten (was für)
-
-Check [here]({%post_url Deutsch-Notes/2025-10-14-Deutsch-A2 %}#frage-nach-etwas-unbestimmten-oder-unbekanntem---antworten)
-
-
-# Fragewort “wo(r)” ?
-
-1. Fragen mit “was” + Präposition -> “**wo(r)-**“?
-
-    z.B. Für was = Wofür dankt Frau Egger Bernd?
-
-1. Fragen nach Personen: **“wer”, “wen”, “wem” + Präposition**,
-
-    z.B. **Auf wen** freut sich Bernd? -> Bernd freut sich **auf seine Freunde** aus Chur.
-
-
 # Verbs taking only dativ object
 
 - antworten (to answer)
@@ -550,12 +530,11 @@ Some verbs are always used with reflexive pronouns (true reflexive verbs). Here 
 1. Einleitungssatz
 
     - Ich hoffe, es geht dir gut. 
-    - Ich hatte dir doch von ... erzählt.
     - Ich schreibe dir, weil.../denn...
 
 1. Von etwas berichten
 
-    - Wir waren / hatten
+    - Wir waren / hatten....
 
 1. Zusammenfassung
 
@@ -592,12 +571,11 @@ Some verbs are always used with reflexive pronouns (true reflexive verbs). Here 
 
     1. More common phrases
 
-        - Meiner Meinung nach (ist?)....
+        - Meiner Meinung nach (ist)....
         - Ich denke/glaube, dass....
 
 1. Zusammenfassung
 
-    - Insgesamt muss ich sagen / finde ich, dass...
     - Zum Schluss möchte ich sagen, dass...
 
 ### Schreiben 3 (persönliche Mitteilung - formelle E-mail)
@@ -611,13 +589,14 @@ Some verbs are always used with reflexive pronouns (true reflexive verbs). Here 
 
     - Ich schreibe Ihnen, (weil)...
     - Wir/Sie hatten...
-    - Ich danke Ihnen für die freundliche Einladung.
 
 1. Etwas absagen
 
+    - Leider muss ich ... absagen.
+
     - den vorschlagenen Termin kann ich nicht wahrnehmen, weil ich am Mittwoch auf Reisen sein werde.
 
-    - ich würde sehr gern zum Weihnachtsmarkt kommen. Aber.... ; Danke, dass du an mich gedacht hast.
+    - ich würde sehr gern zum Weihnachtsmarkt kommen. Aber.... ; Danke, dass Sie an mich gedacht haben.
 
 1. Die Absage begründen
 
