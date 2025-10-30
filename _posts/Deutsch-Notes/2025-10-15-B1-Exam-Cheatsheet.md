@@ -612,33 +612,11 @@ Some verbs are always used with reflexive pronouns (true reflexive verbs). Here 
 
 ## Sprechen
 
-1. Meinung sagen (Vorschläge machen)
-
-    1. Was halten Sie davon?
-
-    1. Ich schlage vor...
-
-    1. Ich habe schon etwas vor...
-
-    1. das ist sinnvoll / sinnlos...
+### Old book
 
 1. Ending a conversation
 
     1. Damit bin ich am Ende meines Vortrags angekommen. Ich danke Ihnen für Ihre Aufmerksamkeit.
-
-1. Agreeing
-
-    1. Damit bin ich einverstanden. 
-
-    1. Das gefällt mir gut. 
-
-    1. Gut, das machen wir. 
-
-1. Disagreeing
-
-    1. Nein, das geht leider nicht. 
-
-    1. Das finde ich nicht so gut. 
 
 1. Präsentation
 
@@ -660,28 +638,8 @@ Some verbs are always used with reflexive pronouns (true reflexive verbs). Here 
 
             **Damit bin ich am Ende meiner Präsentation angekommen. Ich danke Ihnen für Ihre Aufmerksamkeit.** 
 
-    1. Rückmeldung for partner's presentation
 
-        1. Ich fand den Vortrag sehr interessant, aber ich möchte über...mehr wissen.
-
-        1. Ich glaube, Sie haben nichts über... gesagt.
-
-        1. Ich habe etwas (Neues) über....gelernt.
-
-        1. Ich wusste gar nicht, dass...
-
-        1. Ich habe nicht alles ganz genau verstanden. 
-
-
-    1. Fragen for partner's presentation
-
-        1. Ich habe noch eine Frage.
-
-        1. Ich möchte gern wissen,....
-
-        1. Können Sie mir erklären...
-
-        1. Was meinen Sie damit?
+    
 
     1. Meine Reaktion to questions asked by others after my presentation
 
@@ -690,3 +648,46 @@ Some verbs are always used with reflexive pronouns (true reflexive verbs). Here 
         1. Ich meine, dass....
 
         1. Das freut mich
+
+### New book
+
+#### Sprechen 1 (Gemeinsam etwas planen)
+
+1. Vorschläge machen
+
+    - Ich schlage vor, dass...
+    - Wie wäre es, wenn...
+    - Wir könnten doch...
+
+1. Vorschläge annehmen/ablehnen
+
+    - Ich finde, das klingt (nicht) gut.
+    - Damit bin ich (nicht) einverstanden
+    
+1. Gegenargumente vorbringen
+
+    - Das sehe ich etwas/ganz anders. Es wäre besser, wenn...
+    - Ich verstehe, was du meinst, aber ich glaube, es wäre besser, wenn...
+
+1. Zu einer Einigung kommen
+
+    - Gut, so machen wir das!
+    - Super, so können wir das machen. 
+
+#### Sprechen 2 (Ein Thema präsentieren)
+1. 
+
+
+#### Sprechen 3 (Über ein Thema sprechen)
+
+1. After partner's presentation
+
+    1. Rückmeldung for partner's presentation
+
+        - Die Präsentation hat mir gut gefallen. Für mich war besonders interessant, dass du über ... gesprochen hast.
+
+    1. Fragen for partner's presentation
+
+        - Ich möchte gern wissen, warum...
+
+        - Du hast über....gesprochen. Kannst du das noch einmal erklären?
