@@ -178,6 +178,19 @@ ol li {
   margin-bottom: 0.5em;
 }
 
+ol {
+  list-style-type: decimal; /* top-level lists: 1, 2, 3 */
+}
+ol ol {
+  list-style-type: lower-alpha; /* second-level lists: a, b, c */
+}
+ol ol ol {
+  list-style-type: lower-roman; /* third-level lists: i, ii, iii */
+}
+ol ol ol ol {
+  list-style-type: upper-alpha; /* fourth-level: A, B, C */
+}
+
 li ul,
 li ol {
   margin-top: 0.5em;
