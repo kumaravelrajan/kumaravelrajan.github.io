@@ -540,15 +540,96 @@ Some verbs are always used with reflexive pronouns (true reflexive verbs). Here 
 
 ## Schreiben
 
-1. Common phrases while rejecting an invitation
+### Schreiben 1 (persönliche Mitteilung - private E-mail)
 
-    1. den vorschlagenen Termin kann ich nicht wahrnehmen, weil ich am Mittwoch auf Reisen sein werde. (I cannot make the suggested appointment because I will be traveling on Wednesday.)
+1. Anrede
 
-    1. ich würde sehr gern zum Weihnachtsmarkt kommen. Aber... (I would love to come to the Christmas market. But unfortunately,)
+    - Liebe/Lieber ....,
+    - Hallo ....,
 
-    1. Danke, dass du an mich gedacht hast.
+1. Einleitungssatz
 
-    1. ich danke Ihnen für die freundliche Einladung.
+    - Ich hoffe, es geht dir gut. 
+    - Ich hatte dir doch von ... erzählt.
+    - Ich schreibe dir, weil.../denn...
+
+1. Von etwas berichten
+
+    - Wir waren / hatten
+
+1. Zusammenfassung
+
+    - Insgesamt muss ich sagen, dass ...
+
+1. Einen Vorschlag machen/Ein Treffen vorschlagen
+
+    - Wie wäre es, wenn wir...
+    - Wir könnten...
+    - Wollen wir ...?
+
+1. Schlussatz
+
+    - Ich freue mich auf deine Antwort.
+    - Ich freue mich, von dir zu hören.
+
+1. Grußformeln
+
+    - Viele Grüße,...
+    - Liebe Grüße,...
+
+### Schreiben 2 (Persönliche Meinung zu einem Thema -  Diskussionsbeitrag)
+
+1. Einleitungssatz
+
+    - Das Thema...interessiert mich, weil...
+
+1. Die eigene Meinung ausdrücken
+
+    - Ich finde es absolut (nicht) richtig, dass...
+    - Generell bin ich dafür/dagegen, dass...
+    - Besonders interessant und wichtig finde ich...
+    - Ich bin überzeugt davon, dass...
+
+    1. More common phrases
+
+        - Meiner Meinung nach (ist?)....
+        - Ich denke/glaube, dass....
+
+1. Zusammenfassung
+
+    - Insgesamt muss ich sagen / finde ich, dass...
+    - Zum Schluss möchte ich sagen, dass...
+
+### Schreiben 3 (persönliche Mitteilung - formelle E-mail)
+
+1. Anrede
+
+    - Sehr geehrte Frau..., / Sehr geehreter Herr..., 
+    - Sehr geehrte Damen und Herren,
+
+1. Einleitungssatz
+
+    - Ich schreibe Ihnen, (weil)...
+    - Wir/Sie hatten...
+    - Ich danke Ihnen für die freundliche Einladung.
+
+1. Etwas absagen
+
+    - den vorschlagenen Termin kann ich nicht wahrnehmen, weil ich am Mittwoch auf Reisen sein werde.
+
+    - ich würde sehr gern zum Weihnachtsmarkt kommen. Aber.... ; Danke, dass du an mich gedacht hast.
+
+1. Die Absage begründen
+
+    - Der Grund ist, dass...
+
+1. Schlussatz
+
+    - Ich bitte Sie um Verständnis.
+
+1. Grußformeln
+
+    - Mit freundlichen Grüßen
 
 ## Sprechen
 
@@ -579,3 +660,54 @@ Some verbs are always used with reflexive pronouns (true reflexive verbs). Here 
     1. Nein, das geht leider nicht. 
 
     1. Das finde ich nicht so gut. 
+
+1. Präsentation
+
+    1. My own presentation
+
+        1. Sections in my presentation
+
+            - Introduce theme and structure of presentation. 
+            - Personal Erfahrungen
+            - Wie geht es in Heimatland
+            - Vor- und Nachteile des Themas
+            - Endung
+
+        1. Structuring my presentation
+        
+            **Ich spreche über das Thema... . Zuerst erzähle ich von meinen eigenen Erfahrungen, dann berichte ich darüber, wie die Menschen in Indien etwas tun. Ich werde meine Meinung zum Thema... deutlich machen und dann zum Schluss meiner Präsentation kommen.** 
+
+        1. Ending my presentation
+
+            **Damit bin ich am Ende meiner Präsentation angekommen. Ich danke Ihnen für Ihre Aufmerksamkeit.** 
+
+    1. Rückmeldung for partner's presentation
+
+        1. Ich fand den Vortrag sehr interessant, aber ich möchte über...mehr wissen.
+
+        1. Ich glaube, Sie haben nichts über... gesagt.
+
+        1. Ich habe etwas (Neues) über....gelernt.
+
+        1. Ich wusste gar nicht, dass...
+
+        1. Ich habe nicht alles ganz genau verstanden. 
+
+
+    1. Fragen for partner's presentation
+
+        1. Ich habe noch eine Frage.
+
+        1. Ich möchte gern wissen,....
+
+        1. Können Sie mir erklären...
+
+        1. Was meinen Sie damit?
+
+    1. Meine Reaktion to questions asked by others after my presentation
+
+        1. Das habe ich schon gesagt.
+
+        1. Ich meine, dass....
+
+        1. Das freut mich
