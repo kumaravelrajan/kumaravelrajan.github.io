@@ -653,7 +653,7 @@ Some verbs are always used with reflexive pronouns (true reflexive verbs). Here 
 
 1. Structuring my presentation
 
-    **Ich spreche über das Thema... . Zuerst erzähle ich von meinen eigenen Erfahrungen, dann berichte ich darüber, wie die Menschen in meinem Heimatland Indien etwas tun. Ich werde dann meine Meinung zum Thema... deutlich machen und am Ende werde ich meine Meinung zusammenfassen.** 
+    **Guten Tag zusammen. Mein Thema ist… . <br><br>Zuerst erzähle ich von meinen persönlichen Erfahrungen, dann berichte ich wie es in meinem Heimatland Indien geht. Ich werde dann meine Meinung zum Thema… deutlich machen und am Ende werde ich meine Meinung zusammenfassen.** 
 
 1. Den Vortrag gliedern
 
@@ -672,6 +672,7 @@ Some verbs are always used with reflexive pronouns (true reflexive verbs). Here 
 1. Vor- und Nachteil
 
     1. Es ist ein (großer/wichtiger) Vorteil/Nachteil, dass...
+
 
 1. Ending my presentation
 
