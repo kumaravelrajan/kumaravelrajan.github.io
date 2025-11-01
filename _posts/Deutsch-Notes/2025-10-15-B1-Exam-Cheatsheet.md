@@ -558,6 +558,12 @@ Some verbs are always used with reflexive pronouns (true reflexive verbs). Here 
 
 ### Schreiben 2 (Persönliche Meinung zu einem Thema -  Diskussionsbeitrag)
 
+1. Expected structure of the text
+
+    1. These - Was? (Meinung)
+    1. Argument - Warum? (Gründ)
+    1. Beweis - Beispiel
+
 1. Einleitungssatz
 
     - Das Thema...interessiert mich, weil...
@@ -571,7 +577,7 @@ Some verbs are always used with reflexive pronouns (true reflexive verbs). Here 
 
     1. More common phrases
 
-        - Meiner Meinung nach (ist)....
+        - Ich bin der Meinung, dass....
         - Ich denke/glaube, dass....
 
 1. Zusammenfassung
@@ -612,46 +618,7 @@ Some verbs are always used with reflexive pronouns (true reflexive verbs). Here 
 
 ## Sprechen
 
-### Old book
-
-1. Ending a conversation
-
-    1. Damit bin ich am Ende meines Vortrags angekommen. Ich danke Ihnen für Ihre Aufmerksamkeit.
-
-1. Präsentation
-
-    1. My own presentation
-
-        1. Sections in my presentation
-
-            - Introduce theme and structure of presentation. 
-            - Personal Erfahrungen
-            - Wie geht es in Heimatland
-            - Vor- und Nachteile des Themas
-            - Endung
-
-        1. Structuring my presentation
-        
-            **Ich spreche über das Thema... . Zuerst erzähle ich von meinen eigenen Erfahrungen, dann berichte ich darüber, wie die Menschen in Indien etwas tun. Ich werde meine Meinung zum Thema... deutlich machen und dann zum Schluss meiner Präsentation kommen.** 
-
-        1. Ending my presentation
-
-            **Damit bin ich am Ende meiner Präsentation angekommen. Ich danke Ihnen für Ihre Aufmerksamkeit.** 
-
-
-    
-
-    1. Meine Reaktion to questions asked by others after my presentation
-
-        1. Das habe ich schon gesagt.
-
-        1. Ich meine, dass....
-
-        1. Das freut mich
-
-### New book
-
-#### Sprechen 1 (Gemeinsam etwas planen)
+### Sprechen 1 (Gemeinsam etwas planen)
 
 1. Vorschläge machen
 
@@ -674,11 +641,44 @@ Some verbs are always used with reflexive pronouns (true reflexive verbs). Here 
     - Gut, so machen wir das!
     - Super, so können wir das machen. 
 
-#### Sprechen 2 (Ein Thema präsentieren)
-1. 
+### Sprechen 2 (Ein Thema präsentieren)
+
+ 1. Sections in my presentation
+
+    - Introduce theme and structure of presentation. 
+    - Personal Erfahrungen
+    - Wie geht es in Heimatland
+    - Vor- und Nachteile des Themas und meine Meinung
+    - Endung
+
+1. Structuring my presentation
+
+    **Ich spreche über das Thema... . Zuerst erzähle ich von meinen eigenen Erfahrungen, dann berichte ich darüber, wie die Menschen in meinem Heimatland Indien etwas tun. Ich werde dann meine Meinung zum Thema... deutlich machen und am Ende werde ich meine Meinung zusammenfassen.** 
+
+1. Den Vortrag gliedern
+
+    1. Ich möchte als nächstes über... sprechen. 
+    1. Ich komme jetzt zu einem anderen Punkt.
+
+1. Über Erfahrungen berichten
+
+    1. Als ich ein Kind war, habe ich...
+    1. Ich habe oft gesehen, dass...
+
+1. Heimatland
+
+    1. In meinem Heimatland ist die Situation ganz ähnlich/anders, weil...
+
+1. Vor- und Nachteil
+
+    1. Es ist ein (großer/wichtiger) Vorteil/Nachteil, dass...
+
+1. Ending my presentation
+
+    **Damit bin ich am Ende meiner Präsentation angekommen. Ich danke euch für eure Aufmerksamkeit. Möchtet ihr noch etwas fragen?** 
 
 
-#### Sprechen 3 (Über ein Thema sprechen)
+### Sprechen 3 (Über ein Thema sprechen)
 
 1. After partner's presentation
 
