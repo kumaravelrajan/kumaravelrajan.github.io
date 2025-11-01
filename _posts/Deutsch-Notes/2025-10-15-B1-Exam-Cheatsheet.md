@@ -675,7 +675,7 @@ Some verbs are always used with reflexive pronouns (true reflexive verbs). Here 
 
 1. Ending my presentation
 
-    **Damit bin ich am Ende meiner Präsentation angekommen. Ich danke euch für eure Aufmerksamkeit. Möchtet ihr noch etwas fragen?** 
+    **Damit bin ich am Ende meiner Präsentation angekommen. Ich danke euch für eure Aufmerksamkeit. Habt ihr Fragen?** 
 
 
 ### Sprechen 3 (Über ein Thema sprechen)
