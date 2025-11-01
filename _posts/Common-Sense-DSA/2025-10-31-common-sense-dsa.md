@@ -38,3 +38,58 @@ title: Notes on "Common Sense DSA" by Jay Wengrow
 
 # Chapter 2: Why algorithms matter
 
+1. Even though we might settle on a data structure, even then the algorithm we choose to use on this data structure makes a massive difference in efficiency. *This* is why algorithms matter. 
+
+1. Next data structure - Ordered arrays
+
+    1. What is it? 
+
+        It is a classic array except that all elements are at all times ordered in ascending order. 
+
+    1. Insertion
+
+        Insertion is more tedious that it was for classic arrays. When we want to insert a value, we first need to determine the index where it must be inserted, then move all elements starting from this index till the array end one step to the right and finally end up inserting the element in the given index. 
+
+        Hence, insertion takes $$N + 2$$ steps irrespective of index to insert value in. When index is closer to beginning there are fewer comparisons and more shifts. When index is farther away from beginning there are more comparisons and fewer shifts. 
+
+        Exception to this rule is that the index to insert is the end of the array. In that case we have N comparisons and 1 step for actual insertion. This makes it $$N + 1$$ step.
+
+    1. Searching & binary search
+
+        Having an ordered array enables us to use binary search which is orders of magnitude faster than our traditional linear search. Binary search only works with ordered arrays. 
+
+        <mark>This is an exapmle of how choosing the right data structure (ordered arrays) enables us to choose an algorithm (binary search) that is much more efficient than any sorting algorithm available to us in a classic array.</mark>
+
+        For binary search, though, each time we double the size of the array, we only need to add one more step. 
+
+
+
+# Chapter 3: O Yes! Big O Notation
+
+1. The key question: If there are N data elements, how many steps will the algorithm take?
+
+1. O(N) and O(1)
+
+    When an algorithm is O(N) it means when there are N data elements, the algorithm takes N steps. 
+
+    1. Algorithm having O(N) complexity is known to have linear time complexity. 
+
+        eg: linear search
+
+    1. Algorithm having O(1) complexity means that it has constant time. i.e. Irrespective of the number of data elements (N) the algorithm always takes only 1 step. 
+
+        eg: Reading from an array. 
+
+1. The soul of Big O
+
+    How will an algorithm's performance *change as the data increases?*
+
+    In other words, it does not just want to tell us how many steps an algorithm takes for N data inputs. It wants to tell us how the number of steps increase as data changes. 
+
+    This is why if we have an algorithm that takes 3 steps irrespective of the data size we do not write it's complexity as O(3). Instead, we write it as O(1). As mentioned above, Big-O is concerned with the how the number of steps increase as data changes. In this regard, O(3) is the same as O(1).
+
+1. Big-O and its pessimism
+
+    Big-O can theoretically depict both best-case and worst-case scenarios. For example, in linear search we have the scenario where the searched element is present in index 0 itself. In this best case, linear search becomes O(1). But in the worst case it is as we know O(N).
+
+    But generally, Big-O represents worst-case since this pessimistic approach can help in understanding how inefficient an algorithm can get in the worst-case scenarios and making choices accordingly. 
