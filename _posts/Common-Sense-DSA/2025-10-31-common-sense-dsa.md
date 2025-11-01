@@ -86,10 +86,32 @@ title: Notes on "Common Sense DSA" by Jay Wengrow
 
     In other words, it does not just want to tell us how many steps an algorithm takes for N data inputs. It wants to tell us how the number of steps increase as data changes. 
 
-    This is why if we have an algorithm that takes 3 steps irrespective of the data size we do not write it's complexity as O(3). Instead, we write it as O(1). As mentioned above, Big-O is concerned with the how the number of steps increase as data changes. In this regard, O(3) is the same as O(1).
+    This is why if we have an algorithm that takes 3 steps irrespective of the data size we do not write its complexity as O(3). Instead, we write it as O(1). As mentioned above, Big-O is concerned with the how the number of steps increase as data changes. In this regard, O(3) is the same as O(1).
 
 1. Big-O and its pessimism
 
     Big-O can theoretically depict both best-case and worst-case scenarios. For example, in linear search we have the scenario where the searched element is present in index 0 itself. In this best case, linear search becomes O(1). But in the worst case it is as we know O(N).
 
     But generally, Big-O represents worst-case since this pessimistic approach can help in understanding how inefficient an algorithm can get in the worst-case scenarios and making choices accordingly. 
+
+1. O (log N)
+
+    Refers to algorithms that increase one step every time the data is doubled. In Big-O notation whenever we say O(log N) it is actually $$ O(log_2 N) $$. We just omit the base 2 for convenience. 
+
+    Binary search has O(log N).
+
+1. Sorting algorithm times from most to least efficient
+
+    |Algorithm times arranged<br>from Most efficient to least efficient|
+    |-|
+    |O(1)|
+    | O(log N) |
+    | O(N) |
+
+# Speeding up your code with Big O
+
+1. Bubble sort
+
+    In each pass through, the highest unsorted value "bubbles" up to its correct position. 
+
+    Bubble sort has $$ O(N^2) $$ complexity. This means bubble sort has *quadratic time*.
