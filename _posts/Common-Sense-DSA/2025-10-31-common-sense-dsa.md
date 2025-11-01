@@ -108,7 +108,7 @@ title: Notes on "Common Sense DSA" by Jay Wengrow
     | O(log N) |
     | O(N) |
 
-# Speeding up your code with Big O
+# Chapter 4: Speeding up your code with Big O
 
 1. Bubble sort
 
