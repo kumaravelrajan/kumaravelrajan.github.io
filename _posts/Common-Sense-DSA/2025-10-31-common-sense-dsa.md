@@ -115,3 +115,62 @@ title: Notes on "Common Sense DSA" by Jay Wengrow
     In each pass through, the highest unsorted value "bubbles" up to its correct position. 
 
     Bubble sort has $$ O(N^2) $$ complexity. This means bubble sort has *quadratic time*.
+
+1. $$O(N^2)$$ complexity
+
+    Very often (but not always), when an algorithm nests one loop inside another, the algorithm is $$O(N^2)$$.
+
+    ```javascript
+
+    function hasDuplicateValue(array) { 
+
+        let steps = 0; // count of steps
+        
+        for(let i = 0; i < array.length; i++) { 
+            
+            for(let j = 0; j < array.length; j++) {
+                
+                steps++; // increment number of steps 
+
+                // !!!
+                if(i !== j && array[i] === array[j]) { 
+                    return true;
+                }
+            }
+        }
+        console.log(steps); // print number of steps if no duplicates 
+        return false;
+    }
+
+    ```
+
+    Here, assume we have an array of length N. The outer loop iterates through every element of the array one by one. For every iteration of the outer loop, the inner loop iterates N times. So the statement in the inner loop (the comparison) is executes $$N^2$$ times in the worst case. Hence, this code has $$O(N^2)$$.
+
+    The criteria here is, how many times is the code in the inner loop (the comparison statements) is executed in the worst case. 
+
+    The above code can be optimized to an algorithm that has $$O(N)$$ instead of $$O(N^2)$$.
+
+    ```javascript
+
+    function hasDuplicateValue(array) {
+        let steps = 0;
+        let existingNumbers = [];
+
+        for(let i = 0; i < array.length; i++) {
+            steps++;
+            
+            if(existingNumbers[array[i]] === 1) {
+                return true; 
+            
+            } else {
+                existingNumbers[array[i]] = 1;
+            }
+        }
+
+        console.log(steps); 
+        return false;
+    }
+
+    ```
+
+    Here, we get rid of the inner loop and keep just the outer loop. This means the new code has O(N).
