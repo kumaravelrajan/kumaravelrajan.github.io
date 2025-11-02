@@ -174,3 +174,7 @@ title: Notes on "Common Sense DSA" by Jay Wengrow
     ```
 
     Here, we get rid of the inner loop and keep just the outer loop. This means the new code has O(N).
+
+1. Exercises
+
+    - [Ex4]({%link assets/posts/common-sense-dsa/code/ch4/ex4.py%})
