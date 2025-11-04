@@ -207,4 +207,14 @@ title: Notes on "Common Sense DSA" by Jay Wengrow
 
     Big-O focuses on worst-case scenarios. But what about those situations which are not worst-case, rather average-case scenarios. In this chapter we will be focusing on such scenarios. 
 
-1. 
+1. Insertion sort
+
+    Animation of how this works in [wikipedia](https://en.wikipedia.org/wiki/Insertion_sort#Algorithm).
+
+1. Big O Notation only takes into account the highest order of N when we have multiple orders added together.
+
+    i.e. $$O(N^2 + 2N - 2) \implies O(N^2 + N) \implies O(N^2)$$
+
+1. Time complexity of insertion sort
+
+    <ins>In worst case scenarion insertion sort has time complexity of $$O(N^2)$$, the same as bubble sort and selection sort.</ins> 
