@@ -116,6 +116,8 @@ title: Notes on "Common Sense DSA" by Jay Wengrow
 
     Bubble sort has $$ O(N^2) $$ complexity. This means bubble sort has *quadratic time*.
 
+    Explanation of how bubble sort works is given in [wikipedia](https://en.wikipedia.org/wiki/Bubble_sort#Performance).
+
 1. $$O(N^2)$$ complexity
 
     Very often (but not always), when an algorithm nests one loop inside another, the algorithm is $$O(N^2)$$.
@@ -178,3 +180,31 @@ title: Notes on "Common Sense DSA" by Jay Wengrow
 1. Exercises
 
     - [Ex4]({% post_url Common-Sense-DSA/2025-11-02-code-examples-common-sense-dsa %}#exercise-4)
+
+# Chapter 5: Optimizing Code with and Without Big O
+
+1. Selection sort
+
+    In each pass-through the lowest element is placed in the current starting position. It takes about half the number of steps bubble sort does. This means <ins> selection sort is twice as fast as bubble sort </ins>. If bubble sort had $$O(N^2)$$ then selection sort should have $$O(N^2/2)$$.
+
+    But Big-O notation ignores constants. Therefore, in the Big O notation, Bubble sort and Selection sort both have $$O(N^2)$$ runtimes. 
+
+    Animation of how selection sort works as given in [wikipedia](https://en.wikipedia.org/wiki/Selection_sort#Example).
+
+1. Why Big-O ignores constants
+
+    Big-O is concerned with the overarching categories of algorithmic speeds. O(N) and $$O(N^2)$$ are completely different categories. O(N) grows linearly as the data increases. $$O(N^2)$$ grows exponentially as the data increases. 
+
+    Any factor of N in O(N) will at some data size be faster than $$O(N^2)$$. Hence, these are differentiated in Big-O.
+
+    But, both O(N) and O(100N) grow linearly as the data increases. This does not interest Big-O. Therefore, both of these algorithms are put under the same category of O(N).
+
+    This is why bubble sort and selection sort are both $$O(N^2)$$ even though in reality, selection sort is twice as fast as bubble sort.
+
+# Chapter 6: Optimizing for optimistic scenarios
+
+1. Chapter intent: 
+
+    Big-O focuses on worst-case scenarios. But what about those situations which are not worst-case, rather average-case scenarios. In this chapter we will be focusing on such scenarios. 
+
+1. 
