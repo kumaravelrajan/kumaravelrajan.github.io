@@ -11,7 +11,7 @@ description: My code for the exercises of the book Common sense DSA by Jay Wengr
 
 # Chapter 4: Speeding up your code with Big O
 
-## Exercise 4_4
+## Exercise 4
 {%highlight python%}
 def greatestNumber(array):
     

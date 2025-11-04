@@ -177,4 +177,4 @@ title: Notes on "Common Sense DSA" by Jay Wengrow
 
 1. Exercises
 
-    - [Ex4]({% post_url Common-Sense-DSA/2025-11-02-code-examples-common-sense-dsa %}#exercise-4_4)
+    - [Ex4]({% post_url Common-Sense-DSA/2025-11-02-code-examples-common-sense-dsa %}#exercise-4)
