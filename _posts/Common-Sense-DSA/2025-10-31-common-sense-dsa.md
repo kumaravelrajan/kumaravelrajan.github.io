@@ -189,7 +189,7 @@ title: Notes on "Common Sense DSA" by Jay Wengrow
 
     But Big-O notation ignores constants. Therefore, in the Big O notation, Bubble sort and Selection sort both have $$O(N^2)$$ runtimes. 
 
-    Animation of how selection sort works as given in [wikipedia](https://en.wikipedia.org/wiki/Selection_sort#Example).
+    Animation of how selection sort works as given in [geeksforgeeks](https://www.geeksforgeeks.org/dsa/selection-sort-algorithm-2/).
 
 1. Why Big-O ignores constants
 
@@ -211,10 +211,30 @@ title: Notes on "Common Sense DSA" by Jay Wengrow
 
     Animation of how this works in [wikipedia](https://en.wikipedia.org/wiki/Insertion_sort#Algorithm).
 
-1. Big O Notation only takes into account the highest order of N when we have multiple orders added together.
+    1. Big O Notation only takes into account the highest order of N when we have multiple orders added together.
 
-    i.e. $$O(N^2 + 2N - 2) \implies O(N^2 + N) \implies O(N^2)$$
+        i.e. $$O(N^2 + 2N - 2) \implies O(N^2 + N) \implies O(N^2)$$
 
-1. Time complexity of insertion sort
+    1. Time complexity of insertion sort
 
-    <ins>In worst case scenarion insertion sort has time complexity of $$O(N^2)$$, the same as bubble sort and selection sort.</ins> 
+        <ins>In worst case scenarion insertion sort has time complexity of $$O(N^2)$$, the same as bubble sort and selection sort.</ins> 
+
+    1. Efficiency of insertion sort
+
+        - Selection sort: $$O(N^2/2) \implies O(N^2)$$
+        - Bubble sort: $$O(N^2) \implies O(N^2)$$
+        - Insertion sort: $$O(N^2+2N-2) \implies O(N^2)$$
+
+        Remember these are worst case time complexities. In the average case, insertion sort performs much better. 
+
+    1. Insertion sort v/s selection sort
+
+        ||Best case|Average case|Worst case|
+        |-|-|-|-|
+        |Selection sort|$$N^2/2$$|$$N^2/2$$|$$N^2/2$$|
+        |Insertion sort|N|$$N^2/2$$|$$N^2$$|
+
+# Chapter 7: Big O in everyday code
+
+
+
