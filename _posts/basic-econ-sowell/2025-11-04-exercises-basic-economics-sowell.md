@@ -219,6 +219,18 @@ Central point: The price which one producer is willing to pay for any given ingr
 
     Baseball bats and paper both require the same raw material wood pulp. If demand for paper increases, paper manufacturers can bid away wood pulp from baseball bat manufacturers. This means, baseball bat manufacturers will have to match these higher prices of wood pulp to be able to continue manufacturing the bats. This in turn means that the prices of baseball bats also rise to accommodate the higher prices of wood pulp and to leave the bat manufacturer with a profit at the end of it. 
 
-## 14) Why are price controls likely to cause more of a shortage of gasoline than of strawberries? (page 49)
+## 14) Why are price controls likely to cause more of a shortage of gasoline than of strawberries?
 
+When prices are kept artificially cheaper via price controls, demand increases. This is because demand increases when prices are low. 
 
+This means, that shortages will be caused. This prompts people to hoard up the price controlled good whenever they come across it. Hence, price controlled gasoline is hoarded up. 
+
+The same logic would apply to strawberry but since strawberries are highly perishable they cannot be hoarded. Hence, a shortage also is mostly not caused. 
+
+## 15) How does rent control affect the quality of housing and the average age of housing? (pages 41–42)
+
+Supply of apartments declines under rent control laws. Prices are kept artificially low and at low prices, supply declines. 
+
+Hence, even though office buildings, commercial buildings and premium housing buildings might be constructed because they are not included under rent control laws, apartment building construction declines rapidly since they are just not profitable for builders to pursue. 
+
+Also, the supply of existing apartments declines under rent control laws. The landlords no longer find it necessary to maintain apartments appropriately in order to attract tenants. This is because there is already a shortage experienced by tenants under rent control. Also, even if landlords wanted to appropriately maintain apartments, they might not be able to without themselves facing a loss. The artificially low apartment prices mean that landlords would incur a loss when they try to maintain apartments well. 
