@@ -236,5 +236,5 @@ title: Notes on "Common Sense DSA" by Jay Wengrow
 
 # Chapter 7: Big O in everyday code
 
-
+Exercises worked out [here]({%post_url Common-Sense-DSA/2025-11-02-code-examples-common-sense-dsa%}#chapter-7-big-o-in-everyday-code).
 
