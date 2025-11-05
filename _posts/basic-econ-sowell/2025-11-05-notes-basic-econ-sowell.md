@@ -37,4 +37,6 @@ title: Notes from "Basic Economics" by Thomas Sowell
 
     That is the only kind of economy that is possible—and our only choice is among the particular methods that can be used for that competition (free-market economy, communist economy and so forth).
 
-1. Exercises: [Click here]({%post_url _posts/basic-econ-sowell/2025-11-04-exercises-basic-economics-sowell%}#part-i-prices-and-markets)
+## Exercises
+
+[Click here]({% post_url basic-econ-sowell/2025-11-04-exercises-basic-economics-sowell %}#part-i-prices-and-markets)
