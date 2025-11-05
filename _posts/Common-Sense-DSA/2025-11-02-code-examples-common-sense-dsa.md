@@ -70,16 +70,16 @@ Here, let haystack be of size N and needle be of size M. Outer loop iterates thr
 
 1. Example: 
 
-    The haystack consists of repeated characters, for example: "aaaaaa" (length N=6).
+    Haystack: "aaaaaa" (length N = 6).
 
-    The needle is almost the same repeated character sequence but differs at the last character, for example: "aab" (length M = 3)
+    Needle: "aab" (length M = 3)
 
-    Here, for each character in the haystack:
+    - Here, for each character in the haystack:
 
-    The first character matches the first character of the needle ('a').
+        - The first character matches the first character of the needle ('a').
 
-    The inner loop checks subsequent characters to match 'a' and then fails at the last character 'b'.
+        - The inner loop checks subsequent characters to match 'a' and then fails at the last character 'b'.
 
-    This forces the inner loop to run nearly M times at every starting position.
+        - This forces the inner loop to run nearly M times at every starting position.
 
-    In this worst-case scenario, the naive substring search performs N × M character comparisons, illustrating the O(NxM) comparisons.
+    In this worst-case scenario, the naive substring search performs N × M character comparisons, illustrating the O(N x M) comparisons.
