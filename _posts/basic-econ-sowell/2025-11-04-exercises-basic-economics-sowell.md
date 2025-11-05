@@ -3,20 +3,11 @@ categories:
 
     - economics
 
-description: My notes from reading Basic Economics - Thomas Sowell
-title: Notes on "Basic Economics" by Thomas Sowell
+description: My answers for the exercises given in Basic Economics - Thomas Sowell
+title: Exercise solutions for questions in "Basic Economics" by Thomas Sowell
+hidden: true
 ---
 # Part I: Prices and markets
-
-## Special mention - Scarcity and competition
-
-Quoting directly from the book - 
-
-Scarcity means that everyone’s desires cannot be satisfied completely, regardless of which particular economic system or government policy we choose—and regardless of whether an individual or a society is poor or prosperous, wise or foolish, noble or ignoble. 
-
-**Competition among people for scarce resources is inherent. It is not a question whether we like or dislike competition. Scarcity means that we do not have the option to choose whether or not to have an economy in which people compete.** 
-
-That is the only kind of economy that is possible—and our only choice is among the particular methods that can be used for that competition.
 
 ## 1) Can there be a growing scarcity without a growing shortage—or a growing shortage without a growing scarcity? Explain with examples.
 
@@ -210,4 +201,24 @@ Hence, the average number of persons per apartment in apartments under rent cont
 1. Socialist economies introduce more bureaucracy even for seemingly simple decisions that make the system less efficient. There is always a chain of command that things need to be run by. In a price coordinated market economy things are more dynamic, there is more competition and hence, a solution is arrived at sooner. 
 
 
-## 13) How can the price of baseball bats be affected by the demand for paper or the price of catchers’ mitts be affected by the demand for cheese? (page 20)
+## 13) How can the price of baseball bats be affected by the demand for paper or the price of catchers’ mitts be affected by the demand for cheese?
+
+Central point: The price which one producer is willing to pay for any given ingredient becomes the price that other producers are **forced** to pay for that same ingredient. 
+
+1. Catcher's mitts and Cheese
+
+    For example, we have cheese producers, ice-cream producers and yogurt producers. All of these products require the raw material called milk. If customer demand for cheese explodes, the price of cheese shoots up. Cheese producers will have more money to bid away milk from ice-cream and yogurt producers. So they do just that. 
+
+    Cheese producers place a higher price on milk. Now the ice-cream and yogurt producers need to match this price in order to get their own share of milk. Assume ice-cream customers are not bothered to a large extent while Jogurt customers do not want to buy Jogurt at these higher prices. Then, more of the milk meant for Jogurt will go towards cheese production than the milk meant for ice-cream production. 
+
+    Cheese producers, facing higher price and demand, bid away milk from ice-cream and yogurt producers. Then, between ice-cream and yogurt producers, those less sensitive to price changes (ice-cream customers) can match higher milk prices, while those more sensitive (yogurt customers) cannot, leading to milk being allocated more to cheese and ice-cream.
+
+    Now, as the price of milk rises, dairy farms have stronger incentives to not slaughter cows. Rather, they are allowed to grow to maturity. Because of this, there is less cow hide available. This causes an increase in the price of baseball mitts. This is because the producers of baseball mitts have to bid higher prices to get cow hide and this translates as increased costs to produce the baseball mitts and is passed on to the end customer. 
+
+1. Baseball bats and paper
+
+    Baseball bats and paper both require the same raw material wood pulp. If demand for paper increases, paper manufacturers can bid away wood pulp from baseball bat manufacturers. This means, baseball bat manufacturers will have to match these higher prices of wood pulp to be able to continue manufacturing the bats. This in turn means that the prices of baseball bats also rise to accommodate the higher prices of wood pulp and to leave the bat manufacturer with a profit at the end of it. 
+
+## 14) Why are price controls likely to cause more of a shortage of gasoline than of strawberries? (page 49)
+
+
