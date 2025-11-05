@@ -40,3 +40,6 @@ title: Notes from "Basic Economics" by Thomas Sowell
 ## Exercises
 
 [Click here]({% post_url basic-econ-sowell/2025-11-04-exercises-basic-economics-sowell %}#part-i-prices-and-markets)
+
+# Part II: Industry and commerce
+
