@@ -43,3 +43,55 @@ title: Notes from "Basic Economics" by Thomas Sowell
 
 # Part II: Industry and commerce
 
+## Chapter 5: The rise and fall of businesses
+
+1. Individual businesses v/s economy as a whole
+
+    From the standpoint of an economy it does not matter whether specific companies make a profit or loss. Instead, all these rules help the most efficient allocation of scarce resources. 
+
+1. Free market economies democratize power
+
+    Free market economies give much more power to knowledge and insights even if people in power do not share those insights. This enables much more efficient allocation of scarce resources. This obviously does not happen in economies where political leaders control economic decision. In such systems, the political leaders need to be convinced about the new knowledge. In free market economy, if the insight is novel and useful enough, people with gravitate towards this new product/busines and hence there exists an evidence based method of determining which way to doing business is more valuable. 
+
+## Chapter 6: The role of profits and losses
+
+1. Visible cost in capitalism (profits) v/s invisible cost in socialism (inefficiency)
+
+    Capitalism has a visible cost - profits - that socialism does not. But socialism has an invisible cost -  inefficiency. Inefficiency is weeded out from capitalistic economies through the concept of losses and bankruptcy. The fact that most goods are more widely affordable in a capitalist economy implies that profit is less costly than inefficiency. Put differently, profit is a price paid for efficiency. Clearly the greater efficiency must outweigh the profit or else socialism would in fact have had the more affordable prices and greater prosperity that its theorists expected, but which failed to materialize in the real world.
+
+    If in fact the cost of profits exceeded the value of the efficiency they promote, then non-profit organizations or government agencies could get the same work done cheaper or better than profit-making enterprises, and could therefore displace them in the competition of the marketplace. Yet that seldom, if ever, happens, while the opposite happens increasingly—that is, private profit-making companies taking over various functions formerly performed by government agencies or by non-profit organizations such as colleges and universities.
+
+1. Profit on sales & profit on investment
+
+    1. Profit on sales
+
+        If a store buys widgets for $10 each and sells them for $15 each, some might say that it makes $5 in profits on each widget that it sells.
+
+    1. Net profit on sales
+
+        Profit per sale leftover after all the costs are paid for - raw materials, salaries etc.
+
+    1. Profit on investment (ROI)
+
+        This is the most important metric for investors. It is nothing but ROI. 
+
+    1. Profit on sales v/s profit on investment
+
+        Things may be sold at prices that are much higher than what the seller paid for them and yet, if those items sit on a shelf in the store for months before being sold, the profit on investment may be less than with other items that have less of a mark-up in price but which sell out within a week.
+
+        Profits on sales and profits on investment are not merely different concepts. They can move in opposite directions. One of the keys to the rise to dominance of the A & P grocery chain in the 1920s was a conscious decision by the company management to cut profit margins on sales, in order to increase the profit rate on investment. With the new and lower prices made possible by selling with lower profits per item, A & P was able to attract greatly increased numbers of customers, making far more total profit because of the increased volume of sales. Making a profit of only a few cents on the dollar on sales, but with the inventory turning over nearly 30 times a year, A & P’s profit rate on investment soared.
+
+1. Costs of production
+
+    1. Economies of scale
+
+        Lower costs per unit of output as the number of units increases is what economists call “economies of scale.”
+    
+    1. Diseconomies of scale
+
+        There comes a point, in every business, beyond which the cost of producing a unit of output no longer declines as the amount of production increases. In fact, costs per unit actually rise after an enterprise becomes so huge that it is difficult to monitor and coordinate, when the right hand may not always know what the left hand is doing.
+
+    1. Costs and capacity
+
+        
+
