@@ -53,7 +53,7 @@ title: Notes from "Principles of Economics" by Mankiw
 1. Foundations — MUST READ
 
     - [x] **Ch 1 — Ten Principles of Economics**
-    - [ ] **Ch 2 — Thinking Like an Economist**
+    - [x] **Ch 2 — Thinking Like an Economist**
     - [ ] **Ch 3 — Interdependence and the Gains from Trade**
 
 1. Core Microeconomics — HIGHLY RECOMMENDED
