@@ -47,6 +47,58 @@ title: Notes from "Principles of Economics" by Mankiw
 
         - Reverse causation - Higher number of police might be correlated to higher number of crimes but this does not mean that the police is the cause for crimes. Instead, it more generally might be the case that it is the crime that necessitates hiring more police.
 
+# Chapter 3: Interdependence and gains from trade
+
+## Understanding comparative advantage using Ruby the rancher and Frank the potato farmer. 
+
+1. Without Frank and Ruby trading
+
+    |                     | Minutes per oz (Meat) | Minutes per oz (Potatoes) | Meat in 8 hrs | Potatoes in 8 hrs |
+    |---------------------|-----------------------|----------------------------|---------------|-------------------|
+    | Frank the farmer    | 60 min/oz             | 15 min/oz                  | 8 oz          | 32 oz             |
+    | Ruby the rancher    | 20 min/oz             | 10 min/oz                  | 24 oz         | 48 oz             |
+
+
+    ![]({% link assets/images/posts/econ-mankiw/frank-ruby-production-possibilities-frontier.png %})
+
+1. Frank and Ruby trading
+
+    |                           | Frank (Meat) | Frank (Potatoes) | Ruby (Meat) | Ruby (Potatoes) |
+    |---------------------------|--------------|------------------|-------------|-----------------|
+    | **Without Trade:**        |              |                  |             |                 |
+    | Production & Consumption  | 4 oz         | 16 oz            | 12 oz       | 24 oz           |
+    |                           |              |                  |             |                 |
+    | **With Trade:**           |              |                  |             |                 |
+    | Production                | 0 oz         | 32 oz            | 18 oz       | 12 oz           |
+    | Trade                     | Gets 5 oz    | Gives 15 oz      | Gives 5 oz  | Gets 15 oz      |
+    | Consumption               | 5 oz         | 17 oz            | 13 oz       | 27 oz           |
+    |                           |              |                  |             |                 |
+    | **GAINS FROM TRADE:**     |              |                  |             |                 |
+    | Increase in Consumption   | +1 oz        | +1 oz            | +1 oz       | +3 oz           |
+
+    ![]({%link assets/images/posts/econ-mankiw/frank-ruby-trading.png%})
+
+1. Comparative advantage: The driving force of specialization
+
+    1. Absolute advantage: 
+    
+        The ability to produce a good using fewer inputs than another producer. Here, Ruby needs fewer input (time) to produce both meat and potatoes. Hence, Ruby has absolute advantage in producing both meat and potatoes. 
+
+    1. Comparative advantage: 
+
+        |                     | Opportunity Cost of 1 oz Meat | Opportunity Cost of 1 oz Potatoes |
+        |---------------------|-------------------------------|-----------------------------------|
+        | Frank the farmer    | 4 oz potatoes                 | 1/4 oz meat                       |
+        | Ruby the rancher    | 2 oz potatoes                 | 1/2 oz meat                       |
+
+        - Defintion of comparative advantage: 
+        
+            The producer who gives up less of other goods to produce Good X has the smaller opportunity cost of producing Good X and is said to have a comparative advantage in producing it.
+
+        In our example, Frank has a lower opportunity cost of producing potatoes than Ruby: An ounce of potatoes costs Frank only ¼ ounce of meat, but it costs Ruby ½ ounce of meat. Conversely, Ruby has a lower opportunity cost of producing meat than Frank: An ounce of meat costs Ruby 2 ounces of potatoes, but it costs Frank 4 ounces of potatoes. 
+        
+        Thus, Frank has a comparative advantage in growing potatoes, and Ruby has a comparative advantage in producing meat.
+
     
 # Fast track read list recommended by ChatGPT
 
