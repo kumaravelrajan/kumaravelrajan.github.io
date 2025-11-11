@@ -11,7 +11,7 @@ description: My code for the exercises of the book Common sense DSA by Jay Wengr
 
 # Chapter 4: Speeding up your code with Big O
 
-## Exercise 4
+## Ex 4
 {%highlight python%}
 def greatestNumber(array):
     
@@ -34,7 +34,7 @@ greatestNumber([1,2,3,4,5])
 
 # Chapter 7: Big O in Everyday Code
 
-## Exercise 3
+## Ex 3
 {%highlight ruby%}
 def find_needle(needle, haystack)
     needle_index = 0
@@ -84,7 +84,7 @@ Here, let haystack be of size N and needle be of size M. Outer loop iterates thr
 
     In this worst-case scenario, the naive substring search performs N × M character comparisons, illustrating the O(N x M) comparisons.
 
-## Exercise 4
+## Ex 4
 
 {%highlight ruby%}
 def largest_product(array)
@@ -116,3 +116,131 @@ Here, time complexity is $$O(N^3)$$. This is because the program has 3 nested lo
 Another way to look at this is that all unique combinations of three indices are chosen by the loops. This would be the same as 
 
 \\[\binom{n}{3} = \frac{n!}{(n-3)!\,3!} = \frac{n(n-1)(n-2)\,\cancel{(n-3)!}}{\cancel{(n-3)!}\,3!} \approx n^3\\]
+
+# Chapter 8: Blazing fast lookups with hash tables
+
+## Ex 1
+
+{% highlight python %}
+
+def find_intersection(array1, array2):
+    larger_array = []
+    smaller_array = []
+    final_array = []
+    dict1 = {}
+    
+    if(len(array1) >= len(array2)):
+        larger_array = array1
+        smaller_array = array2
+    else:
+        larger_array = array2
+        smaller_array = array1
+
+    # O(N)
+    for elem in larger_array:
+        dict1[elem] = True
+
+    # O(M)
+    for elem in smaller_array:
+        if(dict1[elem]):
+            final_array.append(elem)
+
+    print("final_array = ", final_array)
+
+
+def main():
+    array1 = [1,2,3,4,5]
+    array2 = [1,2,3]
+
+    find_intersection(array1, array2)
+
+if __name__ == "__main__":
+    main()
+
+{% endhighlight %}
+
+## Ex 2
+
+{% highlight python %}
+
+def find_duplicate(array1):
+
+    temp_dict = {}
+    for elem in array1: 
+        
+        if elem not in temp_dict:
+            temp_dict[elem] = True
+
+        else:
+            print(elem)
+            break
+
+
+    
+
+def main():
+    array1 = ["a", "b", "c", "d", "c", "e", "f"]
+
+    find_duplicate(array1)
+
+if __name__ == "__main__":
+    main()
+
+{% endhighlight %}
+
+## Ex 3
+
+{% highlight python %}
+
+def find_missing_character_in_string(string):
+    temp_dict = {}
+    letters = ['a','b','c','d','e','f','g','h','i','j','k','l','m', 'n','o','p','q','r','s','t','u','v','w','x','y','z']
+
+    # O(N)
+    for char in string:
+        if char not in temp_dict:
+            temp_dict[char] = True
+
+    # O(N)
+    for letter in letters:
+        if(letter not in temp_dict):
+            print(letter)
+
+def main():
+    string = "the quick brown box jumps over a lazy dog"
+    find_missing_character_in_string(string=string)
+
+if __name__ == "__main__":
+    main()
+
+{% endhighlight %}
+
+## Ex 4
+
+{% highlight python %}
+
+def find_first_non_duplicated_char(word):
+    temp_dict = {}
+
+    for char in word: 
+        if char not in temp_dict:
+            temp_dict[char] = 1
+        else:
+            temp_dict[char] += 1
+
+    for char in word:
+        if char in temp_dict:
+            if(temp_dict[char] == 1):
+                print(char)
+                break
+        
+
+def main():
+    word = "minimum"
+
+    find_first_non_duplicated_char(word)
+
+if __name__ == "__main__":
+    main()
+
+{% endhighlight %}
