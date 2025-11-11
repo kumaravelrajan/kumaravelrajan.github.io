@@ -244,7 +244,7 @@ Exercises worked out [here]({%post_url Common-Sense-DSA/2025-11-02-code-examples
 
     The best time complexity for searching in arrays is the case of ordered arrays where we can use binary search that has O(log N). Hash tables beat this quite considerably by having O(1). 
     
-    Looking up a value in a hash table has an efficiency of O(1) on average, as it usually takes just one step.
+    Searches, reads and insertions in hash tables are O(1).
 
 1. What is a hash table (alias dictionary)
 
