@@ -255,3 +255,19 @@ Exercises worked out [here]({%post_url Common-Sense-DSA/2025-11-02-code-examples
     When there are collisions, in the worst case it could be possible that all the entered keys hash to the same index. Then, this index would have multiple subarrays with each subarray having a key at index 0 and value at index 1. In this case, hash tables have same time complexity as arrays since a linear search needs to be done in hash table as well. 
 
     ![]({%link assets/images/posts/common_sense_dsa/hash_table_collision.png%})
+
+# Chapter 9: Crafting Elegant Code with Stacks and Queues
+
+1. Stacks and queues mostly used to store temporary data. 
+
+1. Abstract data type:
+
+    Stacks and Queues are abstract data types i.e. they can be implemented with Arrays or any other data structure like hash tables under the hood. Stack and Queue are theoretical concepts. 
+
+1. If stack if just constrained array, why use stack at all?
+
+    - Prevent potential bugs. 
+    - Data structures like stack gives us a new mental model for tackling problems with the LIFO process. 
+    - More elegance.
+
+1. Queues follow FIFO.
