@@ -238,3 +238,20 @@ title: Notes on "Common Sense DSA" by Jay Wengrow
 
 Exercises worked out [here]({%post_url Common-Sense-DSA/2025-11-02-code-examples-common-sense-dsa%}#chapter-7-big-o-in-everyday-code).
 
+# Chapter 8: Blazing fast lookups with hash tables
+
+1. Rationale for hash tables
+
+    The best time complexity for searching in arrays is the case of ordered arrays where we can use binary search that has O(log N). Hash tables beat this quite considerably by having O(1). 
+    
+    Looking up a value in a hash table has an efficiency of O(1) on average, as it usually takes just one step.
+
+1. What is a hash table (alias dictionary)
+
+    A hash table is a list of paired values. The first item in each pair is called the key, and the second item is called the value.
+
+1. Hash tables worst case O(N)
+
+    When there are collisions, in the worst case it could be possible that all the entered keys hash to the same index. Then, this index would have multiple subarrays with each subarray having a key at index 0 and value at index 1. In this case, hash tables have same time complexity as arrays since a linear search needs to be done in hash table as well. 
+
+    ![]({%link assets/images/posts/common_sense_dsa/hash_table_collision.png%})
