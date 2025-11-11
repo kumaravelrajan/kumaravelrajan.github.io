@@ -53,6 +53,8 @@ title: Notes from "Principles of Economics" by Mankiw
 
 1. Without Frank and Ruby trading
 
+    <a id="frank-ruby-table1"></a>
+
     |                     | Minutes per oz (Meat) | Minutes per oz (Potatoes) | Meat in 8 hrs | Potatoes in 8 hrs |
     |---------------------|-----------------------|----------------------------|---------------|-------------------|
     | Frank the farmer    | 60 min/oz             | 15 min/oz                  | 8 oz          | 32 oz             |
@@ -62,6 +64,8 @@ title: Notes from "Principles of Economics" by Mankiw
     ![]({% link assets/images/posts/econ-mankiw/frank-ruby-production-possibilities-frontier.png %})
 
 1. Frank and Ruby trading
+
+    <a id="frank-ruby-table2"></a>
 
     |                           | Frank (Meat) | Frank (Potatoes) | Ruby (Meat) | Ruby (Potatoes) |
     |---------------------------|--------------|------------------|-------------|-----------------|
@@ -80,24 +84,72 @@ title: Notes from "Principles of Economics" by Mankiw
 
 1. Comparative advantage: The driving force of specialization
 
+    There are two ways of measuring opportunity costs - absolute advantange and comparative advantage. 
+
     1. Absolute advantage: 
     
         The ability to produce a good using fewer inputs than another producer. Here, Ruby needs fewer input (time) to produce both meat and potatoes. Hence, Ruby has absolute advantage in producing both meat and potatoes. 
 
     1. Comparative advantage: 
 
+        <a id="frank-ruby-table3"></a>
+
         |                     | Opportunity Cost of 1 oz Meat | Opportunity Cost of 1 oz Potatoes |
         |---------------------|-------------------------------|-----------------------------------|
         | Frank the farmer    | 4 oz potatoes                 | 1/4 oz meat                       |
         | Ruby the rancher    | 2 oz potatoes                 | 1/2 oz meat                       |
 
+        - Calculating opportunity costs
+
+            Ruby requires 10 minutes to produce 1 oz of potatoes. She requires 20 minutes to produce 1 oz of meat. Every 10 minutes she spends producing potatoes are 10 less minutes she spends on producing meat. Therefore, 1 oz of potatoes comes at the opportunity cost of 1/2 oz of meat (which could have been produced in 10 minutes).
+
+        - Opportunity cost of one good is the inverse of the opportunity cost of the other
+
+            Ruby produces 1 oz of potatoes at the cost of 1/2 oz of meat. Therefore, she produces 1 oz of meat at the cost of 2 oz of potatoes. 
+
         - Defintion of comparative advantage: 
         
             The producer who gives up less of other goods to produce Good X has the smaller opportunity cost of producing Good X and is said to have a comparative advantage in producing it.
 
-        In our example, Frank has a lower opportunity cost of producing potatoes than Ruby: An ounce of potatoes costs Frank only ¼ ounce of meat, but it costs Ruby ½ ounce of meat. Conversely, Ruby has a lower opportunity cost of producing meat than Frank: An ounce of meat costs Ruby 2 ounces of potatoes, but it costs Frank 4 ounces of potatoes. 
+        - Why both benefit from trade despite Ruby having absolute advantage in both goods
         
-        Thus, Frank has a comparative advantage in growing potatoes, and Ruby has a comparative advantage in producing meat.
+            In our example, Frank has a lower opportunity cost of producing potatoes than Ruby: An ounce of potatoes costs Frank only 1/4 ounce of meat, but it costs Ruby 1/2 ounce of meat. 
+            
+            Conversely, Ruby has a lower opportunity cost of producing meat than Frank: An ounce of meat costs Ruby 2 ounces of potatoes, but it costs Frank 4 ounces of potatoes. 
+            
+            Thus, Frank has a comparative advantage in growing potatoes, and Ruby has a comparative advantage in producing meat. When they both specialize in what they comparative advantage in, the total production goes up and both people can benefit from the trade. 
+
+        - Gains from trade viewed as the price each party pays the other
+
+            Because Frank and Ruby have different opportunity costs, they can both get a bargain. That is, each of them benefits from trade by obtaining a good at a price that is lower than his or her opportunity cost of that good.
+
+            In the trade, Frank gets 5 oz of meat in exchange for 15 oz of potatoes. i.e.
+
+            5 oz of meat $$\implies$$ 15 oz of potatoes
+
+            $$\therefore$$  1 oz of meat $$\implies$$ 3 oz of potatoes
+
+            As seen in [table3](#frank-ruby-table3) this is less than Frank's original opportunity cost of producing 1 oz of meat which was 4 oz of potatoes. So Frank is better off from this trade. 
+
+            Similarly, Ruby gets 15 oz Potatoes for 5 oz of meat. 
+
+            15 oz potatoes $$\implies$$ 5 oz of meat
+
+            $$\therefore$$ 1 oz of potato $$\implies$$ 1/3 oz of meat
+
+            This is once again lesser than the original opportunity cost of Ruby while producing potatoes, which was 1/2 oz of potatoes. Hence, Ruby is better off as well. 
+
+        - Moral 
+
+            Trade can benefit everyone in society because it allows people to specialize in activities in which they have a comparative advantage. 
+
+        - Setting price of trade
+
+            One general rule is: For both parties to gain from trade, the price at which they trade must lie between the two opportunity costs.
+
+            
+
+
 
     
 # Fast track read list recommended by ChatGPT
