@@ -83,3 +83,36 @@ Here, let haystack be of size N and needle be of size M. Outer loop iterates thr
         - This forces the inner loop to run nearly M times at every starting position.
 
     In this worst-case scenario, the naive substring search performs N × M character comparisons, illustrating the O(N x M) comparisons.
+
+## Exercise 4
+
+{%highlight ruby%}
+def largest_product(array)
+  largest_product_so_far = array[0] * array[1] * array[2]
+  i = 0
+
+  while i < array.length
+    j = i + 1
+    while j < array.length
+      k = j + 1
+      while k < array.length
+        if array[i] * array[j] * array[k] > largest_product_so_far
+          largest_product_so_far = array[i] * array[j] * array[k]
+        end
+        k += 1
+      end
+      j += 1
+    end
+    i += 1
+  end
+
+  return largest_product_so_far
+end
+
+{%endhighlight%}
+
+Here, time complexity is $$O(N^3)$$. This is because the program has 3 nested loops that each runs approximately n times. Hence, this gives us $$O(N^3)$$ time complexity. 
+
+Another way to look at this is that all unique combinations of three indices are chosen by the loops. This would be the same as 
+
+\\[\binom{n}{3} = \frac{n!}{(n-3)!\,3!} = \frac{n(n-1)(n-2)\,\cancel{(n-3)!}}{\cancel{(n-3)!}\,3!} \approx n^3\\]
