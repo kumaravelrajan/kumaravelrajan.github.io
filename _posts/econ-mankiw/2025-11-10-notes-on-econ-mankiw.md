@@ -148,7 +148,41 @@ title: Notes from "Principles of Economics" by Mankiw
             One general rule is: For both parties to gain from trade, the price at which they trade must lie between the two opportunity costs.
 
             
+# Chapter 4: The Market Forces of Supply and Demand
 
+1. Demand 
+
+    1. law of demand: 
+
+        Other things being equal, when the price of a good rises, the quantity demanded of the good falls, and when the price falls, the quantity demanded rises.
+
+    1. Demand curve
+
+        The demand curve shows what happens to the quantity demanded of a good when its price varies, holding constant all the other variables that influence buyers. When one of these other variables changes, the demand curve shifts. These variables are income, expectation, tastes, number of buyers etc. 
+
+    1. Factors that can shift the demand curve to right (more demand) or left (less demand)
+
+        1. Normal v/s inferior goods
+
+            1. Normal goods: a good for which, other things being equal, an increase (or decrease) in income leads to an increase (or decrease) in demand.
+
+            1. Inferior goods: a good for which, other things being equal, an increase (or decrease) in income leads to a decrease (or increase) in demand.
+
+                eg: When income falls, demand for bus rides rises. 
+
+        1. Substitutes v/s Complements
+
+            1. Substitutes: 
+
+                Two goods for which an increase in the price of one leads to an increase in the demand for the other.
+
+                Eg: Frozen Jogurt and Ice cream
+
+            1. Complements:
+
+                Two goods for which an increase in the price of one leads to a decrease in the demand for the other.
+
+                Eg: Automobiles and Gasoline. 
 
 
     
@@ -158,7 +192,7 @@ title: Notes from "Principles of Economics" by Mankiw
 
     - [x] **Ch 1 — Ten Principles of Economics**
     - [x] **Ch 2 — Thinking Like an Economist**
-    - [ ] **Ch 3 — Interdependence and the Gains from Trade**
+    - [x] **Ch 3 — Interdependence and the Gains from Trade**
 
 1. Core Microeconomics — HIGHLY RECOMMENDED
 
