@@ -184,7 +184,50 @@ title: Notes from "Principles of Economics" by Mankiw
 
                 Eg: Automobiles and Gasoline. 
 
+1. Supply
 
+    1. Law of supply
+
+        Other things being equal, when the price of a good rises, the quantity supplied of the good also rises, and when the price falls, the quantity supplied falls as well. 
+
+    1. Supply schedule
+
+        A table that shows the relationship between the price of a good and the quantity supplied, holding constant everything else that influences how much of the good producers want to sell.
+
+        Plotting of the points in the supply schedule gives us the supply curve.
+
+    1. Factors that can shift the supply curve
+
+        Because the market supply curve is drawn holding other things constant, when one of these factors changes, the supply curve shifts.
+
+        1. Input prices: Supply of a good is negatively related to the price of the inputs used to make the good. 
+
+        1. Technology: Advances in technology raises the supply of ice cream. 
+
+1. Equilibrium
+
+    1. At the equilibrium price, the quantity of the good that buyers are willing and able to buy exactly balances the quantity that sellers are willing and able to sell. The market brings prices to the equilibrium levels. 
+
+    1. Surplus
+
+        When prices are higher than equilibrium prices, suppliers supply more than there is demand for the product. This causes a surplus. To get rid of the surplus, suppliers reduce prices and bring them to the equilibrium levels. 
+
+    1. Shortage
+
+        When prices are lower than equilibrium prices, customers demand more than there is actual supply. This drives the prices up to the equilibrium prices. 
+
+    1. Law of supply and demand
+
+        In most free markets, surpluses and shortages are only temporary because prices eventually move toward their equilibrium levels.
+
+1. Shift of curve v/s movement along curve
+
+    1. Change in supply: Shift in supply curve.
+    1. Change in quantity supplied: Movement along a fixed supply curve
+    1. Change in demand: Shift in demand cruve. 
+    1. Change in quantity demanded: Movement along a fixed demand curve
+
+1. 
     
 # Fast track read list recommended by ChatGPT
 
