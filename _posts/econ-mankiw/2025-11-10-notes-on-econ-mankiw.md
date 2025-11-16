@@ -5,6 +5,7 @@ categories:
 
 description: My notes while reading the chapters in Principles of Economics - Mankiw
 title: Notes from "Principles of Economics" by Mankiw
+published: false
 ---
 
 # Chapter 1: Ten principles of Economics
