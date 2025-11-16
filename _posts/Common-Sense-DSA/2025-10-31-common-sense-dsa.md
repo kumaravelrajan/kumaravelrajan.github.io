@@ -283,3 +283,11 @@ Exercises worked out [here]({%post_url Common-Sense-DSA/2025-11-02-code-examples
 
 # Chapter 11: Learning to Write in Recursive
 
+1. The top-down recursion thought process
+
+    1. Imagine the function you’re writing has already been implemented by someone else.
+
+    2. Identify the subproblem of the problem.
+
+    3. See what happens when you call the function on the subproblem and go from there.
+
