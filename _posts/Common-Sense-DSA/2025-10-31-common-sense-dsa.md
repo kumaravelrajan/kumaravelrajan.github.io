@@ -275,5 +275,11 @@ Exercises worked out [here]({%post_url Common-Sense-DSA/2025-11-02-code-examples
 
 # Chapter 10: Recursively Recurse with Recursion
 
+1. Stack overflow
 
+    Recursion uses call stack to keep track of which function needs to be called next. In case of infinite recursion, the computer keeps pushing the same function again and again onto the call stack. This continues until a point is reached where there is no more memory remaining. Then, the computer shuts down the recursion. A stack overflow is said to be reached. 
+
+1. Exercises present [here]({%post_url Common-Sense-DSA/2025-11-02-code-examples-common-sense-dsa%}#ex-4-3)
+
+# Chapter 11: Learning to Write in Recursive
 
