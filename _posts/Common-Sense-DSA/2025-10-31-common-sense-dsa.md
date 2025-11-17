@@ -336,5 +336,3 @@ Exercises worked out [here]({%post_url Common-Sense-DSA/2025-11-02-code-examples
 1. Going bottoms up
 
     Solving a problem using iteration (loops) when recursion presents a more elegant solution (staircase problem / fibonacci sequence for example).
-
-1. 
