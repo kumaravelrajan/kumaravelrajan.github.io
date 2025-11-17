@@ -291,3 +291,50 @@ Exercises worked out [here]({%post_url Common-Sense-DSA/2025-11-02-code-examples
 
     3. See what happens when you call the function on the subproblem and go from there.
 
+# Chapter 12: Dynamic programming
+
+1. Memoization
+
+    In a classic fibonacci sequence producing recursive algorithm, the code looks like this. 
+
+    
+
+    ```python
+        def fib(n):
+        # The base cases are the first two numbers in the series:
+        if n == 0 or n == 1:
+        return n
+        # Return the sum of the previous two Fibonacci numbers: 
+        return fib(n - 2) + fib(n - 1)
+    ```
+
+    
+
+    This code however has time complexity of $$O(2^n)$$. We can improve this complexity drastically through memoization. This is because we have many overlapping subproblems here. This means the same calculations like fib(2) or fib(3) are done multiple times. 
+
+    We can instead do this - whenever we compute a fib(n) for the first time we can make the recursive calls and store the result in a hash table. Next time, whenever the value is required, we can simply refer to the hash table instead of making recursive calls. Memoization brings the time complexity to O(n).
+
+    
+    ```python
+    def fib(n, memo):
+        if n == 0 or n == 1:
+        return n
+
+    # Check the hash table (called memo) to see whether fib(n) 
+    # was already computed or not:
+    if not memo.get(n):
+        # If n is NOT in memo, compute fib(n) with recursion 
+        # and then store the result in the hash table: 
+        memo[n] = fib(n - 2, memo) + fib(n - 1, memo)
+        
+    # By now, fib(n)'s result is certainly in memo. (Perhaps
+    # it was there before, or perhaps we just stored it there
+    # in the previous line of code. But it's certainly there now.) 
+    # So let's return it:
+    return memo[n]
+    ```
+1. Going bottoms up
+
+    Solving a problem using iteration (loops) when recursion presents a more elegant solution (staircase problem / fibonacci sequence for example).
+
+1. 
