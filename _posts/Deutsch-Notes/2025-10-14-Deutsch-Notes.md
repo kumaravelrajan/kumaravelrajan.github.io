@@ -14,3 +14,12 @@ My Deutsch B1 exam is on 3 Nov. 2025. I have been preparing for the exam on my o
 # Exam cheat sheet
 1. [Deutsch A1-B1 cheat sheet]( {% post_url Deutsch-Notes/2025-10-15-B1-Exam-Cheatsheet %} )
 
+# Result
+
+After all the preparation, I <ins>passed</ins> my Goethe Zertifikat B1 exam!
+
+<object data="{%link assets/posts/Deutsch_Notes/Goethe_B1_Kumaravel_Rajan.pdf%}" 
+        type="application/pdf" 
+        width="100%" height="100%">
+  <p>It appears your browser cannot display PDFs. You can <a href="{%link assets/posts/Deutsch_Notes/Goethe_B1_Kumaravel_Rajan.pdf%}">download it here.</a></p>
+</object>
