@@ -336,3 +336,34 @@ Exercises worked out [here]({%post_url Common-Sense-DSA/2025-11-02-code-examples
 1. Going bottoms up
 
     Solving a problem using iteration (loops) when recursion presents a more elegant solution (staircase problem / fibonacci sequence for example).
+
+# Chapter 13: Recursive algorithms for speed
+
+1. Sorting algorithm used in real life
+
+    None of bubble sort, selection sort or insertion sort are used in real life. It is usually always quicksort. 
+
+1. Quicksort
+
+    Working of quicksort present [here](https://media.geeksforgeeks.org/wp-content/uploads/20240926172924/Heap-Sort-Recursive-Illustration.webp).
+
+    1. Particularly efficient in average case scenarios. In worst case scenarios (inversely sorted array), quick sort performs similarly to insertion and selection sort. 
+
+    1. Partitioning
+    
+        Quicksort algorithm depends on partitioning. An element is singled out as a pivot in the array. The pivot is then placed after a series of comparisons and swaps in such a manner that all elements to the left of the pivot are lesser than it and all elements to right of the pivot are more than it. At the end of this run we can be sure that the pivot is sorted correctly in the array. 
+
+        Next, the subarrays to the left and right of the newly correctly placed pivot are partitioned and one by one elements are placed in the correct positions.
+
+    1. Efficiency of Quicksort
+
+        ||Best case|Average case |Worst case|
+        |-|-|-|-|
+        |Insertion sort|$$O(N)$$|$$O(N^2)$$|$$O(N^2)$$|
+        |Quicksort|$$O(N\ logN)$$|$$O(N\ logN)$$|$$O(N^2)$$|
+
+        In the best case, insertion sort is better than quicksort. But the average case is what most often occurs. Hence, Quicksort is the sorting algorithm most preferred and used as default by most programming languages. 
+
+
+
+        
