@@ -192,4 +192,154 @@ title: Notes from Google Cybersecurity Analyst Certification on Coursera
 
 ## Module 3: Protect against threats, risks, and vulnerabilities
 
+1. Introduction to security frameworks and controls
+
+    1. Security frameworks
+    
+        Guidelines used for building plans to help mitigate risk and threats to data and privacy. 
+
+1. Secure design
+
+    1. CIA (Confidentiality, Integrity and Availability) triad
+
+        - It is a foundational cybersecurity model that helps inform how organizations consider risk.
+
+    1. NIST Cybersecurity Framework (CSF)
+
+        - A voluntary framework consisting of best practice to manage security risks. 
+
+1. Controls, frameworks, and compliance
+
+    1. Security lifecycle
+
+        A security lifecycle is a constantly evolving set of policies and standards.
+
+    1. Security control
+
+        Safeguards designed to reduce **specific** security risks.
+    
+    1. Security frameworks
+
+        Guidelines used for building plans to help mitigate risks and threats to data and privacy.
+
+1. Glossary terms from module 3
+
+    1. Protected health information (PHI)
+
+        Data relating to health condition of patients. 
+
+## Module 4: Cybersecurity tools and programming languages
+
+1. Common cybersecurity tools
+
+    1. SIEM 
+
+        An app that collects and analyzes log data to monitor critical activities in an organization. 
+
+        Eg: Splunk, Google Chronicle
+
+    1. Playbook
+
+        Manual that provides details about any operational action. Eg: How to deal with a security breach before, during and after it. Playbooks can also be created for compliance. 
+
+    1. Network protocol analyzer (Packet sniffer)
+
+        Captures and analyzes data traffic within a network. 
+
+# Course 2: Play It Safe: Manage Security Risks
+
+## Module 1: Security domains
+
+1. Explore the CISSP security domains, Part 1
+
+    <a id="cissp_domains"></a>
+
+    ![CISSP domains part 1]({%link assets/images/posts/google-cybersecurity/CISSP_domains_part1.png%})
+
+    1. Security posture
+
+        Org's ability to manage its defense of critical assets and data, and react to change. 
+
+    1. Domains
+
+        1. Security and risk management
+
+            - Defining security goals and objectives
+
+            - Risk mitigation: Reduce impact of a breach
+
+            - Compliance
+
+            - Business continuity: Establish risk disaster recovery plans. 
+
+            - Legal regulations
+
+            - Infosec
+
+                - Incident response
+
+                - Vulnerability management
+
+                - Application security
+
+                - Cloud security
+
+                - Infrastructure security
+
+        1. Asset security
+
+            - Securing digital and physical assets. 
+
+                Includes PII, SPII. 
+
+            - Storage, maintanence, retention and destruction of data. 
+
+        1. Security Architecture and Engineering
+
+            - Optimizing data security by ensuring effective tools, systems and processes are in place. 
+
+            Eg: Shared responsibility (All individuals within org responsible for lowering risk and maintaining security).
+
+        1. Communication and network security
+
+            - Securing physical networks and wireless communications. 
+
+1. Explore the CISSP security domains, Part 2
+
+    1. Identity and access management (IAM)
+
+        - Access and authorization to keep data secure
+        
+        - Components
+
+            - Identification
+
+            - Authentication
+
+            - Authorization
+
+            - Accountability
+
+    1. Security assessment and testing
+
+        - Security control testing
+
+            Evaluate org policies.
+
+        - Collecting and analyzing data
+        
+        - Conducting security audits to monitor for risks, threats and vulnerabilities. 
+
+    1. Security operations
+
+        - Conducting investigations and implementing preventative measures. 
+
+        - Occurs once a threat has been identified. 
+
+        - Includes digital forensics. 
+
+    1. Software development security
+
+        - Secure coding practices
+
 1. 
