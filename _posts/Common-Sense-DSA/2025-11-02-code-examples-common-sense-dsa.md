@@ -265,3 +265,24 @@ print_just_numbers(array=array)
 
 {%endhighlight%}
 
+# Chapter 13: Recursive Algorithms for Speed
+
+## Ex 1
+
+Given an array of positive numbers, write a function that returns the greatest product of any three numbers. The approach of using three nested loops would clock in at O(N3), which is very slow. Use sorting to implement the function in a way that it computes at O(N log N) speed. (There are even faster implementations, but we’re focusing on using sorting as a technique to make code faster.)
+
+{%highlight python%}
+
+
+def find_largest_product_of_three_nums(arr):
+    arr.sort()
+
+    if len(arr) >= 3:
+        print("Largest product of any three possible numbers is: ", arr[-1]*arr[-2]*arr[-3])
+
+    else:
+        print("Not possible to print largest product of any three numbers in the list because there do exist less than 3 entries in the entire list.")
+
+find_largest_product_of_three_nums([4, 3, 2, 6, 5, 1])
+
+{%endhighlight%}
