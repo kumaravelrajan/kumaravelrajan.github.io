@@ -26,4 +26,6 @@ The Corniche (promenade along the Arabian gulf) has been constructed with great 
 - West uses arabic numeral systems, though actual symbols for numbers are different. 
 - Story behind Potrait of Sultan Mehmed II
 - Rahash Pista
-- 
+- Western media potrays Burqa as a sign of oppression. And maybe it is, I'm not even remotely qualified to pass judgement on this topic. But that said, what I saw was that it was Burqa wearing women who were driving cars, negotiating with shopkeepers and telling off an electronic store manager in a mall for the faulty TV she had bought last week.
+- Katara mosque, first time sitting in on a muslim prayer. 
+    - Some people late. Rushing in to join the prayer. 
