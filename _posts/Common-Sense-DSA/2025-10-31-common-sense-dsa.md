@@ -5,7 +5,7 @@ categories:
     - dsa
 
 description: My notes from reading A common sense guide to DSA - Jay Wengrow
-title: Notes on "Common Sense DSA" by Jay Wengrow
+title: Book - "Common Sense DSA" by Jay Wengrow
 ---
 
 # Chapter 1 : Why data structures matter
@@ -365,3 +365,4 @@ Exercises worked out [here]({%post_url Common-Sense-DSA/2025-11-02-code-examples
         In the best case, insertion sort is better than quicksort. But the average case is what most often occurs. Hence, Quicksort is the sorting algorithm most preferred and used as default by most programming languages. 
 
 1. Exercises present [here]({%post_url Common-Sense-DSA/2025-11-02-code-examples-common-sense-dsa%}#ex-1-1)
+
