@@ -4,6 +4,6 @@ categories:
     - personal
 
 description: Recollections from my trip to Doha, Qatar. 
-title: TODO - Trip to Doha
+title: TODO - Experiences in Doha / تجارب في الدوحة
 ---
 
