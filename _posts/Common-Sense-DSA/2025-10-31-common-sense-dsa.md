@@ -366,3 +366,53 @@ Exercises worked out [here]({%post_url Common-Sense-DSA/2025-11-02-code-examples
 
 1. Exercises present [here]({%post_url Common-Sense-DSA/2025-11-02-code-examples-common-sense-dsa%}#ex-1-1)
 
+# Chapter 14: Node-Based Data Structures
+
+1. Arrays v/s Linked Lists
+
+    - An array forms a contiguous block of memory. 
+
+    - Nodes of a linked list can be dispersed throughout memory. A linked list only has access to the head of the list. In order to reach the end of the list, we have to start at the head and follow the links until we reach the end of the list. 
+
+1. Big O comparisons of Arrays and Linked Lists
+
+    |Activity|Array|Linked list|
+    |-|-|-|
+    |Reading|O(1)|O(N)|
+    |Searching|O(N) [Linear Search]|O(N)|
+    |Insertion|  O(N)<br>[O(1) at end]   | O(N)<br>[O(1) at beginning]  |
+    |Deletion| O(N)<br>[O(1) at end]|O(N)<br>[O(1) at beginning]|
+
+1. Advantage of Linked lists over arrays
+
+    Linked lists are an amazing data structure for moving through an entire list while making insertions or deletions, as we never have to worry about shifting other data as we make an insertion or deletion.
+
+    Imagine we have a collection of 1000 Email addresses. We would like to delete the emails of inactive users from this collection. Let the number of email addresses to be deleted be 100. 
+
+    - Array
+    
+        In an array, we need 1000 steps to read through all email addresses. Additionally, everytime we need to delete an email, we need to shift all following elements one step to the left. This is an O(N) operation. This means, for 100 deleted email, we would have 100 * 1000 = 100,000 additional steps. 
+
+        Hence, total steps = 100,000 + 1,000 = **101,000 steps**
+
+    - Linked lists
+
+        1000 steps to read through all email addresses. Whenever we want to delete an email address while moving through the list we just need one additional step. Hence, for 100 email addresses to be deleted this translates to 100 steps. 
+
+        Hence, total steps = 1,000 + 100 = **1,100 steps**
+
+1. Doubly linked list
+
+    A doubly linked list is like a linked list except that each node has two links—one that points to the next node, and another that points to the previous node. In addition, the doubly linked list always keeps track of both the first and last nodes, instead of just the first node.
+
+    ![Image of a doubly linked list]({%link assets/images/posts/common_sense_dsa/doubly_linked_list.png%})
+
+    1. Insertion and deletion at front and back
+    
+        Because doubly linked lists have immediate access to both the front and end of the list, they can insert data on either side at O(1) as well as delete data on either side at O(1).
+
+    1. Doubly linked list as queue
+    
+        Because doubly linked lists can insert data at the end in O(1) time and delete data from the front in O(1) time, they make the perfect underlying data structure for a queue.
+
+        
