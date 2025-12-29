@@ -6,6 +6,7 @@ categories:
 
 description: My notes from the google cybersecurity analyst certification on coursera.
 title: Course - Google Cybersecurity Analyst Certification on Coursera
+published: false
 ---
 
 # Course 1: Foundations of Cybersecurity
