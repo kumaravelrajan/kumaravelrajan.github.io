@@ -415,4 +415,62 @@ Exercises worked out [here]({%post_url Common-Sense-DSA/2025-11-02-code-examples
     
         Because doubly linked lists can insert data at the end in O(1) time and delete data from the front in O(1) time, they make the perfect underlying data structure for a queue.
 
-        
+# Chapter 15: Speeding Up All The Things With Binary Search Trees
+
+1. Why trees?
+
+    Sorting in the best case scenario takes O(N log N) as we saw earlier. If we want a data structure that maintains order yet also has fast search, insertion, and deletion? Neither an ordered array nor a hash table is ideal. Enter the binary search tree.
+
+1. Tree
+
+    In a classic linked list, each node contains a link that connects the node to a single other node. A tree is also a node-based data structure, but within a tree, each node can have links to multiple nodes.
+
+    ![]({%link assets/images/posts/common_sense_dsa/trees_with_mem_addresses.png%})
+
+    A simpler representation is shown below: 
+
+    ![]({%link assets/images/posts/common_sense_dsa/simple_tree_representation.png%})
+
+    1. Balance of a tree
+
+        A tree is balanced when its nodes’ subtrees have the same number of nodes in it.
+
+1. Binary Search Trees
+
+    1. Binary Tree - Each node has 0, 1 or 2 children. 
+
+    1. Binary search tree is a binary tree has also has foll. rules
+
+        1. Each node can have at most one "left" child and one "right" child. 
+
+        1. A node's left descendants can only contain values lesser than the node itself. Likewise, a node's right descendants can only contain values that are greater than the node itself. 
+
+    1. Example
+    
+        ![]({%link assets/images/posts/common_sense_dsa/binary_search_tree.png%})
+
+        Note that each node has one child with a lesser value than itself, which is depicted using a left arrow, and one child with a greater value than itself, which is depicted using a right arrow.
+
+        Additionally, notice that all of the 50’s left descendants are less than it. At the same time, all of the 50’s right descendants are greater than it. The same pattern goes for each and every node.
+
+    1. Counterexample (valid binary tree but not a binary search tree)
+
+        ![]({%link assets/images/posts/common_sense_dsa/counterexample_binary_search_tree.png%})
+
+        It is a valid binary tree because each node has 0, 1 or 2 children. But this is not a valid binary search tree. This is because nodes in binary search tree can have at most one left child and at most one right child, with the left child lesser than the node and the right child greater than the node. 
+
+        Here, however the root has 2 left children. 
+
+1. Search in BST
+
+    1. Algorithm
+    
+        Start at root. If value to be searched is lesser than root, go left. If value is more than root, go right. Repeat until we have a hit or reach bottom of the tree. 
+
+
+
+
+
+    
+
+    
