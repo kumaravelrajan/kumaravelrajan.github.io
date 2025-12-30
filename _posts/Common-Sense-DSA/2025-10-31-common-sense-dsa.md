@@ -435,7 +435,7 @@ Exercises worked out [here]({%post_url Common-Sense-DSA/2025-11-02-code-examples
 
         A tree is balanced when its nodes’ subtrees have the same number of nodes in it.
 
-1. Binary Search Trees
+1. Binary Search Trees (BST)
 
     1. Binary Tree - Each node has 0, 1 or 2 children. 
 
@@ -461,16 +461,54 @@ Exercises worked out [here]({%post_url Common-Sense-DSA/2025-11-02-code-examples
 
         Here, however the root has 2 left children. 
 
-1. Search in BST
+1. Search in Binary Search Tree
 
     1. Algorithm
     
         Start at root. If value to be searched is lesser than root, go left. If value is more than root, go right. Repeat until we have a hit or reach bottom of the tree. 
 
+    1. Efficiency of search in Binary Search Tree
 
+        - For a perfectly balanced BST, searching is O(log N)
 
+        - Why?
 
+            Say a BST has four complete levels. It thus has 15 nodes. When we add a fifth complete level to this BST, we add 16 new nodes. This essentially doubles the number of nodes present in the tree. 
 
-    
+            This property holds for BST. Whenever we add a new complete level, we double the number of nodes and add 1. 
 
-    
+            Each new level doubles the size of the tree. Hence, a tree containing N nodes will require log (N) levels to hold all the nodes. 
+
+            This is why searching in BST takes O(log N) time: because each step of the search causes us to move down a level, we take up to as many steps as there are levels in the tree.
+
+1. Time complexity for different operations in Ordered Array vs BST
+
+    |Operation|Ordered Array|BST|
+    |-|-|-|
+    |Search|O(log N) <br>[Binary Search]|O(log N) <br>[When tree is perfectly balanced]|
+    |Insertion|O(N)|O(log N)|
+    |Deletion|O(N)|O(log N)|
+    |Tree traversal|-|O(N) <br>[by definition]|
+
+1. Deletion
+
+    - If the node being deleted has no children, simply delete it.
+
+    - If the node being deleted has one child, delete the node and plug the child into the spot where the deleted node was.
+
+    - When deleting a node with two children, replace the deleted node with the successor node. The successor node is the child node whose value is the least of all values that are greater than the deleted node.
+
+        - How to find the successor node?
+
+            Visit the right child of the deleted value, and then keep on visiting the left child of each subsequent child until there are no more left children. The bottom value is the successor node. 
+
+            ![]({%link assets/images/posts/common_sense_dsa/BST_successor_node.png%})
+
+    - If the successor node has a right child, after plugging the successor node into the spot of the deleted node, take the former right child of the successor node and turn it into the left child of the former parent of the successor node.
+
+        ![]({%link assets/images/posts/common_sense_dsa/BST_successor_right_child_1.png%})
+
+        ![]({%link assets/images/posts/common_sense_dsa/BST_successor_right_child_2.png%})
+
+        ![]({%link assets/images/posts/common_sense_dsa/BST_successor_right_child_3.png%})
+
