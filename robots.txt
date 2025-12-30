@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kumaravelrajan.github.io/sitemap.xml
