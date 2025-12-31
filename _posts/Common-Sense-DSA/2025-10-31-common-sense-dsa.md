@@ -512,3 +512,6 @@ Exercises worked out [here]({%post_url Common-Sense-DSA/2025-11-02-code-examples
 
         ![]({%link assets/images/posts/common_sense_dsa/BST_successor_right_child_3.png%})
 
+# Chapter 16: Keeping your Priorities Straight with Heap
+
+Heap is a tree data structures that helps 
