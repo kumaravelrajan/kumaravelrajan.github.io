@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Kumaravel Rajan's blog on his interests in computer science and other interests as well. I'm a computer science Master's graduate from TU Munich. Here, expect blog posts on whatever interests me at a particular point of time - Computer Science, music, movies and sometimes philosophy as well. 
 twitter_username: username
 github_username: username
-minimal_mistakes_skin: "neon"
+minimal_mistakes_skin: "dark"
 search: true
 search_full_content: true
 lunr:
