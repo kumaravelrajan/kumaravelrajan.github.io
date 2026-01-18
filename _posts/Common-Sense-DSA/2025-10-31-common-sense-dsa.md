@@ -5,7 +5,7 @@ categories:
     - dsa
 
 description: My notes from reading A common sense guide to DSA - Jay Wengrow
-title: Book - "Common Sense DSA" by Jay Wengrow
+title: Notes - "Common Sense DSA" by Jay Wengrow
 ---
 
 # Chapter 1 : Why data structures matter
@@ -514,4 +514,111 @@ Exercises worked out [here]({%post_url Common-Sense-DSA/2025-11-02-code-examples
 
 # Chapter 16: Keeping your Priorities Straight with Heap
 
-Heap is a tree data structures that helps 
+Heap is a tree data structures that helps to constantly keep tabs on the greatest or least data element in a dataset. Before diving into Heap we understand an abstract data structure called Priority Queue. This can be implemented using other fundamental data structures. 
+
+1. Priority Queue
+
+    It is a Queue following FIFO principle i.e. access and deletion only at front of the queue. Insertion is where a traditional Queue and Priority Queue differ. 
+
+    Traditional Queues insert only at the end of the Queue. Priority Queue's insertions are like an ordered array. It inserts a new entry in a the correct spot so as to keep the Priority Queue sorted in a specific order. 
+
+    Eg for priority queue: an application that manages the triage system for a hospital emergency room.
+
+1. Implementing Priority Queue using Ordered Array
+
+    1. Deletion: 
+
+        We treated the end of the ordered array as the front of the queue. Since deletions from end of array are O(1) this means access and deletions from Priority Queue are also O(1).
+
+    1. Insertion:
+
+        Inserting into an ordered array is O(N). Hence, the same applies for Priority Queues as well. Heaps serve as a more efficient foundation of Priority Queues.
+
+
+1. Heaps
+
+    1. Heaps are a type of binary tree. Recap:
+
+        1. Binary Tree - A tree in which every node can have a maximum of two children. 
+
+        1. Binary search tree is a specific type of Binary tree.
+
+        1. Heaps are also a specific type of Binary trees. 
+
+    1. Heaps can be max-heap / min-heap.
+
+    1. Conditions for max-heaps (called heap from now on)
+
+        1. The value of each node must be greater than each of its descendant nodes. This is know as the *heap condition*. 
+
+        1. The tree must be complete. 
+
+            A complete tree is a tree that is completely filled with nodes; no nodes are missing. However, the bottom row *can* have empty positions, as long as there aren't any nodes to the right of these empty positions. 
+
+            - Following is a complete tree
+
+                ![]({%link assets/images/posts/common_sense_dsa/complete_heap_1.png%})
+
+            - Following is an incomplete tree
+
+                ![]({%link assets/images/posts/common_sense_dsa/incomplete_heap.png%})
+
+            - Following is again a complete tree
+
+                ![]({%link assets/images/posts/common_sense_dsa/complete_heap_2.png%})
+    1. Min-heap
+
+        Similar to max-heap but every node contains a smaller value than any of its descendants.
+
+    1. Properties of Heaps
+
+        1. Seaching values in heaps and ordering of heaps: 
+        
+            Heaps are weakly ordered while Binary Search Trees are strongly ordered. This is because though Heaps have a certain ordering (descendants cannot be larger than ancestors), it in no way helps while trying to search for a value within the heap. This is not the case in Binary Search Trees.
+
+            Searching for a value in Heaps requires that each node be visited. Hence, searching is not a common operation implemented in the context of Heaps.  
+
+        1. Last node of Heap
+
+            Right most node in the bottom row. 
+
+    1. Heap Insertion operation
+ 
+        1. Algorithm
+        
+            - Create a node containing the new value and insert it in the rightmost available spot in the bottom level. The new node thus becomes the last node of the heap.
+
+            - Compare the new node with the parent node.
+
+            - If the new node is greater than the parent node, we swap the new node with the parent node. 
+
+            - Repeat above step, effectively moving the new node up through the heap, until it has a parent whose value is greater than it. 
+
+        1. But how do you find the last node position?
+
+
+    1. Heap Deletion operation
+
+        We only ever delete the root node. 
+
+        1. Algorithm
+
+            1. Move the last node into where the root node was, effectively removing the original root node. 
+
+            1. Trickle the root node down into its proper place.
+
+                1. We check both children of the trickle node (former last node that is now the root node) and see which one is larger.
+
+                1. If the trickle node is smaller than the larger of the two child nodes, we swap the trickle node with that larger child.
+
+                1. We repeat Steps 1 and 2 until the trickle node has no children who are greater than it.
+
+            ![]({%link assets/images/posts/common_sense_dsa/heap_deletion_1.png%})
+
+            ![]({%link assets/images/posts/common_sense_dsa/heap_deletion_2.png%})
+
+            ![]({%link assets/images/posts/common_sense_dsa/heap_deletion_3.png%})
+
+
+     
+
