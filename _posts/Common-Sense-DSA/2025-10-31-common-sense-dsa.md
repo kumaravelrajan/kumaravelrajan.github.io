@@ -594,7 +594,7 @@ Heap is a tree data structures that helps to constantly keep tabs on the greates
 
             - Repeat above step, effectively moving the new node up through the heap, until it has a parent whose value is greater than it. 
 
-        1. But how do you find the last node position?
+        1. But how do you find the last node position? (See below)
 
 
     1. Heap Deletion operation
@@ -603,7 +603,7 @@ Heap is a tree data structures that helps to constantly keep tabs on the greates
 
         1. Algorithm
 
-            1. Move the last node into where the root node was, effectively removing the original root node. 
+            1. Move the last node into where the root node was, effectively removing the original root node. (Refer below to see how to find last node)
 
             1. Trickle the root node down into its proper place.
 
@@ -618,6 +618,38 @@ Heap is a tree data structures that helps to constantly keep tabs on the greates
             ![]({%link assets/images/posts/common_sense_dsa/heap_deletion_2.png%})
 
             ![]({%link assets/images/posts/common_sense_dsa/heap_deletion_3.png%})
+
+1. Time complexity of Heaps v/s Ordered Arrays
+
+    ||Ordered Arrays|Heap|
+    |Insertion|O(N)|O(log N)|
+    |Deletion|O(1)|O(log N)|
+
+    Hence, heaps are the optimal choice for implementing priority queues because priority queues perform addition and deletion in equal proportions. 
+
+1. Finding last node of heap
+
+    1. Importance of last node
+
+        Insertion in heap is only permitted to take place in last node position and deletion requires last node to replace root node so that the heap is complete. A complete heap implies a balanced tree. A balanced tree is required because it is the most important characteristic that keeps time complexity to O(log N). Else, if all nodes were stacked below each other in a straight line (unbalanced tree), operations would take O(N) instead of O(log N).
+
+    1. Finding last node of heap by implementing heaps using Arrays
+
+        We started with wanting to implement abstract data structure Priority Queues using Heaps. But in fact, heaps themselves are abstract data structures and are implemented using Arrays. Following figure shows how heaps are transformed into arrays. 
+
+        ![]({%link assets/images/posts/common_sense_dsa/heaps_as_arrays.png%})
+
+        In this setup, the last node of the heap will always be the final element of the array. Additionally, when we insert a new node into the heap, we do so at the end of the array in order to make it the last node. 
+
+1. Implementing Binary Trees using Arrays
+
+    Any binary tree, not just heaps can be implemented using Arrays. This include Binary Search Trees as well. But Heaps was the first instance where implementing it using Arrays gave a marked improvement because it helped us find the last node easily. 
+
+1. Heapsort
+
+    If values are added one by one in a brand-new max-heap and then pop values from the heap one at a team and insert these values into a new array, this new array would have the numbers in descending order. 
+
+    This is another sorting algorithm. Like quicksort this too take O(N logN). This is we have to insert N values and each insertion takes log N time. 
 
 
      
