@@ -651,6 +651,54 @@ Heap is a tree data structures that helps to constantly keep tabs on the greates
 
     This is another sorting algorithm. Like quicksort this too take O(N logN). This is we have to insert N values and each insertion takes log N time. 
 
+# Chapter 17: It Doesn't Hurt to Trie
 
-     
+You have a autocomplete application on your phone. You type "catn" and the autocomplete feature suggests catnip / catnap. How does it do it so efficiently? The application needs to have access to all the dictionary words and then suggest likely words you'd be typing starting with catn. 
+
+If we had an ordered array, using binary search we can find the words in O(log N). But using the tree based data structure Trie we can get O(1) speeds.
+
+**Tries are ideal for text based features** like autocomplete, autocorrect and apps involving IP addresses or phone numbers. 
+
+1. The Trie Node
+
+    The Trie is *not* a binary tree. In a binary tree a node can only have a maximum of 2 children. But a Trie node can have any number of child nodes. 
+
+    In this implementation, each Trie node has a hash table. The keys of this hash table are English alphabets and the values point to other nodes in the Trie. 
+
+    ![]({%link assets/images/posts/common_sense_dsa/Trie_Node.png%})
+
+1. Tries storing words
+
+    The Trie stores words ace, act, bad, cat in the following manner: 
+
+    ![]({% link assets/images/posts/common_sense_dsa/Trie_storing_words.png %})
+
+    How does it store the words "bat" and "battery"?
+
+    ![]({%link assets/images/posts/common_sense_dsa/Tries_bat_battery.png%})
+
+    The Trie node with key "t" (for first t) has a value that points to a node with the following hash table (dict): {"*": None, "t": *points to next t*}
+
+    This indicates that bat itself is a valid word. But it also forms the prefix of another word. To access this other word following value of key "t".
+
+1. Efficiency of Trie Search: O(K) and not O(N)
+
+    Generally when we say an algorithm's time complexity is $$O(N)$$ or $$O(N^2)$$ this refers to how the algorithm slows down wrt to the size of the data structure it deals with. For example, an increase in the size of the array will mean the algorithm slows down further. 
+
+    But the case of searching in Tries is different. Irrespective of how large the Trie is, the time it takes to search a string depends on the size of the search string itself and not on the Trie. 
+
+    Hence, we do not mention the efficiency of Trie search as O(N). Because this would mean as the Trie grows in size, the search slows down correspondingly.
+
+    Instead, we say search in Trie has time complexity of O(K) where K refers to the length of the search string. If the search string is of length 3, the search algorithm takes 3 steps.
+
+    We could have also used an ordered array for the autocomplete feature. Here, binary search would have taken O(log N). But here N is the length of the ordered array and recall that the ordered array contains *all* the words in the dictionary.
+
+1. Efficiency of searching and insertions in Tries
+
+    ||Time Complexity of Tries|
+    |-|-|
+    |Searching|O(K)|
+    |Insertion|O(K)|
+
+    where K is the length of the string to be searched / added.
 
