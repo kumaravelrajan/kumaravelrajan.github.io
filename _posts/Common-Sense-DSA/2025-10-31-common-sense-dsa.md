@@ -702,3 +702,5 @@ If we had an ordered array, using binary search we can find the words in O(log N
 
     where K is the length of the string to be searched / added.
 
+1. Exercise: found [here]({%post_url _posts/Common-Sense-DSA/2025-11-02-code-examples-common-sense-dsa%}#ex-3-and-4)
+
