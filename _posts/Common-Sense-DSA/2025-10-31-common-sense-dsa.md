@@ -695,7 +695,7 @@ If we had an ordered array, using binary search we can find the words in O(log N
 
 1. Efficiency of searching and insertions in Tries
 
-    ||Time Complexity of Tries|
+    ||Time Complexity <br>of Tries|
     |-|-|
     |Searching|O(K)|
     |Insertion|O(K)|
