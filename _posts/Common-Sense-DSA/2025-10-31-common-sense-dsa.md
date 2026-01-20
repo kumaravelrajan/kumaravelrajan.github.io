@@ -702,5 +702,74 @@ If we had an ordered array, using binary search we can find the words in O(log N
 
     where K is the length of the string to be searched / added.
 
-1. Exercise: found [here]({%post_url _posts/Common-Sense-DSA/2025-11-02-code-examples-common-sense-dsa%}#ex-3-and-4)
+1. Exercise: found [here]({%post_url Common-Sense-DSA/2025-11-02-code-examples-common-sense-dsa%}#ex-3-and-4)
 
+# Chapter 18: Connecting Everything with Graphs
+
+1. Why Graphs?
+
+    Imagine we had a social network and we want to maintain a list of mutual friendships i.e. if A is a friend of B, then B also is a friend of A. 
+
+    A basic approach is to use a 2D array to record the friendships. 
+
+    But to find Alice's friends we have to look through each subarray (each friendship). This is a O(N) algorithm. 
+
+    However, using graphs we can reduce this time to O(1).
+
+{%highlight ruby%}
+    friendships = [ 
+        ["Alice", "Bob"],
+        ["Bob", "Cynthia"], 
+        ["Alice", "Diana"], 
+        ["Bob", "Diana"],
+        ["Elise", "Fred"], 
+        ["Diana", "Fred"], 
+        ["Fred", "Alice"]
+        ]
+{%endhighlight%}
+
+1. Graphs vs Trees
+
+    Trees are a subset of graphs. A graph is considered a tree when :
+    
+    1. It does not have *cycles* 
+    1. Every node is somehow *connected* to every other node.
+
+    The following is a graph but not a tree because Vicky node is not connected to other nodes. Also, Rodrigo is not connected to every other node and so on. 
+
+    ![]({%link assets/images/posts/common_sense_dsa/graph_but_not_tree.png%}) 
+
+1. Graph Jargon
+
+    1. Nodes -> Vertices
+    1. Lines b/w Vertices -> Edges
+    1. Adjacent vertices (also called neighbors) -> Vertices connected by an edge
+    1. Connected graph -> 
+    
+        Though it is possible to have a vertex in a graph that is not connected to any other vertex, a graph where all the vertices are connected in some way is called a connected graph. 
+
+        Note that having a connected graph does not mean we have a tree. Connected graphs can still have cycles. Not having cycles is a prerequisite for a tree.
+
+1. Meaning of graph search
+
+    Disclaimer: We'll be dealing with connected graphs.
+
+    Search in a list for examples means we are looking if a specific value exists in the list. 
+
+    Searching in graphs has a *similar but slightly different meaning*. It has following scenarios: 
+    
+    1. We have access to a random vertex in the graph (Alice). If search wants to find out Bob vertex, it means we need to find out if there is a path from Alice to Bob. 
+
+    1. We have access to a random vertex in the graph (Alice) and we traverse all other vertices in the graph. 
+
+1. Efficiency of graph search: O(V + E)
+
+    The numbers of steps involved in graph traversal / search increases when we increases the number of vertices or number of edges. 
+
+    Both graphs below have the same number of vertices - 5. But graph A-B-C-D-E takes 21 steps while graph V-W-X-Y-Z takes 13 steps. These steps include the 5 steps to actually traverse the vertices plus the additional steps required to iterate over the neighboring vertices.
+
+    ![]({%link assets/images/posts/common_sense_dsa/O(V+E)_1.png%})
+
+    <br>
+
+    ![]({%link assets/images/posts/common_sense_dsa/O(V+E)_2.png%})
