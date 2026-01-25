@@ -773,3 +773,54 @@ If we had an ordered array, using binary search we can find the words in O(log N
     <br>
 
     ![]({%link assets/images/posts/common_sense_dsa/O(V+E)_2.png%})
+
+# Chapter 19: Dealing with Space Constraints
+
+1. Big question for Big O for time complexity v/s space complexityä
+
+    Big O notation is used to represent both time and space complexity. But the key question that Big O answers differs for both: 
+
+    1. Time complexity: 
+
+        if there are N data elements, how many steps will the algorithm take?
+
+    1. Space complexity: 
+
+        if there are N data elements, how many auxiliary units of memory will the algorithm consume?
+
+        Auxiliary here means that apart from the memory required to accommodate the input list or other data structure, how much extra memory does the function code itself create to process the input data.
+
+        This is why the following code which creates a brand new array to make list elements uppercase has space complexity of O(N) while the second code snippet which makes list elements uppercase in place has O(1) complexity.
+
+        But depending on the resource referred to, some of them also factor in the space occupied by the inputs while calculating space complexity. 
+
+        ```javascript
+
+        // Space complexity: O(N)
+        // Time complexity: O(N)
+
+        function makeUppercase(array) {
+            let newArray = [];
+            for(let i = 0; i < array.length; i++) {
+                newArray[i] = array[i].toUpperCase();
+            }
+            return newArray;
+        }
+
+        ```
+
+        ```javascript
+
+        // Space complexity: O(1)
+        // Time complexity: O(N)
+
+        function makeUppercase(array) {
+            for(let i = 0; i < array.length; i++) {
+                array[i] = array[i].toUpperCase();
+            }
+            return array;
+        }
+
+        ```
+
+1. 
