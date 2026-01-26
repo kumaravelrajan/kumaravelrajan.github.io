@@ -8,6 +8,30 @@ description: My notes from reading A common sense guide to DSA - Jay Wengrow
 title: Notes - "Common Sense DSA" by Jay Wengrow
 ---
 
+# Summary
+
+|Data Structure|Read|Search|Insert|Delete|
+|-|-|-|-|-|
+|Array  |O(1)   |O(N)   |at end - O(1)<br><br>at beginning - O(N)   | at end - O(1) <br><br>at beginning - O(N)  |
+| Sets <br>(array implementation)  | O(1)  | O(N)  | O(N)  |  at end - O(1) <br><br>at beginning - O(N) |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+
+|Algorithm|Time complexity|
+|-|-|
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+|   |   |
+
 # Chapter 1 : Why data structures matter
 
 1. Data structure operations
