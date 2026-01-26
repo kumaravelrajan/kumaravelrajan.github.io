@@ -823,4 +823,13 @@ If we had an ordered array, using binary search we can find the words in O(log N
 
         ```
 
-1. 
+1. Space complexity in recursion
+
+    A recursive function call stores a new enter in the call stack before continuing on to the next recursion to make sure it knows where in the outer function control must return once the inner function has been successfully executed. 
+
+    Every recursive call hence places a new entry in the call stack. The computer only allows a certain number of entries in the call stack. 
+    
+    In cases of recursion, even though there might not be a new list being created or something similar, the max number of entries in the call stack will be the space complexity. 
+
+# Chapter 20: Techniques for Code Optimization
+
