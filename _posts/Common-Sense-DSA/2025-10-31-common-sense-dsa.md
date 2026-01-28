@@ -14,8 +14,8 @@ title: Notes - "Common Sense DSA" by Jay Wengrow
 |-|-|-|-|-|
 |Array  |O(1)   |O(N)   |at end - O(1)<br><br>at beginning - O(N)   | at end - O(1) <br><br>at beginning - O(N)  |
 | Sets <br>(array implementation)  | O(1)  | O(N)  | O(N)  |  at end - O(1) <br><br>at beginning - O(N) |
-|   |   |   |   |   |
-|   |   |   |   |   |
+| Ordered arrays  |   | log N<br>(binary search since we have ordered aray)  | O(N)  |   |
+| Hash table<br>aka Dictionary  | O(1)  | O(1)  | O(1)  | O(1)  |
 |   |   |   |   |   |
 |   |   |   |   |   |
 |   |   |   |   |   |
@@ -25,9 +25,9 @@ title: Notes - "Common Sense DSA" by Jay Wengrow
 
 |Algorithm|Time complexity|
 |-|-|
-|   |   |
-|   |   |
-|   |   |
+| Bubble sort  | $$O(N^2)$$  |
+| Selection Sort  | Base case: $$N^2/2$$<br>Average case: $$N^2/2$$<br>Worst case: $$N^2/2$$  |
+| Insertion sort  | Best case: $$N$$ <br>Average case: $$N^2/2$$<br>Worst case: $$N^2$$  |
 |   |   |
 |   |   |
 |   |   |
