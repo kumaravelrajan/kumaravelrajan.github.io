@@ -10,27 +10,30 @@ title: Notes - "Common Sense DSA" by Jay Wengrow
 
 # Summary
 
+## Data structures
+
 |Data Structure|Read|Search|Insert|Delete|
 |-|-|-|-|-|
 |Array  |O(1)   |O(N)   |at end - O(1)<br><br>at beginning - O(N)   | at end - O(1) <br><br>at beginning - O(N)  |
 | Sets <br>(array implementation)  | O(1)  | O(N)  | O(N)  |  at end - O(1) <br><br>at beginning - O(N) |
 | Ordered arrays  |   | log N<br>(binary search since we have ordered aray)  | O(N)  |   |
 | Hash table<br>aka Dictionary  | O(1)  | O(1)  | O(1)  | O(1)  |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
-|   |   |   |   |   |
+| Linked List  | O(N)  | O(N)  | O(N) <br>[O(1) at beginning]  | O(N)<br>[O(1) at beginning]  |
+| Binary search tree  | $$O(N)$$<br>Tree traversal by definition  | $$O(log\ N)$$<br>for perfectly balanced BST  | $$O(log\ N)$$  | $$O(log\ N)$$  | 
+| Heap  |   |   | $$O(log\ N)$$  | $$O(log\ N)$$  |
+| Trie  |   | O(K) <br>K refers to the length of the search string.  | O(K)  |   |
+| Graphs  |   | O(V + E)  |   |   |
 
-|Algorithm|Time complexity|
-|-|-|
-| Bubble sort  | $$O(N^2)$$  |
-| Selection Sort  | Base case: $$N^2/2$$<br>Average case: $$N^2/2$$<br>Worst case: $$N^2/2$$  |
-| Insertion sort  | Best case: $$N$$ <br>Average case: $$N^2/2$$<br>Worst case: $$N^2$$  |
-|   |   |
-|   |   |
-|   |   |
+
+## Algorithms
+
+|Algorithm|Best Case|Average Case | Worst case |
+|-|-|-|-|
+| Bubble sort  | $$O(N^2)$$  |$$O(N^2)$$  |$$O(N^2)$$  |
+| Selection Sort  | $$N^2/2$$ |$$N^2/2$$|$$N^2/2$$  |
+| Insertion sort  | $$N$$ |$$N^2/2$$|$$N^2$$  |
+| Quicksort  | $$O(N\ log N)$$|$$O(N\ log N)$$|$$O(N^2)$$ |
+| Heapsort  | $$O(N\ log N)$$  | $$O(N\ log N)$$ | |
 
 # Chapter 1 : Why data structures matter
 
@@ -314,6 +317,31 @@ Exercises worked out [here]({%post_url Common-Sense-DSA/2025-11-02-code-examples
     2. Identify the subproblem of the problem.
 
     3. See what happens when you call the function on the subproblem and go from there.
+
+    1. Eg: The Array Sum problem
+
+        We want to write a function that receives an array and returns the sum of all the elements in the array. 
+
+        For instance when we pass in the array [1, 2, 3, 4, 5] we expect to get 15 in return.
+
+        Firstly, with a certain suspension of belief assume that the sumarray() function has already been implemented. 
+
+        The subproblem here is all elements in the array bar the index 0.
+
+        What happens when we call the "already implemented" function sumarray on list[1:]? We get the sum of all elements starting from index 1. To get the sum of all the elements in the list we simply have to add array element in index 0 to the returned sum. 
+
+        Hence, we arrive at the following function:
+
+        ```py
+
+        def sumarray(list_a):
+            if len(list_a) == 1:
+                return list_a[0]
+
+            return list_a[0] + sumarray(list_a[1:])
+
+        ``` 
+
 
 # Chapter 12: Dynamic programming
 
