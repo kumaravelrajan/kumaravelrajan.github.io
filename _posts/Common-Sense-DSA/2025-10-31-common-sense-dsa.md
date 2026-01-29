@@ -6,6 +6,7 @@ categories:
 
 description: My notes from reading A common sense guide to DSA - Jay Wengrow
 title: Notes - "Common Sense DSA" by Jay Wengrow
+last_modified_at: 2026-01-29
 ---
 
 # Summary
