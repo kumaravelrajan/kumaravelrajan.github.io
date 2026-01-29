@@ -885,3 +885,18 @@ If we had an ordered array, using binary search we can find the words in O(log N
 
 # Chapter 20: Techniques for Code Optimization
 
+1. Incorporating blazing fast lookups using hash tables can be an effective strategy in cutting down runtime. 
+
+1. Greedy algorithms
+
+    1. Defintion: 
+
+        A greedy algorithm is one that, in each step, chooses what appears to be the best option at that moment in time. 
+
+    1. Example - Array Max
+
+        To find the max value in an array, we first consider array[0] to be the max_value. As we iterate through the array, when we encounter a bigger value than the current max_value, we update the max_value to this newer value. 
+
+        This familiar algorithm is also an example of a greedy algorithm.
+
+---
