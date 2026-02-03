@@ -6,7 +6,7 @@
    Typography
    ========================================================================== */
 
-$doc-font-size: 16px !default;
+$doc-font-size: 19px !default;
 $doc-font-size-medium: $doc-font-size * 1.125 !default;
 $doc-font-size-large: $doc-font-size * 1.25 !default;
 $doc-font-size-x-large: $doc-font-size * 1.375 !default;
@@ -52,8 +52,8 @@ $monospace-code: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consol
 $handwritten: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
 
 /* Defaults used in Minimal mistakes */
-$default-sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-$default-serif: Georgia, Times, serif;
+$default-sans-serif: -apple-system, BlinkMacSystemFont, "EB Garamond","Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$default-serif: "EB Garamond", Georgia, Times, serif;
 $default-monospace: Monaco, Consolas, "Lucida Console", monospace;
 
 /* Emoji native from modern font stack - add to the end of the font-face for native emojis */
