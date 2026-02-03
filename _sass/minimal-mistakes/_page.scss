@@ -35,14 +35,15 @@ body {
 
 .page {
   @include breakpoint($large) {
-    float: inline-end;
+    float: inline-start;
     width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-inline-end: $right-sidebar-width-narrow;
+    padding-inline-end: 0px;
   }
 
   @include breakpoint($x-large) {
+    float: inline-start;
     width: calc(100% - #{$right-sidebar-width});
-    padding-inline-end: $right-sidebar-width;
+    padding-inline-end: 0px;
   }
 
   .page__inner-wrap {
