@@ -114,3 +114,238 @@ def get202statuswithmakeresponse():
 
     return response
 ```
+
+# Dynamically alter HTML using Jinja templates
+
+Flask using the Jinja templating language in order to alter the HTML served to browsers based on python code. 
+    
+## Passing list to HTML and using control structures
+
+```py
+
+# py
+
+# Pass list to HTML
+@app.route("/displaylist")
+def displayList_fun():
+    mylist = [10, 20, 30, 40, 50]
+    return render_template("displaylist_template.html", mylist = mylist)
+```
+
+```html
+<!-- html -->
+{%raw%}
+<body>
+    <h1>Jinja variables: Lists</h1>
+    <p>The below List is rendered using Jinja variables:</p>
+    
+    <ul>
+        {%for item in mylist%}
+
+            <li {%if item == 20 %} style = "color: red" {%endif%}>
+                {{ item }}
+            </li>
+
+        {%endfor%}
+    </ul>
+</body>
+{%endraw%}
+```
+
+# Inheriting templates
+
+Certain sections like the navigation bar and footer are present in every single web page. In order to avoid duplicating this HTML code we can create a base template and inherit from it. 
+
+Here, the home.html that serves the "/" url and displaylist_template.html that serves the "displaylist" url inherit from the base.html file. app.py remains unchanged.
+
+```py
+# app.py
+
+from flask import Flask, render_template
+
+app = Flask(__name__, template_folder="templates") #!
+
+# --------------------------------------------------
+# Manipulating HTML templates using Jinja
+# --------------------------------------------------
+
+# Pass strings to HTML
+@app.route("/")
+def index():
+    return render_template("home.html", hello_str = "Hello", world_str = "World")
+
+# Pass list to HTML
+@app.route("/displaylist")
+def displayList_fun():
+    mylist = [10, 20, 30, 40, 50]
+    return render_template("displaylist_template.html", mylist = mylist)
+
+```
+
+
+{%raw%}
+```html
+
+<!-- base.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> {%block title%}Default value{%endblock%} </title>
+</head>
+<body>
+
+    <p>This is from base.html and will always be present here.</p>
+
+    {%block content%}
+
+    {%endblock%}
+    
+</body>
+</html>
+
+```
+
+```html
+
+<!-- home.html -->
+
+ {%extends "base.html" %}
+
+{%block title%} Home page {%endblock%}
+
+{%block content%}
+<h1>Jinja variables</h1>
+<p>The below text is rendered using Jinja variables:</p>
+<p>{{hello_str}} {{world_str}} </p>
+
+{%endblock%}
+
+```
+
+```html
+
+<!-- displaylist.html -->
+
+ {%extends "base.html"%}
+
+{%block title%} Display list {%endblock%}
+
+{%block content%}
+
+<h1>Jinja variables: Lists</h1>
+<p>The below List is rendered using Jinja variables:</p>
+
+<ul>
+
+    {%for item in mylist%}
+
+        <li {%if item == 20 %} style = "color: red" {%endif%}>
+            {{ item }}
+        </li>
+
+    {%endfor%}
+
+</ul>
+
+{%endblock%}
+
+```
+
+{%endraw%}
+
+# Jinja filters
+
+Filters manipulate data in ways we want. For example passing a string through the "upper" filter using {{mystring | upper}} gives back the mystring in upper case. 
+
+Filters can be both predefined and custom defined.
+
+{%raw%}
+
+```html
+<!-- home.html -->
+
+<!-- Built in filters -->
+<p>{{(hello_str ~ " " ~ world_str) | upper}}</p>
+<p>{{(hello_str ~ " " ~ world_str) | lower}}</p>
+<p>{{(hello_str ~ " " ~ world_str) | reverse}}</p>
+<p>{{(hello_str ~ " " ~ world_str) | wordcount}}</p>
+
+<!-- Custom filter -->
+<p>{{(hello_str ~ " " ~ world_str) | title_case}}</p>
+
+```
+
+```py
+
+# app.py
+
+# --------------------------------------------------
+# Custom filters
+# --------------------------------------------------
+
+@app.template_filter()
+def title_case(s: str):
+    newstring = ""
+    for index, c in enumerate(s):
+        if index % 2 == 0:
+            newstring += c.upper()
+        else:
+            newstring += c.lower()
+
+    return newstring
+
+```
+
+{%endraw%}
+
+# Dynamic URL and Redirection
+
+The URL for a page can also be dynamically assigned instead of being statically assigned. That is, consider a function index() serving home.tml initially given the static url "/". Then, for whatever the reason, we need to change the url to "/index". In this case, any other HTML referring to "/" with the intent of getting home.html will now have a broken link. To avoid this we can create dynamic links. 
+
+We can also redirect a user wanting to visit "/" with the intent of getting hold of home.html to "/index".
+
+1. Dynamic URL using url_for()
+
+    The below HTML code will always correctly refer to the displayList_fun that renders displaylist_template.html irrespective of how the route of displayList_fun is changed. It could be "/displaylist" or "/displaylistnew". The link to displaylist_template.html in home.html will always point to the correct one.
+
+    {%raw%}
+
+    ```py
+
+    # app.py
+
+    # Pass list to HTML
+    @app.route("/displaylist")
+    def displayList_fun():
+        mylist = [10, 20, 30, 40, 50]
+        return render_template("displaylist_template.html", mylist = mylist)
+    
+    ```
+
+    ```html
+
+    <!-- home.html linking to /displaylist -->
+
+    <!-- Dynamic link to displaylist_template.html being served by displaylist() py function in app.py-->
+
+    <a href="{{url_for("displayList_fun")}}">Click here to navigate to DisplayList site.</a>
+    
+    ```
+
+    {%endraw%}
+
+1. Redirecting from one url to another
+
+    Whenever someone tries accessing /redirect_endpoint they are redicted to /displaylist.
+
+    ```py
+
+    @app.route("/redirect_endpoint")
+    def redirect_endpoint():
+        return redirect(url_for("displayList_fun"))
+    
+    ```
+
