@@ -420,3 +420,42 @@ This signature needs to be checked and only if it satisfies our requirement shou
 
 In our current code example, we do not do these checks. What we do instead is assume the file uploaded in an Excel file and return the file as a pandas datagram that visualizes to the user, the contents of the uploaded file. 
 
+## Eg 1: Handling txt and excel files differently
+
+{%raw%}
+```html
+
+<!-- index.html -->
+
+<h1>Upload Excel or text file</h1>
+
+<form action="{{url_for('file_upload')}}" method="post" enctype="multipart/form-data"> <-- enctype most important part here. -->
+    <input type="file" name="file" accept=".csv, .txt, .xls, .xlsx, text/plain, application/vnd.ms-excel, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" required>
+    <input type="submit" value="upload file">
+</form>
+
+```
+
+```py
+
+# app.py
+
+@app.route("/file_upload", methods = ["POST"])
+def file_upload():
+    file = request.files.get("file")
+
+    print(f"file = {file}")
+
+    if file:
+        if file.content_type == "text/plain":
+            return file.read().decode()
+        
+        if file.content_type == "application/vnd.ms-excel" or file.content_type == "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" or file.content_type == ".xlsx":
+            df = pd.read_excel(file)
+            return df.to_html()
+        
+    return "Invalid file provided"
+
+```
+
+{%endraw%}
