@@ -349,3 +349,74 @@ We can also redirect a user wanting to visit "/" with the intent of getting hold
     
     ```
 
+# Managing form data sent via POST
+
+We create a form in html. In the current code example, the same function index() handles both get and post requests to "/" path. What happens is that when the browser sends a GET request the server returns the index.html file that has the form data including fields for username and password. Then, when the user click on submit, the browser sends a POST request with the username and password included in the body. The server app.py then accesses this username-password combo and returns a success/failure message.
+
+{%raw%}
+```html
+
+<!-- index.html -->
+
+{%block content%}
+
+<h1>GET and POST of form data to /</h1>
+
+<form action=" {{url_for('index')}} " method = "POST">
+    <input type="text" name="username" placeholder="Username"> <br>
+    <input type="password" name="password" placeholder="Password"> <br>
+    <input type="submit" value="Submit">
+</form>
+
+{%endblock%}
+
+```
+
+```py
+
+# app.py
+
+from flask import Flask, render_template, request
+
+app = Flask(__name__, template_folder="templates/video4")
+
+@app.route("/", methods=["GET", "POST"])
+def index():
+
+    if request.method == "GET":
+        return render_template("index.html")
+    elif request.method == "POST":
+        username = request.form.get("username")
+        password = request.form.get("password")
+
+        if username == "kumar" and password == "kumar":
+            return "Success"
+        else:
+            return "Failure"
+
+```
+
+{%endraw%}
+
+# Handling file uploads
+
+The file handling in our example code is handled by the py function file_upload(). The index.html has been accordingly modified to return the form required for the user to upload the file. This form also restricts the file types the user can upload to .xlsx, .xls, .csv and .txt. **BUT** the browser can bypass this restriction. The windows dialogue that opens for the user for example also allows the user to upload any other file to the server. 
+
+Hence, it is a common web dev practice to never trust the browser. Always validate user input. In this particular case, simply checking the file extension will not be sufficient since the user can simply upload a pdf file but just change the extension to xlsx or something similar. This will cause the web app to crash. What actually needs to be checked is this - every file type starts with a specific sequence of bytes that acts as a fingerprint. For example:
+
+- PDFs always start with ```
+%PDF (25 50 44 46)
+```.
+
+- Legacy Excel (.xls) starts with ```
+D0 CF 11 E0
+```.
+
+- Modern Excel (.xlsx) is actually a zipped bundle, so it starts with ```
+PK (50 4B 03 04)
+```.
+
+This signature needs to be checked and only if it satisfies our requirement should the server proceed with processing the file. 
+
+In our current code example, we do not do these checks. What we do instead is assume the file uploaded in an Excel file and return the file as a pandas datagram that visualizes to the user, the contents of the uploaded file. 
+
