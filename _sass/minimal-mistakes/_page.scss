@@ -150,6 +150,16 @@ body {
     }
   }
 
+// ------------------------------------------
+// Kumar: Added 
+// ------------------------------------------
+
+pre > code {
+  white-space: pre-wrap;
+  // white-space: pre-wrap !important;
+  // word-break: break-all;
+}
+
   dt {
     margin-top: 1em;
     font-family: $sans-serif;
