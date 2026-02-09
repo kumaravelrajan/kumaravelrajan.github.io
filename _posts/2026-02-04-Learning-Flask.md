@@ -459,3 +459,194 @@ def file_upload():
 ```
 
 {%endraw%}
+
+## Eg 2: Convert Excel to CSV and directly return CSV file
+
+{%raw%}
+
+```html
+
+<!-- index.html -->
+
+ <h1>Convert Excel to CSV file</h1>
+
+<form action="{{url_for('convert_to_csv')}}" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" accept="application/vnd.ms-excel, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" required>
+    <input type="submit" value="Convert to CSV now!">
+</form>
+
+```
+
+```py
+
+# app.py
+
+@app.route("/convert_to_csv", methods = ["POST"])
+def convert_to_csv():
+
+    file = request.files["file"]
+
+    if file:
+
+        df = pd.read_excel(file)
+
+        response = Response(
+            df.to_csv(),
+            mimetype='text/csv',
+            headers={
+                "Content-Disposition": "attachment; filename = result.csv"
+            }
+        )
+
+        return response
+
+```
+
+{%endraw%}
+
+## Eg 3: Convert Excel to CSV and return in new download page
+
+Here, we let the user upload an Excel file in index.html served on "/". Upon submit, the convert_to_csv_with_download_page.py file is called that converts the Excel file to CSV and stores the file on the server. This method then serves download.html to the user. The download.html file has a link to call the endpoint "/download". Upon clicking the link in the /download page, the request is received by download() py function that returns the file from the server to the browser.
+
+{%raw%}
+
+```html
+
+<!-- index.html -->
+
+ <h1>Convert Excel to CSV file and download from new page</h1>
+
+<form action="{{url_for('convert_to_csv_with_download_page')}}" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" accept="application/vnd.ms-excel, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" required>
+    <input type="submit" value="Convert to CSV now!">
+</form>
+
+```
+
+```py
+
+# app.py
+
+@app.route('/convert_to_csv_with_download_page', methods=["POST"])
+def convert_to_csv_with_download_page():
+    file = request.files.get("file")
+
+    if file:
+        script_dir = Path(__file__).parent
+        output_dir = script_dir.joinpath("downloads")
+
+        if not output_dir.exists():
+            output_dir.mkdir(parents=True)
+
+        # Clear the files already present in the directory
+        for fileToDelete in output_dir.iterdir():
+            if fileToDelete.is_file():
+                fileToDelete.unlink()
+
+        # Read excel file
+        df = pd.read_excel(file)
+
+        filename = f'{uuid.uuid4()}.csv'
+
+        filepath = output_dir.joinpath(filename)
+
+        df.to_csv(filepath)
+
+        return render_template('download.html', filename_to_download=filename)
+
+    else:
+        return "Invalid file uploaded."
+
+```
+
+```html
+
+<!-- download.html -->
+
+{%extends 'base.html'%}
+
+{%block title%} Download {%endblock%} 
+
+{%block content%}
+<h1>Convertion status</h1>
+
+Your convertion from Excel to CSV has been successful. Click <a href="{{url_for('download', filename_to_download=filename_to_download)}}">here to download the file.</a>
+
+{%endblock%}
+
+```
+
+```py
+# app.py
+            
+@app.route("/download/<filename_to_download>")
+def download(filename_to_download):
+    script_dir = Path(__file__).parent
+    output_dir = script_dir.joinpath("downloads")
+    filepath = output_dir.joinpath(filename_to_download)
+
+    if filepath.exists():
+        return send_from_directory(output_dir, filename_to_download, download_name='result.csv')
+    else:
+        return abort(404)
+
+```
+
+{%endraw%}
+
+## Eg 4: Handling POST requests of JSON from Javascript
+
+
+We configure HTML with JS such that clicking a button triggers a POST request to "/handle_js_post". The handle_js_post() in our server handles the post request along with the json data and sends back a confirmation message. 
+
+Use case: Building a chat app. When a user clicks send, the text in the text box is sent to the server via POST request and the server then forwards it to the intended recepient. 
+
+{%raw%}
+
+```html
+
+<!-- index.html -->
+
+<h1>Sending JSON data via POST using Javascript</h1>
+
+<button type="button" id="json_post_btn">Click here to submit JSON data to server.</button>
+
+<script type="text/javascript">
+    const json_post_btn_elem = document.getElementById('json_post_btn');
+    const json_data_to_send = {greeting: 'Hey there ', name: 'Kumar!'};
+
+    json_post_btn_elem.addEventListener(type='click', () => {
+        fetch('{{url_for("handle_js_post")}}', {
+            method: "POST",
+            headers: {
+                'Content-Type' : 'application/json; charset=utf-8'
+            },
+            body: JSON.stringify(json_data_to_send)
+        })
+        .then(response => response.json())
+        .then(data => console.log(data['message']))
+        .catch(error => {
+            console.error("Error: ", error)
+        })
+    });
+</script>
+
+```
+
+```py
+
+# app.py
+
+@app.route("/handle_js_post", methods = ["POST"])
+def handle_js_post():
+    greeting = request.json.get('greeting')
+    name = request.json.get('name')
+
+    with open('downloads/js_post_data.txt', 'w') as f:
+        f.write(f'{greeting} {name}')
+
+    return jsonify({'message': 'Successfully stored the message! - Kumaravel'})
+
+```
+
+{%endraw%}
