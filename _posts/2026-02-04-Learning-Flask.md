@@ -650,3 +650,58 @@ def handle_js_post():
 ```
 
 {%endraw%}
+
+# Handling static CSS and JS files
+
+The static CSS and JS files are stored in the /static directory. This static directory path is given to the flask app similar to the template_directory. Then, as needed the CSS and JS files are referred to in the .html files. This is what the folder structure looks like: 
+
+{%include image.html url='/assets/images/posts/flask_tut/static_files_folder_structure.png' des='Folder structure of static files.'%}
+
+<br>
+
+{%raw%}
+
+```py
+
+# app.py
+
+from flask import Flask, render_template
+
+app = Flask(__name__, template_folder='templates/video5', static_folder='static', static_url_path='/')
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+```
+
+```html
+
+<!-- base.html -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/hello.css">
+    <title>{%block title%} Default title {%endblock%}</title>
+</head>
+
+```
+
+```html
+
+<!-- index.html -->
+
+{%block content%}
+
+<p class="special">Hello World!</p>
+
+<script src="/js/hello.js"></script>
+
+{%endblock%}
+
+```
+
+{%endraw%}
+
+# Session and Cookies
