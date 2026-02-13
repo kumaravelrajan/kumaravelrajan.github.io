@@ -705,3 +705,184 @@ def index():
 {%endraw%}
 
 # Session and Cookies
+
+## Session and session cookie
+
+When the server wants to maintain a session with a client, the flask web app must make use of the inbuilt session variable. We first set a secret key in the flask web app. This secret key cryptographically signs the session key contents. The client can still view the contents of the cookie since it is only Base64 encoded. However, it cannot change the cookie contents since it has been cryptographically signed and any change made to the cookie contents will be noticed by the flask web app and the session cookie will be disregarded. This is very important because say, the session cookie has a user id used to identify the particular user. If the session cookie could be changed, the client could easily send in the user id of some other user, the server would trust it and send user X the details and personalized webpage of user Y.
+
+{%raw%}
+
+```py
+
+# app.py
+
+from flask import Flask, request, make_response, render_template, session, flash
+
+app = Flask(__name__, template_folder='templates/video6', static_folder='static', static_url_path='/')
+app.secret_key = 'some_key'
+
+@app.route('/')
+def index():
+    return render_template('index.html', message= 'Home page!')
+
+@app.route('/set_session_data')
+def set_session_data():
+    session['name'] = 'Kumaravel Rajan'
+    session['other'] = 'Other data in cookie'
+
+    return render_template('index.html', message= 'Session data set')
+
+@app.route('/get_session_data')
+def get_session_data():
+    if session:
+        name = session.get('name')
+        other = session.get('other')
+        return render_template('index.html', message= f'name = {name};; other = {other}')
+    
+    return render_template('index.html', message='No session exists yet. Create a new session instead and try again.')
+
+@app.route('/clear_session')
+def clear_session():
+    session.clear()
+    return render_template('index.html', message='Session cleared.')
+
+```
+
+```html
+
+<!-- index.html -->
+
+{%block content%}
+
+<h1>Message from server:</h1>
+
+<p> {{message}} </p>
+
+<h1>Session controls</h1>
+
+<a href="{{url_for('index')}}">Click here to get to home page.</a><br>
+
+<a href="{{url_for('set_session_data')}}">Click here to set session data.</a><br>
+
+<a href="{{url_for('get_session_data')}}">Click here to get session data.</a><br>
+
+<a href="{{url_for('clear_session')}}">Click here to clear session data.</a><br>
+
+{%endblock%}
+
+```
+
+{%endraw%}
+
+## Custom cookies
+
+Apart from the session cookies, we can also set custom cookies in the browser. These cookies could be used for further personalization or other purposes. Note that by default, flask sends cookies that are not the session cookie in plain text. This can be prevented however, by cryptographically signing the custom cookie with the same key used to sign the session key. This maintains integrity in the custom cookies as well. 
+
+{%raw%}
+
+```py
+
+# app.py
+
+@app.route('/set_custom_cookie')
+def set_custom_cookie():
+    response = make_response(render_template('index.html', message='Custom cookie set'))
+    response.set_cookie('cookie_key', 'cookie_value')
+    return response
+
+@app.route('/get_custom_cookie')
+def get_custom_cookie():
+    if 'cookie_key' in request.cookies:
+        key = 'cookie_key'
+        value = request.cookies.get(key)
+        return render_template('index.html', message= f'custom cookie key: {key};; custom cookie value: {value}')
+    
+    return render_template('index.html', message='No custom cookie set. First set the cookie and then try to read it.')
+
+@app.route('/clear_custom_cookie')
+def clear_custom_cookie():
+    response = make_response(render_template('index.html', message='Cleared custom cookie'))
+    response.set_cookie('cookie_key', 'cookie_value', expires=0)
+    return response
+
+```
+
+```html
+
+<!-- index.html -->
+
+{%block content%}
+
+<a href="{{url_for('set_custom_cookie')}}">Click here to set custom cookie.</a><br>
+
+<a href="{{url_for('get_custom_cookie')}}">Click here to get custom cookie.</a><br>
+
+<a href="{{url_for('clear_custom_cookie')}}">Click here to clear custom cookie.</a><br>
+
+{%endblock%}
+
+```
+
+{%endraw%}
+
+## Flashing messages
+
+In flask, we also have the option to set flashing messages. What this means is, at the end of request1 we can set a flashing message and the next request, request2 (and only this next request) can access the flashing message and use templates to display the message. These could be used to display messages to the users like 'Login successful' or 'Login failed' and so on. 
+
+{%raw%}
+
+```py
+
+# app.py
+
+@app.route('/login', methods = ['GET', 'POST'])
+def login():
+    if request.method == 'GET':
+        return render_template('login.html')
+    elif request.method == 'POST':
+        if request.form.get('username') == 'kumar' and request.form.get('password') == 'kumar':
+            flash('Successful login (sent via flash)!')
+            return render_template('index.html', message = 'Successful login (sent via index.html message)')
+        else:
+            flash('Login failed! (sent via flash)')
+            return render_template('index.html', message= 'Login failed (sent via index.html message)')
+
+```
+
+```html
+
+<!-- NOTE: base.html -->
+
+<body>
+
+    <h1>Flash message (if any)</h1>
+
+
+    {%with messages= get_flashed_messages()%}
+
+        {%if messages%}
+
+            {%for message in messages%}
+
+                <ul>
+                    <li>{{message}}</li>
+                </ul>
+
+            {%endfor%}
+
+        {%endif%}
+
+    {%endwith%}
+
+    {%block content%}
+
+    
+
+    {%endblock%}
+    
+</body>
+
+```
+
+{%endraw%}
+
