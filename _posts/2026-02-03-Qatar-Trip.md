@@ -94,12 +94,6 @@ The narrow lanes, tourists bargaining with shopkeepers over prices, the intricat
 
 {%include image.html url = "/assets/images/posts/doha/souq_thumb.JPG " des = "The famous thumb in Souq" %}
 
-# A laymans surprise regarding the Burqa
-
-I obviously don't know enough about Islam and the Burqa to comment on what should or should not be done about it. From whatever I had read previously I gathered that the Burqa is often seen as a tool to oppress women - which might very well be the case.
-
-But I also saw an Arab women wearing the Burqa arguing with the shopowner regarding the unsatisfactory TV she had previously bought from the said shop. Another woman was instructing people in a sweet shop regarding what they wanted while the hubands in both cases were just stood silently next to them. I was expecting the men to take more of a lead in almost all spheres of life I guess. This just surprised me. 
-
 # Back Home
 
 The fact that I had not gone on a short trip, rather I had time to live and experience the place like a resident really helped me get acclimatized to the place. The public transport was efficient, the cities were clean, the highways were never ending, the coastline forever serene and calm and the desert omnipresent - influencing the language, culture, food and so much more. 
