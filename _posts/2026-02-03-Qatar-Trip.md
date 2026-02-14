@@ -10,8 +10,6 @@ published: true
 
 It had been a really stressful past couple of years and I had barely travelled anywhere. Not that I was an especially touristy person who loved to travel or had a bucket list. It's just that staying too long in one place, without a change in scenery can induce a certain dullness to life. Travelling to a new place presents itself with freshness, the realization of the vastness of the world we live in, the curiosity that a new language or culture evokes in us. That is precisely what my trip to Doha towards the end of 2025 did for me.
 
-Having never been to any country in the Middle East I was quite unsure what to expect. Only having seen Middle Eastern countries from the lens of "countries not having democracy" I actually did not really know much about Qatar. I knew Qatar had a Monarch and was naturally quite curious about it but apart from that, the sights and experiences in Qatar were quite novel to me. 
-
 I didn't feel too out of place though. Wherever we went people speaking Indian languages always seemed to be around us. I heard a spatter of Malayalam here, Tamil there, Hindi somewhere else. Having people speaking familiar languages around me put me at ease I guess. I know how absurd it sounds - travelling to a foreign country and searching for familiarity. But I guess when everything is new, some familiarity helps 🤷. Tbh though, language was never really a problem either way. Every board, every hoarding had names in Arabic and in English as well. 
 
 # Sand dunes
