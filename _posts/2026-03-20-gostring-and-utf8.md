@@ -115,7 +115,7 @@ len(s)                  // 3
 
 r := []rune(s)          // rune = int32 = 4 bytes
                         // 1 UTF-8 char is max 4 bytes
-                        // Representation: r = |0x00004EAC| (actual unicode encoding)
+                        // Representation: r = |0x00004EAC| (actual unicode codepoint)
 
 len(r)                  // 1
 
