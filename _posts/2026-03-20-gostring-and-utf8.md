@@ -7,6 +7,8 @@ categories:
 description: A blog explaining why understanding UTF-8 encoding is crucial to working with strings in Go. 
 
 published: true
+
+title: The curious case of len(Go strings)
 ---
 
 # Why Go, why?
@@ -66,6 +68,8 @@ The thing with Unicode though is that it does not tell us how to implement these
     Spoiler alert: The famous Ken Thompson also plays a role in making UTF-8 a self-synchronising encoding scheme. 
 
     <iframe width="560" height="315" src="https://www.youtube.com/embed/vpSkBV5vydg?si=XinfxvpDwA0gEufI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>Here</iframe>
+
+    <br>
 
     **The important fact to remember for our purposes is that UTF-8 characters can take anywhere between 1 and 4 bytes.** 
 
