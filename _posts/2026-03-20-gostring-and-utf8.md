@@ -133,5 +133,23 @@ Hence, the user input needs to be considered as a []rune i.e. a rune slice and t
 
 ![Twitter style character counter](/assets/images/posts/go_utf8/Twitter_char_count.png)
 
+## Update 24.03.2026
+
+Even though, the above Twitter style character counter was just an example, **to my surprise I found that the X / Twitter character counter in X posts was indeed wrongly implemented**.
+
+I found that the character limit for Posts on X is not counting Unicode characters correctly. Every character taking up 3 or more bytes bring down the characters left by 2 instead of 1. 
+
+For example, if 10 characters are left to be written in my post and I use an emoji like 😁 (which takes up 4 bytes in UTF-8), the characters left comes down to 8. Instead, it should have been 9. 
+
+Similar, when writing the Chinese character 京, the characters left again comes down to 8. 
+
+This occurs due to a mistake in UTF-8 character counting. 
+
+I'm not sure where to report this bug since X only has a Bug bounty program for security vulnerabilities. There does not seem to be a forum for reporting bugs.
+
+![1.PNG](/assets/images/posts/go_utf8/1.png)
+![2.PNG](/assets/images/posts/go_utf8/2.png)
+![3.PNG](/assets/images/posts/go_utf8/3.png)
+
 
 
