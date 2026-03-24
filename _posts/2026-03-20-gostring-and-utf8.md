@@ -131,8 +131,6 @@ Simply considering the user input as a Go string and doing len(user_input) would
 
 Hence, the user input needs to be considered as a []rune i.e. a rune slice and then we would get the unicode character count which is what we want. 
 
-![Twitter style character counter](/assets/images/posts/go_utf8/Twitter_char_count.png)
-
 ## Update 24.03.2026
 
 Even though, the above Twitter style character counter was just an example, **to my surprise I found that the X / Twitter character counter in X posts was indeed wrongly implemented**.
