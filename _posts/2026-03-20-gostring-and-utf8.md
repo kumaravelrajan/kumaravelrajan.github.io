@@ -149,5 +149,9 @@ I'm not sure where to report this bug since X only has a Bug bounty program for 
 ![2.PNG](/assets/images/posts/go_utf8/2.png)
 ![3.PNG](/assets/images/posts/go_utf8/3.png)
 
+### Posted bug report in X bugs community
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Bug report: Unicode character support possibly wrongly handled in character limit counter. <br><br>Note the character count after I write a chinese character or emoji. Each character subtracts 2 from the available char limit instead of 1. I guess it only handles english text correctly. <a href="https://t.co/Vtx8OJJReh">pic.twitter.com/Vtx8OJJReh</a></p>&mdash; Kumaravel Rajan (@kumaravelrajan) <a href="https://twitter.com/kumaravelrajan/status/2035471214244745332?ref_src=twsrc%5Etfw">March 21, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 
