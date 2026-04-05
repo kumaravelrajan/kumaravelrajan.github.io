@@ -1,6 +1,7 @@
 ---
 permalink: /about/
 title: "About"
+layout: single
 ---
 
 Hey there dear visitor,
